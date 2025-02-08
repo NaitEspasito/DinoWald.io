@@ -1,1 +1,1 @@
-# DinoWald.io
+# DinoWald
