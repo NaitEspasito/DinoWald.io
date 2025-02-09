@@ -25,6 +25,7 @@ body.v3 .full-bg {
     -webkit-filter: blur(2px) brightness(100%);
     filter: blur(2px) brightness(100%);
     min-height: 100vh;
+    -webkit-mask-image: -webkit-linear-gradient(top, #fff 0%, transparent);
 }
 body.v3 .main-nav {
     font-weight: 400;
