@@ -185,7 +185,8 @@ body.v3 .frame.basic .contentwrap input[type=email], body.v3 .frame.basic .conte
 .v3 .main_content.main_content h1 {
     font-size: 2rem;
     font-weight: 500;
-    color: #fff
+    color: #fff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 2px 2px 0 #000;
 }
 
 .v3 .footer.footer {
