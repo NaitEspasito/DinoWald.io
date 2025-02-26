@@ -40,7 +40,7 @@ body.v3 .breadcrumb a {
 body.v3 .main_content:not(.contentwrap):not(.form) label, body.v3 .main_content:not(.contentwrap):not(.form) li, body.v3 .main_content:not(.contentwrap):not(.form) p, body.v3 .main_content:not(.contentwrap):not(.form) strong {
     color: #ffffff;
 }
-body.v3 .main_content:not(.contentwrap):not(.form) .active li{
+body.v3 .main_content:not(.contentwrap):not(.form) li.active{
     color: #ffea4d;
 }
 
