@@ -27,6 +27,7 @@ body.v3 .full-bg {
     min-height: 100vh;
     -webkit-mask-image: -webkit-linear-gradient(top, #fff 0%, transparent);
 }
+
 body.v3 .main-nav {
     font-weight: 400;
     height: 60px
@@ -48,6 +49,18 @@ body.v3.pagebuilder .main_content {
     margin-bottom: 0;
 }
 body.v3 .main_content input[type=email], body.v3 .main_content input[type=number], body.v3 .main_content input[type=search], body.v3 .main_content input[type=text], body.v3 .main_content select, body.v3 .main_content select:active, body.v3 .main_content select:focus, body.v3 .main_content textarea {
+    background-color: var(--transparent-bg);
+    color: #ffea4d;
+    border: 1px solid var(--primary-color);
+    padding: 6px;
+    vertical-align: bottom;
+    outline: 0;
+    width: 100%;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+}
+
+body.v3 .frame.basic .contentwrap input[type=email], body.v3 .frame.basic .contentwrap input[type=number], body.v3 .frame.basic .contentwrap input[type=search], body.v3 .frame.basic .contentwrap input[type=text], body.v3 .frame.basic .contentwrap select, body.v3 .frame.basic .contentwrap select:active, body.v3 .frame.basic .contentwrap select:focus, body.v3 .frame.basic .contentwrap textarea, body.v3 .frame.big .contentwrap input[type=email], body.v3 .frame.big .contentwrap input[type=number], body.v3 .frame.big .contentwrap input[type=search], body.v3 .frame.big .contentwrap input[type=text], body.v3 .frame.big .contentwrap select, body.v3 .frame.big .contentwrap select:active, body.v3 .frame.big .contentwrap select:focus, body.v3 .frame.big .contentwrap textarea, body.v3 .frame.simple .contentwrap input[type=email], body.v3 .frame.simple .contentwrap input[type=number], body.v3 .frame.simple .contentwrap input[type=search], body.v3 .frame.simple .contentwrap input[type=text], body.v3 .frame.simple .contentwrap select, body.v3 .frame.simple .contentwrap select:active, body.v3 .frame.simple .contentwrap select:focus, body.v3 .frame.simple .contentwrap textarea {
     background-color: var(--transparent-bg);
     color: #ffea4d;
     border: 1px solid var(--primary-color);
