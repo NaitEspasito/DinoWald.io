@@ -45,8 +45,8 @@ body.v3 .main_content:not(.contentwrap):not(.form) li.active{
 }
 
 body.v3 .main-nav .navbar-nav>li>.dropdown>a.dashboard:hover, body.v3 .main-nav .navbar-nav>li>.dropdown>span.dashboard:hover, body.v3 .main-nav .navbar-nav>li>a.dashboard:hover, body.v3 .main-nav .navbar-nav>li>span.dashboard:hover {
-    color: #ffea4d;
-    border: 1px solid #314023;
+    color: #1c1c1c;
+    border: 1px solid #1c1c1c;
     background: #314023;
 }
 
@@ -88,6 +88,20 @@ body.v3 .frame.basic .contentwrap input[type=email], body.v3 .frame.basic .conte
     margin-bottom: 1rem;
     border-radius: 4px;
 }
+
+body.v3 .main-nav .navbar-nav>li>.dropdown>a.dashboard, body.v3 .main-nav .navbar-nav>li>.dropdown>a.login, body.v3 .main-nav .navbar-nav>li>.dropdown>span.dashboard, body.v3 .main-nav .navbar-nav>li>.dropdown>span.login, body.v3 .main-nav .navbar-nav>li>a.dashboard, body.v3 .main-nav .navbar-nav>li>a.login, body.v3 .main-nav .navbar-nav>li>span.dashboard, body.v3 .main-nav .navbar-nav>li>span.login {
+    color: #314023;
+    padding: 5px 14px;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 12px;
+    border: 1px solid #314023;
+    outline: 0;
+    -webkit-transition: background .2s;
+    transition: background .2s;
+    background-color: #1c1c1c;
+}
+
 #homeSection {
     position: relative;
     top: 0;
