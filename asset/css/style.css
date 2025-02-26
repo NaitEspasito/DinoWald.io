@@ -33,6 +33,13 @@ body.v3 .main-nav {
     height: 60px
 }
 
+body.v3 .breadcrumb a {
+    color: #ffffff;
+    text-decoration: none;
+}
+body.v3 .main_content:not(.contentwrap):not(.form) label, body.v3 .main_content:not(.contentwrap):not(.form) li, body.v3 .main_content:not(.contentwrap):not(.form) p, body.v3 .main_content:not(.contentwrap):not(.form) strong {
+    color: #ffea4d;
+}
 body.v3 .main-nav .btn.btn-default.btn-small.login {
     background: none;
     border: 0
