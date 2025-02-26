@@ -47,6 +47,17 @@ body.v3.pagebuilder .main_content {
     margin-top: -60px;
     margin-bottom: 0;
 }
+body.v3 .main_content input[type=email], body.v3 .main_content input[type=number], body.v3 .main_content input[type=search], body.v3 .main_content input[type=text], body.v3 .main_content select, body.v3 .main_content select:active, body.v3 .main_content select:focus, body.v3 .main_content textarea {
+    background-color: var(--transparent-bg);
+    color: #ffea4d;
+    border: 1px solid var(--primary-color);
+    padding: 6px;
+    vertical-align: bottom;
+    outline: 0;
+    width: 100%;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+}
 #homeSection {
     position: relative;
     top: 0;
