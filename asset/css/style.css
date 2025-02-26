@@ -40,6 +40,13 @@ body.v3 .breadcrumb a {
 body.v3 .main_content:not(.contentwrap):not(.form) label, body.v3 .main_content:not(.contentwrap):not(.form) li, body.v3 .main_content:not(.contentwrap):not(.form) p, body.v3 .main_content:not(.contentwrap):not(.form) strong {
     color: #ffea4d;
 }
+
+body.v3 .main-nav .navbar-nav>li>.dropdown>a.dashboard:hover, body.v3 .main-nav .navbar-nav>li>.dropdown>span.dashboard:hover, body.v3 .main-nav .navbar-nav>li>a.dashboard:hover, body.v3 .main-nav .navbar-nav>li>span.dashboard:hover {
+    color: #ffea4d;
+    border: 1px solid #314023;
+    background: #314023;
+}
+
 body.v3 .main-nav .btn.btn-default.btn-small.login {
     background: none;
     border: 0
