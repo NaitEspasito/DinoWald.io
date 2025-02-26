@@ -388,7 +388,8 @@ body.v3.pagebuilder .main_content {
     font-weight: 600;
     text-transform: capitalize;
     color: #ffea4d;
-    text-shadow: 1px 1px 6px #000
+    text-shadow: 1px 1px 6px #000;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 2px 2px 0 #000;
 }
 
 .package-collection .nav-filler+.container-fluid .col-lg-9.col-md-10 .breadcrumb+.row,.package-single .nav-filler+.container-fluid .col-lg-9.col-md-10 .breadcrumb+.row,.shop .nav-filler+.container-fluid .col-lg-9.col-md-10 .breadcrumb+.row {
