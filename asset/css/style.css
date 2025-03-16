@@ -38,7 +38,7 @@ body.v3 .breadcrumb a {
     text-decoration: none;
 }
 body.v3 .main_content:not(.contentwrap):not(.form) label, body.v3 .main_content:not(.contentwrap):not(.form) li, body.v3 .main_content:not(.contentwrap):not(.form) p, body.v3 .main_content:not(.contentwrap):not(.form) strong {
-    color: #ffffff;
+    color: #ffffff !important;
 }
 body.v3 .main_content:not(.contentwrap):not(.form) li.active{
     color: #ffea4d;
