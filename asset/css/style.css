@@ -900,16 +900,16 @@ body.v3 .main-nav .navbar-nav>li>.dropdown>a.dashboard, body.v3 .main-nav .navba
 /*-----------------------------------------------------------------
 NEWS
 -------------------------------------------------------------------*/
-#block-container {
+.page-news #block-container {
     background-color: rgb(33, 33, 33);
     box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.14), 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 3px 0 rgba(0, 0, 0, 0.2);
 }
-.box-headline {
+.page-news .box-headline {
     font-size: 1.1rem;
     border-bottom: 0.1px solid rgb(80, 80, 80);
     padding-bottom: 1rem;
 }
-.porta-article-date {
+.page-news .porta-article-date {
     position: absolute;
     width: 50px;
     margin-left: -24px;
@@ -917,10 +917,10 @@ NEWS
     padding: 9px;
     background-color: rgb(33, 33, 33);
 }
-.message-main {
+.page-news .message-main {
     padding: 1.5rem 1.5rem 1.5rem 2.5rem !important;
 }
-.box-footer {
+.page-news .box-footer {
     background-color: rgb(51, 51, 51);
     bottom: 0;
 }
