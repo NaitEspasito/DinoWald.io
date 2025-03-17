@@ -928,7 +928,8 @@ NEWS
     align-items: center !important;
     -ms-flex-pack: center !important;
     justify-content: center !important;
-    display: flex !important
+    display: flex !important;
+    margin-top: 1rem !important;
 
 }
 .page-news .message-main {
