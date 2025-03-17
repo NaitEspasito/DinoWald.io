@@ -901,9 +901,8 @@ body.v3 .main-nav .navbar-nav>li>.dropdown>a.dashboard, body.v3 .main-nav .navba
 /*-----------------------------------------------------------------
 NEWS
 -------------------------------------------------------------------*/
-.changelog-left,
-.changelog-right{
-    
+.page-news .changelog-left,
+.page-news .changelog-right{
     color: #ffffff;
 }
 .page-news #block-container {
