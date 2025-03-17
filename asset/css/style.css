@@ -904,6 +904,8 @@ NEWS
 .page-news #block-container {
     background-color: rgb(33, 33, 33);
     box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.14), 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+    padding: 0 !important;
+    margin-top: 1.5rem !important;
 }
 .page-news .box-headline {
     font-size: 1.1rem;
