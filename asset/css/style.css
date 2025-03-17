@@ -938,3 +938,9 @@ NEWS
     background-color: rgb(51, 51, 51);
     bottom: 0;
 }
+@media (min-width: 768px) {
+    .page-news .changelog-right{
+        border-left: 0.1rem solid #ffffff !important;
+    }
+    
+}
