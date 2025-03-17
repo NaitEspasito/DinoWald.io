@@ -901,6 +901,11 @@ body.v3 .main-nav .navbar-nav>li>.dropdown>a.dashboard, body.v3 .main-nav .navba
 /*-----------------------------------------------------------------
 NEWS
 -------------------------------------------------------------------*/
+.changelog-left,
+.changelog-right{
+    
+    color: #ffffff;
+}
 .page-news #block-container {
     background-color: rgb(33, 33, 33);
     box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.14), 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 3px 0 rgba(0, 0, 0, 0.2);
@@ -911,7 +916,6 @@ NEWS
     font-size: 1.1rem;
     border-bottom: 0.1px solid rgb(80, 80, 80);
     padding: 1rem;
-    color: #ffffff;
 }
 .page-news .porta-article-date {
     position: absolute;
