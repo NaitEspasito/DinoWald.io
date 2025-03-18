@@ -953,4 +953,5 @@ NEWS
     background-color: #ffffff00 !important;
     border-left: 0.5rem solid #314023 !important;
     border-bottom-color: transparent !important;
+    border: 0;
 } 
