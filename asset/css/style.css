@@ -895,7 +895,20 @@ body.v3 .main-nav .navbar-nav>li>.dropdown>a.dashboard, body.v3 .main-nav .navba
     min-height: 60vh;
     width: 100%;
 }
-
+.page-server-informationen .nav-link:hover {
+    border-left: 0.5rem solid #314023 !important;
+}
+.page-server-informationen .nav-tabs>li>a:hover {
+    border-left: 0.5rem solid #314023 !important;
+}
+.page-server-informationen .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #555 !important;
+    cursor: default !important;
+    background-color: #ffffff00 !important;
+    border-left: 0.5rem solid #314023 !important;
+    border-bottom-color: transparent !important;
+    border: 0;
+} 
 
 
 /*-----------------------------------------------------------------
@@ -944,17 +957,3 @@ NEWS
     }
     
 }
-.nav-link:hover {
-    border-left: 0.5rem solid #314023 !important;
-}
-.nav-tabs>li>a:hover {
-    border-left: 0.5rem solid #314023 !important;
-}
-.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
-    color: #555 !important;
-    cursor: default !important;
-    background-color: #ffffff00 !important;
-    border-left: 0.5rem solid #314023 !important;
-    border-bottom-color: transparent !important;
-    border: 0;
-} 
