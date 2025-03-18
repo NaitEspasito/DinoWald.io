@@ -944,6 +944,9 @@ NEWS
     }
     
 }
+.nav-link:hover {
+    border-left: 0.5rem solid #314023 !important;
+}
 .nav-tabs>li>a:hover {
     border-left: 0.5rem solid #314023 !important;
 }
