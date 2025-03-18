@@ -944,3 +944,13 @@ NEWS
     }
     
 }
+.nav-tabs>li>a:hover {
+    border-left: 0.5rem solid #314023 !important;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #555 !important;
+    cursor: default !important;
+    background-color: #ffffff00 !important;
+    border-left: 0.5rem solid #314023 !important;
+    border-bottom-color: transparent !important;
+} 
