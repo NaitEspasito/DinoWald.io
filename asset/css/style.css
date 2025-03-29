@@ -244,7 +244,9 @@ body.v3 .main-nav .navbar-nav>li>.dropdown>a.dashboard, body.v3 .main-nav .navba
 
 .page-reward-shop .big_banner_row .big_banner.big_banner.big_banner .content-wrapper.no-button.no-subtitle,
 .page-skin-shop .big_banner_row .big_banner.big_banner.big_banner .content-wrapper.no-button.no-subtitle,
-.page-news .big_banner_row .big_banner.big_banner.big_banner .content-wrapper.no-button.no-subtitle {
+.page-news .big_banner_row .big_banner.big_banner.big_banner .content-wrapper.no-button.no-subtitle,
+.page-the-island-info  .big_banner_row .big_banner.big_banner.big_banner .content-wrapper.no-button.no-subtitle,
+.page-the-center-info  .big_banner_row .big_banner.big_banner.big_banner .content-wrapper.no-button.no-subtitle{
     padding-top: 6rem;
     padding-bottom: 0
 }
