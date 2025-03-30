@@ -102,6 +102,24 @@ body.v3 .main-nav .navbar-nav>li>.dropdown>a.dashboard, body.v3 .main-nav .navba
     background-color: #1c1c1c;
 }
 
+body.v3 .paginate .pagination li a, body.v3 .paginate .pagination li span {
+    padding: 5px 12px 6px;
+    background: #333;
+    border-color: #314023;
+}
+
+body.v3 .paginate .pagination li a {
+    text-decoration: none;
+    line-height: 22px;
+    color: #fff;
+}
+
+body.v3 .paginate .pagination li.active span {
+    background: #314023;
+    border-color: #314023;
+    color: #fff
+}
+
 #homeSection {
     position: relative;
     top: 0;
