@@ -106,6 +106,7 @@
 
         body.v3 .main-nav .navbar-nav>li>a.active {
            background: #ffffff;
+           color: #555:
         }
 
         body.v3 .nav.navbar-nav > li > a:hover,
@@ -129,9 +130,6 @@
             width: calc(100% - 30px);
         }
 
-        body.v3 .main-nav .navbar-nav>li>a.login {
-         
-        }
         body.v3 .main-nav .navbar-brand {
             position: absolute;
             z-index: 9999;
