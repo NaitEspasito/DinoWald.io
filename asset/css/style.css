@@ -1117,6 +1117,8 @@
         body.v3 .server-block .server-block-content .info span:not(.label) {
             display: block;
             margin-bottom: 5px;
+            left: 0;
+            bottom: 0;
         }
 
        body.v3 .server-block .server-block-content .info span:not(.label).cluster_name {
