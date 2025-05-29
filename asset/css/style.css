@@ -47,12 +47,17 @@
         }
 
         body.v3 .page-home .banner .container-fluid {
-        padding-right: 0px;
+            padding-right: 0px;
             padding-left: 0px;
         }
+        body.v3 .page-home .banner .container-fluid .center-block {
+            margin: 0;
+            width: 100%;
+            padding: 0;
+        }
         body.v3 .page-home .banner .container-fluid .center-block .row {
-        padding-top: 0px;
-            padding-bottom: 0px;
+            padding-top: 0px !important;
+            padding-bottom: 0px !important;
         }
          /* Server Rates Section */
         .server-rates {
