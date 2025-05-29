@@ -874,8 +874,8 @@
            transition: all 0.2s ease;
        }
        
-       body.v3 .dropdown-menu > li > a:hover,
-       body.v3 .dropdown-menu > li > a:focus {
+       body.v3 .main-nav .navbar-nav>li>.dropdown>span.dashboard:hover,
+       body.v3 .main-nav .navbar-nav>li>.dropdown>span.dashboard:focus {
            background-color: var(--accent-secondary);
            color: var(--light);
        }
