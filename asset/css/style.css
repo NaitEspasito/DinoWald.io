@@ -531,8 +531,7 @@
                 transform: translateY(0);
             }
         }
-        
-        body.v3 .hero-title {
+        body.v3.pagebuilder .wysiwyg-content h1.hero-title {
             font-family: 'Orbitron', sans-serif;
             font-size: 4.5rem;
             font-weight: 900;
@@ -913,7 +912,7 @@
        }
        
        /* Mobile Anpassungen */
-       @media (max-width: 768px) {
+       @media (max-width: 767px) {
            body.v3 .navbar-collapse {
                background-color: var(--primary-dark);
                border-color: var(--accent-secondary);
@@ -941,3 +940,66 @@
        body.v3 .hero {
            margin-top: 50px; /* Höhe der Navbar berücksichtigen */
        }
+
+       /* Responsive */
+        @media (max-width: 992px) {
+            body.v3 .hero-title {
+                font-size: 3.5rem;
+            }
+            
+            body.v3 .stat-item:not(:last-child)::after {
+                display: none;
+            }
+        }
+        
+        @media (max-width: 768px) {
+
+            
+            .hero-title {
+                font-size: 2.8rem;
+            }
+            
+            .hero-buttons {
+                flex-direction: column;
+                gap: 15px;
+                align-items: center;
+            }
+            
+            .btn {
+                width: 100%;
+                max-width: 300px;
+                text-align: center;
+            }
+            
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+                gap: 15px;
+            }
+            
+            .region-card {
+                height: 280px;
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .section-title {
+                font-size: 2rem;
+            }
+            
+            .hero-title {
+                font-size: 2.2rem;
+            }
+            
+            .hero-subtitle {
+                font-size: 1.1rem;
+            }
+            
+            .stats-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+            
+            .news-grid, .regions-grid {
+                grid-template-columns: 1fr;
+            }
+        }
