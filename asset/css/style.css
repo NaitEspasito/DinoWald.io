@@ -909,11 +909,6 @@
            float: right;
        }
        
-       /* Hero-Bereich Anpassungen zur Navigation */
-       body.v3 .hero {
-           padding-top: 70px; /* Anpassung für die fixed-top Navbar */
-       }
-       
        /* Mobile Anpassungen */
        @media (max-width: 767px) {
            body.v3 .navbar-collapse {
@@ -939,11 +934,6 @@
            align-items: center;
        }
        
-       /* Anpassung für das Hero-Bild unter der Navigation */
-       body.v3 .hero {
-           margin-top: 50px; /* Höhe der Navbar berücksichtigen */
-       }
-
        /* Responsive */
         @media (max-width: 992px) {
             body.v3 .hero-title {
