@@ -1077,6 +1077,7 @@
             width: 100%;
             padding: 20px;
             z-index: 3;
+            text-align: center;
         }
 
         body.v3 .server-block .server-block-content .title {
@@ -1109,12 +1110,12 @@
             font-size: 14px;
         }
 
-        body.v3 .server-block .server-block-content span {
+        body.v3 .server-block .server-block-content .info span:not(.label) {
             display: block;
             margin-bottom: 5px;
         }
 
-        body.v3 .server-block .server-block-content .cluster_name {
+       body.v3 .server-block .server-block-content .info span:not(.label).cluster_name {
             font-style: italic;
             color: rgba(255, 255, 255, 0.6);
         }
