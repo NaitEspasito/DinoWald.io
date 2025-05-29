@@ -1118,3 +1118,37 @@
             font-style: italic;
             color: rgba(255, 255, 255, 0.6);
         }
+        /* Owl Carousel Anpassungen */
+        .regions-carousel .owl-nav button.owl-prev,
+        .regions-carousel .owl-nav button.owl-next {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 40px;
+            height: 40px;
+            background: rgba(50, 67, 36, 0.8) !important;
+            color: white !important;
+            border-radius: 50%;
+            font-size: 22px !important;
+            line-height: 1 !important;
+        }
+
+        .regions-carousel .owl-nav button.owl-prev {
+            left: -20px;
+        }
+
+        .regions-carousel .owl-nav button.owl-next {
+            right: -20px;
+        }
+
+        .regions-carousel .owl-dots {
+            margin-top: 20px;
+        }
+
+        .regions-carousel .owl-dot span {
+            background: rgba(50, 67, 36, 0.4) !important;
+        }
+
+        .regions-carousel .owl-dot.active span {
+            background: #324324 !important;
+        }
