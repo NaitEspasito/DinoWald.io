@@ -532,7 +532,7 @@
             }
         }
         body.v3.pagebuilder .wysiwyg-content h1.hero-title {
-            font-family: 'Orbitron', sans-serif;
+            font-family: 'Orbitron', sans-serif !important;
             font-size: 4.5rem;
             font-weight: 900;
             margin-bottom: 20px;
