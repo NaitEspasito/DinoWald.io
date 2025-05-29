@@ -93,8 +93,8 @@
 
         body.v3 .main-nav .navbar-collapse {
            margin-top:0px;
-       }
-       body.v3 .main-nav .navbar-nav>li>a {
+        }
+        body.v3 .main-nav .navbar-nav>li>a {
            color: var(--light);
            font-weight: 600;
            padding: 30px 15px;
@@ -103,8 +103,27 @@
            font-size: 14px;
            position: relative;
            transition: all 0.3s ease;
-       }
+        }
+        body.v3 .nav.navbar-nav > li > a:hover,
+        body.v3 .nav.navbar-nav > li > a:focus {
+                color: var(--accent);
+                background: rgba(0, 0, 0, 0.2);
+        }
 
+        body.v3 .nav.navbar-nav > li > a::after {
+            content: '';
+            position: absolute;
+            bottom: 25px;
+            left: 15px;
+            width: 0;
+            height: 2px;
+            background: var(--accent);
+            transition: width 0.3s ease;
+        }
+
+        body.v3 .nav.navbar-nav > li > a:hover::after {
+            width: calc(100% - 30px);
+        }
 
 
 
