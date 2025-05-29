@@ -106,7 +106,7 @@
 
         body.v3 .main-nav .navbar-nav>li>a.active {
            background: #fff;
-           color: #555:
+           color: #555;
         }
 
         body.v3 .nav.navbar-nav > li > a:hover,
@@ -118,7 +118,7 @@
         body.v3 .main-nav .navbar-nav>li>a.active:hover,
         body.v3 .nav.navbar-nav > li > a.active:focus{
            background: #fff;
-           color: #555:
+           color: #555;
         }
 
         body.v3 .nav.navbar-nav > li > a::after {
