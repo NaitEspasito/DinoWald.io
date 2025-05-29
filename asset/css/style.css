@@ -62,7 +62,6 @@
          
         /* Navigation Styles */
         body.v3 .main-nav {
-            background: rgba(20, 20, 20, 0.95);
             border: none;
             position: fixed;
             top: 0;
@@ -71,7 +70,7 @@
             z-index: 1000;
             padding: 0;
             box-shadow: 0 2px 15px rgba(0, 0, 0, 0.4);
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(0px);
             -webkit-backdrop-filter: blur(10px);
             transition: all 0.3s ease;
             margin-bottom: 0;
