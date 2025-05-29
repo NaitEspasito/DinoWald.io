@@ -41,7 +41,10 @@
             min-height: 100vh;
             overflow-x: hidden;
         }
-
+	body.v3 .nav-filler {
+	    display: block;
+	    height: 0px !importent;
+	}
 	/* Hero Section */
 	body.v3 .hero {
 	    height: 100vh;
