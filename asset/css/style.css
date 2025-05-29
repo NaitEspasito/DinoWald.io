@@ -547,7 +547,7 @@
             color: var(--accent);
         }
         
-        body.v3 .hero-subtitle {
+        body.v3 .main_content p.hero-subtitle {
             font-size: 1.3rem;
             color: #ddd;
             margin-bottom: 40px;
