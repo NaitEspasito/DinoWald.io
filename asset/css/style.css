@@ -34,7 +34,7 @@
             border-radius: 10px;
         }
         body {
-            font-family: 'Montserrat', sans-serif !importent;
+            font-family: 'Montserrat', sans-serif !important;
             background: #1c1c1c;
             color: var(--light);
             min-height: 100vh;
@@ -44,6 +44,17 @@
 	    display: block;
 	    height: 0px !important;
 	}
+
+	body.v3 .page-home .banner .container-fluid {
+	   padding-right: 0px;
+    	   padding-left: 0px;
+	}
+	body.v3 .page-home .banner .container-fluid .center-block .row {
+	   padding-top: 0px;
+           padding-bottom: 0px;
+	}
+
+	.center-block
 	/* Hero Section */
 	body.v3 .hero {
 	    height: 100vh;
