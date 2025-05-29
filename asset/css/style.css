@@ -279,14 +279,14 @@
             margin-right: auto;
         }
         
-        body.v3 .hero-buttons {
+        body.v3 .hero-buttons .btn {
             display: flex;
             gap: 20px;
             justify-content: center;
             margin-top: 40px;
         }
 
-        body.v3 .hero-buttons {
+        body.v3 .hero-buttons .btn {
             display: inline-block;
             padding: 14px 30px;
             background: var(--primary-light);
@@ -304,7 +304,7 @@
             overflow: hidden;
         }
         
-        body.v3 .hero-buttons::before {
+        body.v3 .hero-buttons .btn::before {
             content: "";
             position: absolute;
             top: 0;
@@ -320,24 +320,24 @@
             transition: 0.5s;
         }
         
-        body.v3 .hero-buttons:hover {
+        body.v3 .hero-buttons .btn:hover {
             background: var(--accent);
             color: var(--primary-dark);
             transform: translateY(-5px);
             box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
         }
         
-        body.v3 .hero-buttons:hover::before {
+        body.v3 .hero-buttons .btn:hover::before {
             left: 100%;
         }
         
-        body.v3 .hero-buttons-outline {
+        body.v3 .hero-buttons-outline .btn {
             background: transparent;
             border: 2px solid var(--accent);
             color: var(--accent);
         }
         
-        body.v3 .hero-buttons-outline:hover {
+        body.v3 .hero-buttons-outline .btn:hover {
             background: var(--accent);
             color: var(--primary-dark);
         }
