@@ -408,21 +408,21 @@
             color: var(--accent);
         }
 
-       body.v3.pagebuilder .wysiwyg-content .features .section-title {
-            font-family: 'Orbitron', sans-serif;
-            font-size: 2.5rem;
-            font-weight: 800;
-            margin-bottom: 20px;
-            color: var(--light);
-            text-align: center;
-            position: relative;
-            text-transform: uppercase;
+       body.v3.pagebuilder .wysiwyg-content .features .section-title{
+            font-family: 'Orbitron', sans-serif !important;
+            font-size: 2.5rem !important;
+            font-weight: 800 !important;
+            margin-bottom: 20px !important;
+            color: var(--light) !important;
+            text-align: center !important;
+            position: relative !important;
+            text-transform: uppercase !important;
         }
 
         body.v3.pagebuilder .wysiwyg-content .features .section-title::after {
             content: '';
-            position: absolute;
-            bottom: -10px;
+            position: absolute !important;
+            bottom: -10px !important;
             left: 50%;
             transform: translateX(-50%);
             width: 80px;
