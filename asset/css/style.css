@@ -774,159 +774,126 @@
         body.v3 .region-players {
             color: var(--accent);
         }
-       /* Bootstrap Navigation Integration */
-       body.v3 .main-nav .navbar-brand {
-           height: auto;
-           padding: 10px 15px;
-       }
-       
-       body.v3 .main-nav .navbar-brand h1 {
-           margin: 0;
-           font-family: 'Orbitron', sans-serif;
-           font-weight: 900;
-           font-size: 24px;
-           background: linear-gradient(90deg, var(--accent) 0%, var(--accent-bright) 100%);
-           -webkit-background-clip: text;
-           -webkit-text-fill-color: transparent;
-           background-clip: text;
-           letter-spacing: 2px;
-       }
-       
-       body.v3 .main-nav .navbar-toggle {
-           border-color: var(--accent);
-           margin-top: 12px;
-       }
-       
-       body.v3 .main-nav .navbar-toggle .icon-bar {
-           background-color: var(--accent);
-       }
-       
-       body.v3 .main-nav .navbar-toggle:hover,
-       body.v3 .main-nav .navbar-toggle:focus {
-           background-color: rgba(163, 194, 87, 0.1);
-       }
-       
-       body.v3 .main-nav .navbar-nav>li>a.login,
-       body.v3 .main-nav .navbar-nav>li>a.login {
-           color: var(--light);
-           text-decoration: none;
-           font-weight: 600;
-           padding: 0.4rem;
-           font-size: 0.95rem;
-           letter-spacing: 1px;
-           text-transform: uppercase;
-           transition: all 0.3s ease;
-           position: relative;
-       }
+      /* Navigation Styling */
+        .navbar {
+            background: rgba(20, 20, 20, 0.95);
+            border: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            padding: 0;
+            box-shadow: 0 2px 15px rgba(0, 0, 0, 0.4);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
+            margin-bottom: 0;
+        }
 
-       body.v3 .main-nav .navbar-nav>li>a.login:focus,
-       body.v3 .main-nav .navbar-nav>li>a.login:hover,
-       body.v3 .main-nav .nav > li > a:hover,
-       body.v3 .main-nav .nav > li > a:focus {
-           color: var(--accent);
-           background-color: transparent;
-       }
+        .navbar-header {
+            display: flex;
+            align-items: center;
+            height: 80px;
+        }
 
-       body.v3 .main-nav .nav > li > a::after {
-           content: '';
-           position: absolute;
-           bottom: 0;
-           left: 0;
-           width: 0;
-           height: 2px;
-           background: var(--accent);
-           transition: width 0.3s ease;
-       }
-       
-       body.v3 .main-nav .nav > li > a:hover::after {
-           width: 100%;
-       }
-       
-       /* Dropdown Styles */
-       body.v3 .main-nav .navbar-nav>li>.dropdown>span.dashboard {
-           background-color: transparent;
-           color: var(--light);
-           border: 1px solid var(--accent);
-           border-radius: 4px;
-           transition: all 0.3s ease;
-           padding: 6px 12px;
-           margin-top: 9px;
-       }
-       
-       body.v3 .main-nav .navbar-nav>li>.dropdown>span.dashboard:hover {
-           background-color: var(--accent);
-           color: var(--primary-dark);
-       }
-       
-       body.v3 .dropdown-menu {
-           background-color: var(--primary-dark);
-           border: 1px solid var(--accent-secondary);
-           box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
-           padding: 5px 0;
-       }
-       
-       body.v3 .dropdown-menu > li > a {
-           color: var(--light);
-           padding: 8px 20px;
-           transition: all 0.2s ease;
-       }
+        .navbar-brand {
+            height: auto;
+            padding: 15px;
+            display: flex;
+            align-items: center;
+        }
 
-       body.v3 .main-nav .navbar-nav>li>.dropdown>span.dashboard:hover,
-       body.v3 .main-nav .navbar-nav>li>.dropdown>span.dashboard:focus {
-           background-color: var(--accent-secondary);
-           color: var(--light);
-       }
-       
-       body.v3 .dropdown-menu .divider {
-           background-color: var(--accent-secondary);
-           margin: 5px 0;
-       }
-       
-       body.v3 .dropdown-menu .char_pic {
-           width: 24px;
-           height: 24px;
-           border-radius: 50%;
-           background-size: cover;
-           background-position: center;
-           display: inline-block;
-           vertical-align: middle;
-           border: 1px solid var(--accent);
-       }
-       
-       body.v3 .dropdown-menu .label-default {
-           background-color: var(--accent-secondary);
-           font-weight: normal;
-           font-size: 11px;
-       }
-       
-       body.v3 .dropdown-menu .right {
-           float: right;
-       }
-       
-       /* Mobile Anpassungen */
-       @media (max-width: 767px) {
-           body.v3 .navbar-collapse {
-               background-color: var(--primary-dark);
-               border-color: var(--accent-secondary);
-           }
-           
-           body.v3 .main-nav .nav > li > a {
-               padding: 10px 15px;
-           }
-           
-           body.v3 .dropdown .btn-default {
-               width: 100%;
-               text-align: left;
-               margin: 5px 15px;
-           }
-       }
-       
-       /* Navigation Logo-Bereich */
-       body.v3 .main-nav .navbar-brand {
-           padding: 5px 15px;
-           display: flex;
-           align-items: center;
-       }
+        .brand-wrapper {
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar-brand h1 {
+            margin: 0;
+            padding: 0;
+            font-family: 'Orbitron', sans-serif;
+            font-weight: 800;
+            font-size: 24px;
+            color: var(--accent);
+            margin-left: 15px;
+            letter-spacing: 1px;
+        }
+
+        .logo-icon {
+            width: 40px;
+            height: 40px;
+            position: relative;
+        }
+
+        .logo-hex {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: var(--accent);
+            clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+        }
+
+        .logo-inner {
+            position: absolute;
+            top: 5%;
+            left: 5%;
+            width: 90%;
+            height: 90%;
+            background: var(--dark);
+            clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--accent);
+            font-size: 16px;
+        }
+
+        .navbar-toggle {
+            margin-right: 20px;
+            border: 1px solid var(--accent);
+            background: transparent;
+        }
+
+        .navbar-toggle .icon-bar {
+            background-color: var(--accent);
+        }
+
+        .nav.navbar-nav {
+            margin: 0;
+        }
+
+        .nav.navbar-nav > li > a {
+            color: var(--light);
+            font-weight: 600;
+            padding: 30px 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 14px;
+            position: relative;
+            transition: all 0.3s ease;
+        }
+
+        .nav.navbar-nav > li > a:hover,
+        .nav.navbar-nav > li > a:focus {
+            color: var(--accent);
+            background: rgba(0, 0, 0, 0.2);
+        }
+
+        .nav.navbar-nav > li > a::after {
+            content: '';
+            position: absolute;
+            bottom: 25px;
+            left: 15px;
+            width: 0;
+            height: 2px;
+            background: var(--accent);
+            transition: width 0.3s ease;
+        }
+
+        .nav.navbar-nav > li > a:hover::after {
+            width: calc(100% - 30px);
+        }
        
        /* Responsive */
         @media (max-width: 992px) {
@@ -995,7 +962,7 @@
                 grid-template-columns: 1fr;
             }
         }
-     /* Server Container Styles für Owl Carousel */
+       /* Server Container Styles für Owl Carousel */
         .server-container {
             margin: 10px;
             height: 370px;
