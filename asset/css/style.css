@@ -812,7 +812,8 @@
            background-color: rgba(163, 194, 87, 0.1);
        }
        
-       body.v3 .main-nav .nav > li > a {
+       body.v3 .main-nav .navbar-nav>li>a.login,
+       body.v3 .main-nav .navbar-nav>li>a.login {
            color: var(--light);
            text-decoration: none;
            font-weight: 600;
@@ -823,13 +824,15 @@
            transition: all 0.3s ease;
            position: relative;
        }
-       
+
+       body.v3 .main-nav .navbar-nav>li>a.login:focus,
+       body.v3 .main-nav .navbar-nav>li>a.login:hover,
        body.v3 .main-nav .nav > li > a:hover,
        body.v3 .main-nav .nav > li > a:focus {
            color: var(--accent);
            background-color: transparent;
        }
-       
+
        body.v3 .main-nav .nav > li > a::after {
            content: '';
            position: absolute;
@@ -873,7 +876,7 @@
            padding: 8px 20px;
            transition: all 0.2s ease;
        }
-       
+
        body.v3 .main-nav .navbar-nav>li>.dropdown>span.dashboard:hover,
        body.v3 .main-nav .navbar-nav>li>.dropdown>span.dashboard:focus {
            background-color: var(--accent-secondary);
