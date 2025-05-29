@@ -423,26 +423,26 @@
             content: '';
             position: absolute !important;
             bottom: -10px !important;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 80px;
-            height: 4px;
-            background: var(--accent);
-            border-radius: 2px;
+            left: 50% !important;
+            transform: translateX(-50%) !important;
+            width: 80px !important;
+            height: 4px !important;
+            background: var(--accent) !important;
+            border-radius: 2px !important;
         }
 
         body.v3.pagebuilder .wysiwyg-content .features .section-subtitle {
            text-align: center;
-           color: #aaa;
-           font-size: 1.1rem;
-           margin-bottom: 50px;
-           max-width: 800px;
-           margin-left: auto;
-           margin-right: auto;
+           color: #aaa !important;
+           font-size: 1.1rem !important;
+           margin-bottom: 50px !important;
+           max-width: 800px !important;
+           margin-left: auto !important;
+           margin-right: auto !important;
        }
         body.v3.pagebuilder .wysiwyg-content .feature-desc {
-            color: #ddd;
-            line-height: 1.7;
+            color: #ddd !important;
+            line-height: 1.7 !important;
         }
 
 
