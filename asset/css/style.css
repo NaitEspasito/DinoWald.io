@@ -407,15 +407,39 @@
             font-size: 30px;
             color: var(--accent);
         }
-        
-        body.v3 .features h2.feature-title {
+
+        body.v3 .features .section-title {
             font-family: 'Orbitron', sans-serif;
-            font-size: 1.4rem;
-            color: var(--accent);
-            margin-bottom: 15px;
-            font-weight: 700;
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 20px;
+            color: var(--light);
+            text-align: center;
+            position: relative;
+            text-transform: uppercase;
         }
-        
+
+        body.v3 .features .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 4px;
+            background: var(--accent);
+            border-radius: 2px;
+        }
+
+        body.v3 .features .section-subtitle {
+           text-align: center;
+           color: #aaa;
+           font-size: 1.1rem;
+           margin-bottom: 50px;
+           max-width: 800px;
+           margin-left: auto;
+           margin-right: auto;
+       }
         body.v3 .feature-desc {
             color: #ddd;
             line-height: 1.7;
