@@ -153,7 +153,6 @@
             color: #fff;
         }
 
-        * User dropdown styling */
         body.v3 .main-nav .navbar-nav>li>a.login {
             background: rgba(50, 50, 50, 0.5);
             color: var(--light);
@@ -167,59 +166,10 @@
             transition: all 0.3s ease;
         }
 
-        .btn.btn-default.btn-small.dashboard:hover {
+        body.v3 .main-nav .navbar-nav>li>a.login:hover {
             background: rgba(163, 194, 87, 0.2);
             border-color: var(--accent);
         }
-
-        .dropdown-menu {
-            background: rgba(28, 28, 28, 0.95);
-            border: 1px solid rgba(163, 194, 87, 0.2);
-            border-radius: 8px;
-            padding: 10px 0;
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
-        }
-
-        .dropdown-menu > li > a {
-            color: #ddd;
-            padding: 12px 20px;
-            transition: all 0.3s ease;
-        }
-
-        .dropdown-menu > li > a:hover {
-            background: rgba(163, 194, 87, 0.1);
-            color: var(--accent);
-        }
-
-        .divider {
-            background-color: rgba(163, 194, 87, 0.1);
-            margin: 5px 0;
-        }
-
-        .char_pic {
-            width: 30px;
-            height: 30px;
-            border-radius: 50%;
-            background-size: cover;
-            background-position: center;
-            border: 2px solid var(--accent);
-            display: inline-block;
-            vertical-align: middle;
-        }
-
-        .label.label-default {
-            background: rgba(50, 50, 50, 0.7);
-            font-weight: normal;
-            padding: 5px 8px;
-            border-radius: 4px;
-            font-size: 11px;
-        }
-
-        .label.label-default.right {
-            float: right;
-            margin-top: 2px;
-        }
-
 
 
 
