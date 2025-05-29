@@ -1112,13 +1112,14 @@
         body.v3 .server-block .server-block-content .info {
             color: rgba(255, 255, 255, 0.8);
             font-size: 14px;
+            left: 0;
+            bottom: 0;
+            position: relative;
         }
 
         body.v3 .server-block .server-block-content .info span:not(.label) {
             display: block;
             margin-bottom: 5px;
-            left: 0;
-            bottom: 0;
         }
 
        body.v3 .server-block .server-block-content .info span:not(.label).cluster_name {
