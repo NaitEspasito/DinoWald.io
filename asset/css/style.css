@@ -774,3 +774,170 @@
         body.v3 .region-players {
             color: var(--accent);
         }
+        /* Bootstrap Navigation Integration */
+       body.v3 .main-nav.navbar {
+           background: var(--primary-dark);
+           border-color: rgba(163, 194, 87, 0.1);
+           margin-bottom: 0;
+           box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+       }
+       
+       body.v3 .main-nav .navbar-brand {
+           height: auto;
+           padding: 10px 15px;
+       }
+       
+       body.v3 .main-nav .navbar-brand h1 {
+           margin: 0;
+           font-family: 'Orbitron', sans-serif;
+           font-weight: 900;
+           font-size: 24px;
+           background: linear-gradient(90deg, var(--accent) 0%, var(--accent-bright) 100%);
+           -webkit-background-clip: text;
+           -webkit-text-fill-color: transparent;
+           background-clip: text;
+           letter-spacing: 2px;
+       }
+       
+       body.v3 .main-nav .navbar-toggle {
+           border-color: var(--accent);
+           margin-top: 12px;
+       }
+       
+       body.v3 .main-nav .navbar-toggle .icon-bar {
+           background-color: var(--accent);
+       }
+       
+       body.v3 .main-nav .navbar-toggle:hover,
+       body.v3 .main-nav .navbar-toggle:focus {
+           background-color: rgba(163, 194, 87, 0.1);
+       }
+       
+       body.v3 .main-nav .nav > li > a {
+           color: var(--light);
+           text-decoration: none;
+           font-weight: 600;
+           padding: 15px;
+           font-size: 0.95rem;
+           letter-spacing: 1px;
+           text-transform: uppercase;
+           transition: all 0.3s ease;
+           position: relative;
+       }
+       
+       body.v3 .main-nav .nav > li > a:hover,
+       body.v3 .main-nav .nav > li > a:focus {
+           color: var(--accent);
+           background-color: transparent;
+       }
+       
+       body.v3 .main-nav .nav > li > a::after {
+           content: '';
+           position: absolute;
+           bottom: 0;
+           left: 0;
+           width: 0;
+           height: 2px;
+           background: var(--accent);
+           transition: width 0.3s ease;
+       }
+       
+       body.v3 .main-nav .nav > li > a:hover::after {
+           width: 100%;
+       }
+       
+       /* Dropdown Styles */
+       body.v3 .dropdown .btn-default {
+           background-color: transparent;
+           color: var(--light);
+           border: 1px solid var(--accent);
+           border-radius: 4px;
+           transition: all 0.3s ease;
+           padding: 6px 12px;
+           margin-top: 9px;
+       }
+       
+       body.v3 .dropdown .btn-default:hover {
+           background-color: var(--accent);
+           color: var(--primary-dark);
+       }
+       
+       body.v3 .dropdown-menu {
+           background-color: var(--primary-dark);
+           border: 1px solid var(--accent-secondary);
+           box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+           padding: 5px 0;
+       }
+       
+       body.v3 .dropdown-menu > li > a {
+           color: var(--light);
+           padding: 8px 20px;
+           transition: all 0.2s ease;
+       }
+       
+       body.v3 .dropdown-menu > li > a:hover,
+       body.v3 .dropdown-menu > li > a:focus {
+           background-color: var(--accent-secondary);
+           color: var(--light);
+       }
+       
+       body.v3 .dropdown-menu .divider {
+           background-color: var(--accent-secondary);
+           margin: 5px 0;
+       }
+       
+       body.v3 .dropdown-menu .char_pic {
+           width: 24px;
+           height: 24px;
+           border-radius: 50%;
+           background-size: cover;
+           background-position: center;
+           display: inline-block;
+           vertical-align: middle;
+           border: 1px solid var(--accent);
+       }
+       
+       body.v3 .dropdown-menu .label-default {
+           background-color: var(--accent-secondary);
+           font-weight: normal;
+           font-size: 11px;
+       }
+       
+       body.v3 .dropdown-menu .right {
+           float: right;
+       }
+       
+       /* Hero-Bereich Anpassungen zur Navigation */
+       body.v3 .hero {
+           padding-top: 70px; /* Anpassung für die fixed-top Navbar */
+       }
+       
+       /* Mobile Anpassungen */
+       @media (max-width: 768px) {
+           body.v3 .navbar-collapse {
+               background-color: var(--primary-dark);
+               border-color: var(--accent-secondary);
+           }
+           
+           body.v3 .main-nav .nav > li > a {
+               padding: 10px 15px;
+           }
+           
+           body.v3 .dropdown .btn-default {
+               width: 100%;
+               text-align: left;
+               margin: 5px 15px;
+           }
+       }
+       
+       /* Navigation Logo-Bereich */
+       body.v3 .main-nav .navbar-brand {
+           padding: 5px 15px;
+           display: flex;
+           align-items: center;
+       }
+       
+       /* Anpassung für das Hero-Bild unter der Navigation */
+       body.v3 .hero {
+           margin-top: 50px; /* Höhe der Navbar berücksichtigen */
+       }
