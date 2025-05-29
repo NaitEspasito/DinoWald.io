@@ -846,7 +846,7 @@
        }
        
        /* Dropdown Styles */
-       body.v3 .dropdown .btn-default {
+       body.v3 .main-nav .navbar-nav>li>.dropdown>span.dashboard {
            background-color: transparent;
            color: var(--light);
            border: 1px solid var(--accent);
@@ -856,7 +856,7 @@
            margin-top: 9px;
        }
        
-       body.v3 .dropdown .btn-default:hover {
+       body.v3 .main-nav .navbar-nav>li>.dropdown>span.dashboard:hover {
            background-color: var(--accent);
            color: var(--primary-dark);
        }
