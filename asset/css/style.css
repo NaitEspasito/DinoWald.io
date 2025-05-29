@@ -346,6 +346,166 @@
 
 
 
+
+
+
+
+       /* Regions Section */
+        .regions-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 30px;
+        }
+        
+        .region-card {
+            position: relative;
+            height: 250px;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+        
+        .region-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+            transition: all 0.8s ease;
+        }
+        
+        .region-card:hover .region-bg {
+            transform: scale(1.1);
+        }
+        
+        .region-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to bottom, rgba(20, 20, 20, 0.5) 0%, rgba(20, 20, 20, 0.9) 100%);
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: 25px;
+            transition: all 0.4s ease;
+        }
+        
+        .region-card:hover .region-overlay {
+            background: linear-gradient(to bottom, rgba(49, 64, 35, 0.6) 0%, rgba(20, 20, 20, 0.95) 100%);
+        }
+        
+        .region-title {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 1.5rem;
+            color: var(--light);
+            margin-bottom: 10px;
+        }
+        
+        .region-desc {
+            color: #ddd;
+            margin-bottom: 15px;
+            line-height: 1.5;
+            max-height: 0;
+            opacity: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease, opacity 0.4s ease, margin 0.4s ease;
+        }
+        
+        .region-card:hover .region-desc {
+            max-height: 100px;
+            opacity: 1;
+            margin-bottom: 15px;
+        }
+        
+        .region-info {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .region-status {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .status-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+        }
+        
+        .status-online {
+            background: #0f0;
+            box-shadow: 0 0 10px #0f0;
+        }
+        
+        .status-offline {
+            background: #f00;
+            box-shadow: 0 0 10px #f00;
+        }
+        
+        .region-players {
+            color: var(--accent);
+        }
+        
+        /* Owl Carousel Anpassungen für Regionen */
+        .regions-carousel .owl-nav {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            transform: translateY(-50%);
+            display: flex;
+            justify-content: space-between;
+            pointer-events: none;
+            padding: 0 -10px;
+        }
+
+        .regions-carousel .owl-nav button.owl-prev,
+        .regions-carousel .owl-nav button.owl-next {
+            width: 50px;
+            height: 50px;
+            background-color: var(--primary-dark) !important;
+            border: 2px solid var(--accent) !important;
+            color: var(--accent) !important;
+            border-radius: 50%;
+            font-size: 20px !important;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0.7;
+            transition: all 0.3s ease;
+            pointer-events: auto;
+        }
+
+        .regions-carousel .owl-nav button:hover {
+            background-color: var(--accent) !important;
+            color: var(--primary-dark) !important;
+            opacity: 1;
+        }
+
+        .regions-carousel .owl-dots {
+            margin-top: 20px;
+        }
+
+        .regions-carousel .owl-dot span {
+            background-color: var(--primary-light) !important;
+            border: 1px solid var(--accent);
+        }
+
+        .regions-carousel .owl-dot.active span {
+            background-color: var(--accent) !important;
+        }
+
+        .regions-carousel .region-card {
+            margin: 10px 5px;
+            height: 350px;
+        }
+
+
        /* Server Stats Section */
         body.v3 .stats {
             background: rgba(20, 20, 20, 0.97);
@@ -396,7 +556,12 @@
 
 
 
-/* Server Container Styles für Owl Carousel */
+
+
+
+
+
+       /* Server Container Styles für Owl Carousel */
        /* Server Container Styles für Owl Carousel */
        /* Server Container Styles für Owl Carousel */
        /* Server Container Styles für Owl Carousel */
