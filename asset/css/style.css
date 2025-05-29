@@ -91,6 +91,10 @@
             opacity: .9;
         }
 
+        body.v3 .main-nav .navbar-collapse {
+           margin-top:0px;
+       }
+
 
 
 
