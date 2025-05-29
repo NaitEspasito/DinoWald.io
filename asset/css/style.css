@@ -984,7 +984,7 @@ NEWS
 
 
 /* Hero Section */
-.hero {
+body.v3 .hero {
     height: 100vh;
     display: flex;
     align-items: center;
@@ -994,7 +994,7 @@ NEWS
     padding: 0;
 }
 
-.hero-slider {
+body.v3 .hero-slider {
     position: absolute;
     top: 0;
     left: 0;
@@ -1002,7 +1002,7 @@ NEWS
     height: 100%;
 }
 
-.slide {
+body.v3 .slide {
     position: absolute;
     top: 0;
     left: 0;
@@ -1014,11 +1014,11 @@ NEWS
     transition: opacity 1s ease-in-out;
 }
 
-.slide.active {
+body.v3 .slide.active {
     opacity: 1;
 }
 
-.slide-overlay {
+body.v3 .slide-overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -1028,7 +1028,7 @@ NEWS
     z-index: 1;
 }
 
-.hero-content {
+body.v3 .hero-content {
     text-align: center;
     max-width: 900px;
     z-index: 2;
@@ -1046,7 +1046,7 @@ NEWS
     }
 }
 
-.hero-title {
+body.v3 .hero-title {
     font-family: 'Orbitron', sans-serif;
     font-size: 4.5rem;
     font-weight: 900;
@@ -1058,11 +1058,11 @@ NEWS
     line-height: 1.2;
 }
 
-.hero-title span {
+body.v3 .hero-title span {
     color: var(--accent);
 }
 
-.hero-subtitle {
+body.v3 .hero-subtitle {
     font-size: 1.3rem;
     color: #ddd;
     margin-bottom: 40px;
@@ -1071,7 +1071,7 @@ NEWS
     margin-right: auto;
 }
 
-.hero-buttons {
+body.v3 .hero-buttons {
     display: flex;
     gap: 20px;
     justify-content: center;
