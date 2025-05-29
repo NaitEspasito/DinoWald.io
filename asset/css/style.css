@@ -955,9 +955,8 @@
             }
         }
         
-        @media (max-width: 768px) {
+        @media (max-width: 767px) {
 
-            
             .hero-title {
                 font-size: 2.8rem;
             }
@@ -983,6 +982,12 @@
             .region-card {
                 height: 280px;
             }
+            body.v3 .main-nav .navbar-collapse .navbar-nav li {
+               padding-right: 30px;
+               padding-left: 30px;
+               margin-bottom: 15px;
+               text-align: center;
+           }
         }
         
         @media (max-width: 576px) {
