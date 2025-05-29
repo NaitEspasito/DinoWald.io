@@ -775,7 +775,6 @@
         }
         /* Bootstrap Navigation Integration */
        body.v3 .main-nav.navbar {
-           background: var(--primary-dark);
            border-color: rgba(163, 194, 87, 0.1);
            margin-bottom: 0;
            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
