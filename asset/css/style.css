@@ -33,9 +33,8 @@
             background-color: var(--accent);
             border-radius: 10px;
         }
-        
         body {
-            font-family: 'Montserrat', sans-serif;
+            font-family: 'Montserrat', sans-serif !importent;
             background: #1c1c1c;
             color: var(--light);
             min-height: 100vh;
