@@ -1070,7 +1070,7 @@
             background-color: #F44336;
         }
 
-        .server-block .server-block-content {
+        body.v3 .server-block .server-block-content {
             position: absolute;
             bottom: 0;
             left: 0;
@@ -1079,14 +1079,14 @@
             z-index: 3;
         }
 
-        .server-block .title {
+        body.v3 .server-block .server-block-content .title {
             color: #fff;
             font-size: 28px;
             margin-bottom: 15px;
             text-shadow: 0 2px 4px rgba(0,0,0,0.5);
         }
 
-        .server-block .join-btn {
+        body.v3 .server-block .server-block-content .join-btn {
             display: inline-block;
             padding: 10px 20px;
             background-color: #324324;
@@ -1099,22 +1099,22 @@
             margin-bottom: 15px;
         }
 
-        .server-block .join-btn:hover {
+        body.v3 .server-block .server-block-content:hover {
             background-color: #4A6336;
             transform: translateY(-2px);
         }
 
-        .server-block .info {
+        body.v3 .server-block .server-block-content .info {
             color: rgba(255, 255, 255, 0.8);
             font-size: 14px;
         }
 
-        .server-block .info span {
+        body.v3 .server-block .server-block-content span {
             display: block;
             margin-bottom: 5px;
         }
 
-        .server-block .cluster_name {
+        body.v3 .server-block .server-block-content .cluster_name {
             font-style: italic;
             color: rgba(255, 255, 255, 0.6);
         }
