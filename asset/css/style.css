@@ -94,6 +94,16 @@
         body.v3 .main-nav .navbar-collapse {
            margin-top:0px;
        }
+       body.v3 .main-nav .navbar-nav>li>a {
+           color: var(--light);
+           font-weight: 600;
+           padding: 30px 15px;
+           text-transform: uppercase;
+           letter-spacing: 1px;
+           font-size: 14px;
+           position: relative;
+           transition: all 0.3s ease;
+       }
 
 
 
