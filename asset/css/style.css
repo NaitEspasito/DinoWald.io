@@ -546,7 +546,8 @@
         body.v3 .hero-title span {
             color: var(--accent);
         }
-        
+        body.v3.pagebuilder .textcolor-dark .wysiwyg-content p.hero-subtitle,
+        body.v3 .main_content:not(.contentwrap):not(.form) phero-subtitle,
         body.v3 .main_content p.hero-subtitle {
             font-size: 1.3rem;
             color: #ddd !important;
