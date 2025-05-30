@@ -347,7 +347,6 @@ body.v3.pagebuilder .wysiwyg-content .features::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(20, 20, 20, 0.85);
 }
 
 body.v3.pagebuilder .wysiwyg-content .features-grid {
