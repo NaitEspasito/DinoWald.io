@@ -545,56 +545,13 @@ body.v3.pagebuilder .wysiwyg-content p.feature-desc {
 }
 
 /* Owl Carousel Anpassungen für Regionen */
-.regions-carousel .owl-nav {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    transform: translateY(-50%);
-    display: flex;
-    justify-content: space-between;
-    pointer-events: none;
-    padding: 0 -10px;
-}
-
-.regions-carousel .owl-nav button.owl-prev,
-.regions-carousel .owl-nav button.owl-next {
-    width: 50px;
-    height: 50px;
-    background-color: var(--primary-dark) !important;
-    border: 2px solid var(--accent) !important;
-    color: var(--accent) !important;
-    border-radius: 50%;
-    font-size: 20px !important;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    opacity: 0.7;
+.server-block {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 100%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     transition: all 0.3s ease;
-    pointer-events: auto;
-}
-
-.regions-carousel .owl-nav button:hover {
-    background-color: var(--accent) !important;
-    color: var(--primary-dark) !important;
-    opacity: 1;
-}
-
-.regions-carousel .owl-dots {
-    margin-top: 20px;
-}
-
-.regions-carousel .owl-dot span {
-    background-color: var(--primary-light) !important;
-    border: 1px solid var(--accent);
-}
-
-.regions-carousel .owl-dot.active span {
-    background-color: var(--accent) !important;
-}
-
-.regions-carousel .region-card {
-    margin: 10px 5px;
-    height: 350px;
 }
 
 /* Server Stats Section */
@@ -967,14 +924,6 @@ body.v3 .alert-danger {
 
     body.v3 .hero-content {
         padding: 0 15px;
-    }
-
-    .regions-carousel .owl-nav button.owl-prev {
-        left: 5px;
-    }
-
-    .regions-carousel .owl-nav button.owl-next {
-        right: 5px;
     }
 }
 
