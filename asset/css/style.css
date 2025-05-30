@@ -546,12 +546,14 @@ body.v3.pagebuilder .wysiwyg-content p.feature-desc {
 
 /* Owl Carousel Anpassungen für Regionen */
 .server-block {
-    position: relative;
-    border-radius: 8px;
-    overflow: hidden;
+    border-radius: 8px !important;
     height: 100%;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     transition: all 0.3s ease;
+}
+.server-block:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
 }
 
 /* Server Stats Section */
