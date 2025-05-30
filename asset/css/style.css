@@ -71,12 +71,6 @@
             transition: all 0.3s ease;
             margin-bottom: 0;
         }
-
-        body.v3 .navbar-header {
-            display: flex;
-            align-items: center;
-            height: 80px;
-        }
         
         body.v3 .main-nav.passed-banner:before {
             position: absolute;
@@ -1044,6 +1038,7 @@
             body.v3.pagebuilder .padding-2>div,
             body.v3.pagebuilder .padding-3>div {
                 padding-top: 0;
+                padding-reight: 0;
             }
         }
         
