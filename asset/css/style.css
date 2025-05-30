@@ -740,7 +740,7 @@ body.v3 .server-block .server-block-content .title {
     text-shadow: 0 2px 4px rgba(0,0,0,0.5);
 }
 
-body.v3 .server-block .server-block-content .join-btn {
+body.v3 .server-block .server-block-content a.join-btn {
     display: inline-block;
     padding: 10px 20px;
     background-color: #324324;
@@ -754,7 +754,7 @@ body.v3 .server-block .server-block-content .join-btn {
     position: relative;
 }
 
-body.v3 .server-block .server-block-content p.join-btn::before {
+body.v3 .server-block .server-block-content a.join-btn::before {
     content: "";
     position: absolute;
     top: 0;
@@ -770,14 +770,14 @@ body.v3 .server-block .server-block-content p.join-btn::before {
     transition: 0.5s;
 }
 
-body.v3 .server-block .server-block-content p.join-btn:hover {
+body.v3 .server-block .server-block-content a.join-btn:hover {
     background: var(--accent);
     color: var(--primary-dark);
     transform: translateY(-5px);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
 
-body.v3 .server-block .server-block-content p.join-btn:hover::before {
+body.v3 .server-block .server-block-content a.join-btn:hover::before {
     left: 100%;
 }
 body.v3 .server-block .server-block-content:hover {
