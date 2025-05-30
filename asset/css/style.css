@@ -1088,6 +1088,11 @@
             width: 100%;
             padding: 0;
             }
+            body.v3 .navbar-header {
+                display: flex;
+                align-items: center;
+                height: 80px;
+            }
         }
 
         @media (max-width: 992px) {
