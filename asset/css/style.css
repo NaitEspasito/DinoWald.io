@@ -754,7 +754,7 @@ body.v3 .server-block .server-block-content .join-btn {
     position: relative;
 }
 
-body.v3 .server-block .server-block-content .join-btn::before {
+body.v3 .server-block .server-block-content p.join-btn::before {
     content: "";
     position: absolute;
     top: 0;
@@ -769,13 +769,17 @@ body.v3 .server-block .server-block-content .join-btn::before {
     );
     transition: 0.5s;
 }
-body.v3 .server-block .server-block-content .join-btn:hover {
+
+body.v3 .server-block .server-block-content p.join-btn:hover {
     background: var(--accent);
     color: var(--primary-dark);
     transform: translateY(-5px);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
 
+body.v3 .server-block .server-block-content p.join-btn:hover::before {
+    left: 100%;
+}
 body.v3 .server-block .server-block-content:hover {
     transform: translateY(-2px);
 }
