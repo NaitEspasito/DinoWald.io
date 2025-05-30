@@ -1098,6 +1098,13 @@
             body.v3 .stat-item:not(:last-child)::after {
                 display: none;
             }
+
+            body.v3.pagebuilder .padding-0>div,
+            body.v3.pagebuilder .padding-1>div,
+            body.v3.pagebuilder .padding-2>div,
+            body.v3.pagebuilder .padding-3>div {
+                padding-top: 0;
+            }
         }
         
         @media (max-width: 768px) {
