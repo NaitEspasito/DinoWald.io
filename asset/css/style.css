@@ -807,7 +807,6 @@
         }
 
         body.v3 .server-block .server-block-content:hover {
-            background-color: #4A6336;
             transform: translateY(-2px);
         }
 
