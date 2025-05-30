@@ -776,10 +776,6 @@ body.v3 .server-block .server-block-content .join-btn:hover {
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
 
-body.v3 .server-block .server-block-content .join-btn:hover::before {
-    left: 100%;
-}
-
 body.v3 .server-block .server-block-content:hover {
     transform: translateY(-2px);
 }
