@@ -571,6 +571,35 @@ body.v3.pagebuilder .wysiwyg-content p.feature-desc {
     transform: scale(1.05);
     filter: brightness(110%);
 }
+
+.server-block::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.8) 100%);
+    z-index: 2;
+}
+
+.server-block .top-nav {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    color: #fff;
+}
+
+.server-block .status {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
 /* Server Stats Section */
 body.v3 .stats {
     background: rgba(20, 20, 20, 0.97);
