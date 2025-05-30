@@ -999,26 +999,6 @@ body.v3 .alert-danger {
     }
 }
 
-/* Fix für Owl Carousel */
-.owl-carousel {
-    display: block;
-    width: 100%;
-    position: relative;
-}
-
-.owl-carousel .owl-stage-outer {
-    overflow: hidden;
-}
-
-.owl-carousel .owl-stage {
-    display: flex;
-}
-
-.owl-carousel .owl-item {
-    float: left;
-    min-height: 1px;
-}
-
 /* Allgemeine Seiten- und Layout-Strukturen */
 body.v3 .full-bg {
     position: fixed;
