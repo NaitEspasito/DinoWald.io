@@ -612,6 +612,16 @@ body.v3.pagebuilder .wysiwyg-content p.feature-desc {
     box-shadow: 0 0 10px 2px rgba(76, 175, 80, 0.5);
 }
 
+body.v3 .server-block .server-block-content {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    z-index: 3;
+    text-align: center;
+}
+
 /* Server Stats Section */
 body.v3 .stats {
     background: rgba(20, 20, 20, 0.97);
