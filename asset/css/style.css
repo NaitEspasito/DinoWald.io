@@ -249,6 +249,14 @@ body.v3.pagebuilder .wysiwyg-content h1.hero-title {
 
 body.v3 .hero-title span {
     color: var(--accent);
+    font-family: 'Orbitron', sans-serif !important;
+    font-size: 4.5rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    position: relative;
+    line-height: 1.2;
 }
 
 body.v3.pagebuilder .textcolor-dark .wysiwyg-content p.hero-subtitle,
