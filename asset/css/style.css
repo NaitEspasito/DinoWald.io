@@ -34,3 +34,25 @@
     background-color: var(--accent);
     border-radius: 10px;
 }
+body {
+    font-family: 'Montserrat', sans-serif !important;
+    background: #1c1c1c;
+    color: var(--light);
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+/* Hauptnavigation */
+body.v3 .nav-filler {
+    display: block;
+    height: 0px !important;
+}
+
+body.v3.page-home .banner .container-fluid .center-block {
+    margin: 0;
+    width: 100%;
+}
+
+body.v3.page-home .banner .container-fluid .center-block .row {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
