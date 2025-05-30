@@ -152,7 +152,7 @@
         body.v3 .main-nav .navbar-brand h1:hover {
             color: #fff;
         }
-
+        body.v3 .main-nav .navbar-nav>li>.dropdown>span.dashboard,
         body.v3 .main-nav .navbar-nav>li>a.login {
             background: rgba(50, 50, 50, 0.5);
             color: var(--light);
@@ -165,7 +165,7 @@
             margin-bottom: 20px;
             transition: all 0.3s ease;
         }
-
+        body.v3 .main-nav .navbar-nav>li>.dropdown>span.dashboard:hover,
         body.v3 .main-nav .navbar-nav>li>a.login:hover {
             background: rgba(163, 194, 87, 0.2);
             border-color: var(--accent);
