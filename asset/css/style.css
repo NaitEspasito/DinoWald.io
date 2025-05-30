@@ -60,7 +60,7 @@ body.v3.page-home .banner .container-fluid .center-block .row {
 /* Navigation Styles */
 body.v3 .main-nav {
     border: none;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -71,6 +71,122 @@ body.v3 .main-nav {
     -webkit-backdrop-filter: blur(10px);
     transition: all 0.3s ease;
     margin-bottom: 0;
+}
+
+body.v3 .main-nav.passed-banner:before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: var(--navigation-bg-color);
+    opacity: .9;
+}
+
+body.v3 .main-nav .navbar-collapse {
+    margin-top:0px;
+}
+
+body.v3 .main-nav .navbar-nav>li>a {
+    color: var(--light);
+    font-weight: 600;
+    padding: 30px 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+body.v3 .main-nav .navbar-nav>li>a.active {
+    background: #fff;
+    color: #555;
+}
+
+body.v3 .nav.navbar-nav > li > a:hover,
+body.v3 .nav.navbar-nav > li > a:focus {
+    color: var(--accent);
+    background: rgba(0, 0, 0, 0.2);
+}
+
+body.v3 .main-nav .navbar-nav>li>a.active:hover,
+body.v3 .nav.navbar-nav > li > a.active:focus{
+    background: #fff;
+    color: #555;
+}
+
+body.v3 .nav.navbar-nav > li > a::after {
+    content: '';
+    position: absolute;
+    bottom: 25px;
+    left: 15px;
+    width: 0;
+    height: 2px;
+    background: var(--accent);
+    transition: width 0.3s ease;
+}
+body.v3 .nav.navbar-nav > li > a.login::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    background: transparent;
+    transition: width 0.0s ease;
+}
+body.v3 .nav.navbar-nav > li > a:hover::after {
+    width: calc(100% - 30px);
+}
+
+body.v3 .main-nav .navbar-brand {
+    position: absolute;
+    z-index: 9999;
+    opacity: .7;
+    padding-top: 9px
+}
+
+body.v3 .main-nav .navbar-brand h1 {
+    font-size: 23px;
+    line-height: 32px;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: color .2s;
+    transition: color .2s
+}
+
+body.v3 .main-nav .navbar-brand h1:hover {
+    color: #fff;
+}
+
+body.v3 .main-nav .navbar-nav>li>.dropdown>span.dashboard,
+body.v3 .main-nav .navbar-nav>li>a.login {
+    background: rgba(50, 50, 50, 0.5);
+    color: var(--light);
+    border: 1px solid rgba(163, 194, 87, 0.3);
+    border-radius: 30px;
+    padding: 8px 15px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+body.v3 .main-nav .navbar-nav>li>.dropdown>span.dashboard:hover,
+body.v3 .main-nav .navbar-nav>li>a.login:hover {
+    background: rgba(163, 194, 87, 0.2);
+    border-color: var(--accent);
+}
+
+/* Hero Section */
+body.v3 .hero.section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    padding: 0;
 }
 
 body.v3 .main-nav.passed-banner:before {
