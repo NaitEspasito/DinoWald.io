@@ -743,7 +743,27 @@ body.v3 .alert-danger {
     color: #f8d7da;
     border-color: #f5c6cb;
 }
-
+.server-slider .text-center h1 {
+    font-family: 'Orbitron', sans-serif !important;
+    font-size: 2.5rem !important;
+    font-weight: 800 !important;
+    margin-bottom: 20px !important;
+    color: var(--light) !important;
+    text-align: center !important;
+    position: relative !important;
+    text-transform: uppercase !important;
+}
+.server-slider .text-center h1::after {
+    content: '';
+    position: absolute !important;
+    bottom: -10px !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    width: 80px !important;
+    height: 4px !important;
+    background: var(--accent) !important;
+    border-radius: 2px !important;
+}
 
 
 
