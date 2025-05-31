@@ -297,91 +297,72 @@ body.v3 .main-nav .navbar-nav>li>a.login:hover {
 }
 
 .submenu.dropdown-menu {
-    background: rgba(28, 28, 28, 0.95);
-    border: 1px solid rgba(163, 194, 87, 0.2);
-    border-radius: 8px;
-    padding: 10px 0;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
-    margin-top: 0;
-    opacity: 0;
-    visibility: hidden;
-    transform: translateY(10px);
-    transition: all 0.3s ease;
-    display: block;
+    background: rgba(28, 28, 28, 0.95) !important;
+    border: 1px solid rgba(163, 194, 87, 0.2) !important;
+    border-radius: 8px !important;
+    padding: 10px 0 !important;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3) !important;
+    margin-top: 0 !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+    transform: translateY(10px) !important;
+    transition: all 0.3s ease !important;
+    display: block !important;
 }
 
 .submenu.dropdown-menu li a {
     color: #ddd !important;
-    padding: 12px 20px;
-    transition: all 0.3s ease;
+    padding: 12px 20px !important;
+    transition: all 0.3s ease !important;
 }
 
 .submenu.dropdown-menu li a:hover {
-    background: rgba(163, 194, 87, 0.1);
-    color: var(--accent);
-    padding-left: 25px;
+    background: rgba(163, 194, 87, 0.1) !important;
+    color: var(--accent) !important;
+    padding-left: 25px !important;
 }
 
 /* User dropdown styling */
 .btn.btn-default.btn-small.dashboard {
-    background: rgba(50, 50, 50, 0.5);
-    color: var(--light);
-    border: 1px solid rgba(163, 194, 87, 0.3);
-    border-radius: 30px;
-    padding: 8px 15px;
-    display: flex;
-    align-items: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    transition: all 0.3s ease;
+    background: rgba(50, 50, 50, 0.5) !important;
+    color: var(--light) !important;
+    border: 1px solid rgba(163, 194, 87, 0.3) !important;
+    border-radius: 30px !important;
+    padding: 8px 15px !important;
+    display: flex !important;
+    align-items: center !important;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    transition: all 0.3s ease !important;
 }
 
 .btn.btn-default.btn-small.dashboard:hover {
-    background: rgba(163, 194, 87, 0.2);
-    border-color: var(--accent);
-}
-
-.dropdown-menu {
-    background: rgba(28, 28, 28, 0.95);
-    border: 1px solid rgba(163, 194, 87, 0.2);
-    border-radius: 8px;
-    padding: 10px 0;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
-}
-
-.dropdown-menu > li > a {
-    color: #ddd ;
-    padding: 5px 15px;
-    transition: all 0.3s ease;
-}
-
-.dropdown-menu > li > a:hover {
-    background: rgba(163, 194, 87, 0.1);
-    color: var(--accent);
+    background: rgba(163, 194, 87, 0.2) !important;
+    border-color: var(--accent) !important;
 }
 
 .divider {
-    background-color: rgba(163, 194, 87, 0.1);
-    margin: 5px 0;
+    background-color: rgba(163, 194, 87, 0.1) !important;
+    margin: 5px 0 !important;
 }
 
 .char_pic {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background-size: cover;
-    background-position: center;
-    border: 2px solid var(--accent);
-    display: inline-block;
-    vertical-align: middle;
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 50% !important;
+    background-size: cover !important;
+    background-position: center !important;
+    border: 2px solid var(--accent) !important;
+    display: inline-block !important;
+    vertical-align: middle !important;
 }
 
 .label.label-default {
-    background: rgba(50, 50, 50, 0.7);
-    font-weight: normal;
-    padding: 5px 8px;
-    border-radius: 4px;
-    font-size: 11px;
+    background: rgba(50, 50, 50, 0.7) !important;
+    font-weight: normal !important;
+    padding: 5px 8px !important;
+    border-radius: 4px !important;
+    font-size: 11px !important;
 }
 
 .label.label-default.right {
