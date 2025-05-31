@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&family=Orbitron:wght@400;600;900&display=swap');
-
-.button {
-  background-color: var(--primary-color);
-  color: white
+@import url('rewartShop.css');
 
 html {
     scroll-behavior: smooth;
@@ -1311,38 +1308,4 @@ body.v3.pagebuilder .textcolor-dark .wysiwyg-content p,
     body.v3 .stat-item:not(:last-child)::after {
         display: none !important;
     }
-}
-
-/* Raword Shop */
-.page-reward-shop .center-block .row{
-    padding-top: 60px !important;
-}
-.page-reward-shop .section {
-    padding: 80px 0 !important;
-    position: relative !important;
-}
-
-.page-reward-shop .page-title {
-    padding-top: 50px;
-    margin-top: 20px;
-    font-family: 'Orbitron', sans-serif !important;
-    font-size: 2.5rem !important;
-    font-weight: 800 !important;
-    margin-bottom: 20px !important;
-    color: var(--light) !important;
-    text-align: center !important;
-    position: relative !important;
-    text-transform: uppercase !important;
-}
-
-.page-reward-shop .page-title::after {
-    content: '';
-    position: absolute !important;
-    bottom: -10px !important;
-    left: 50% !important;
-    transform: translateX(-50%) !important;
-    width: 80px !important;
-    height: 4px !important;
-    background: var(--accent) !important;
-    border-radius: 2px !important;
 }
