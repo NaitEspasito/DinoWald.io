@@ -487,3 +487,36 @@ body.v3 .stat-label {
     text-transform: uppercase;
     letter-spacing: 1px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 992px) {
+    .container {
+        width: 95%;
+        max-width: 1500px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 95%;
+        max-width: 1500px;
+    }
+}
