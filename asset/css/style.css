@@ -1162,13 +1162,13 @@ body.v3.pagebuilder .textcolor-dark .wysiwyg-content p,
 /* Responsive Anpassungen */
 @media (min-width: 768px) {
     body.v3 .navbar-header {
-        display: flex;
-        align-items: center;
-        height: 80px;
+        display: flex !important;
+        align-items: center !important;
+        height: 80px !important;
     }
     .container {
-        width: 95%;
-        max-width: 1500px;
+        width: 95% !important;
+        max-width: 1500px !important;
     }
     body.v3.pagebuilder .wysiwyg-content h1.hero-title {
         font-size: 4.5rem !important;
@@ -1192,7 +1192,158 @@ body.v3.pagebuilder .textcolor-dark .wysiwyg-content p,
 @media (min-width: 992px) {
     .container {
         width: 95%;
-        max-width: 1500px;
+        max-width: 1500px !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .hero-title {
+        font-size: 3.5rem !important;
+    }
+    
+    .stat-item:not(:last-child)::after {
+        display: none !important;
+    }
+    
+    .nav.navbar-nav > li > a {
+        padding: 20px 12px !important;
+        font-size: 13px !important;
+    }
+    
+    .nav.navbar-nav > li > a::after {
+        bottom: 15px !important;
+    }
+
+    .countdown {
+        flex-wrap: wrap !important;
+    }
+}
+@media (max-width: 768px) {
+    .navbar-collapse {
+        background: rgba(20, 20, 20, 0.98) !important;
+        border-top: 1px solid rgba(163, 194, 87, 0.1) !important;
+        padding: 0 15px !important;
+    }
+    
+    .nav.navbar-nav > li > a {
+        padding: 15px 10px !important;
+    }
+    
+    .nav.navbar-nav > li > a::after {
+        display: none !important;
+    }
+    
+    .submenu.dropdown-menu {
+        position: static !important;
+        float: none !important;
+        width: auto !important;
+        margin-top: 0 !important;
+        box-shadow: none !important;
+        border-left: 2px solid var(--accent) !important;
+        border-radius: 0 !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+        transform: none !important;
+        display: none !important;
+    }
+    
+    .has_child:hover .submenu {
+        display: block;
+    }
+    
+    .nav-menu {
+        position: fixed !important;
+        top: 0 !important;
+        right: -100% !important;
+        width: 270px !important;
+        height: 100vh !important;
+        background: rgba(20, 20, 20, 0.97) !important;
+        flex-direction: column !important;
+        justify-content: flex-start !important;
+        align-items: center !important;
+        padding-top: 100px !important;
+        transition: right 0.3s ease !important;
+        z-index: 999 !important;
+        backdrop-filter: blur(10px) !important;
+        -webkit-backdrop-filter: blur(10px) !important;
+        box-shadow: -5px 0 20px rgba(0, 0, 0, 0.2) !important;
+    }
+    
+    .nav-menu.active {
+        right: 0 !important;
+    }
+    
+    .mobile-menu {
+        display: block !important;
+        z-index: 1000 !important;
+    }
+    
+    .hero-title {
+        font-size: 2.8rem !important;
+    }
+    
+    .hero-buttons {
+        flex-direction: column !important;
+        gap: 15px !important;
+        align-items: center !important;
+    }
+    
+    .btn {
+        width: 100%;
+        max-width: 300px !important;
+        text-align: center !important;
+    }
+    
+    .cta-buttons {
+        flex-direction: column !important;
+        align-items: center !important;
+        gap: 15px !important;
+    }
+    
+    .region-tab {
+        padding: 10px 15px !important;
+        font-size: 0.85rem !important;
+    }
+    
+    .region-button-container {
+        flex-direction: column !important;
+    }
+}
+@media (max-width: 576px) {
+    .section-title {
+        font-size: 2rem !important;
+    }
+    
+    .hero-title {
+        font-size: 2.2rem !important;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.1rem !important;
+    }
+    
+    .stats-grid {
+        grid-template-columns: 1fr 1fr !important;
+    }
+
+    .countdown-item {
+        min-width: 70px !important;
+    }
+
+    .countdown-value {
+        font-size: 1.8rem !important;
+        padding: 10px 0 !important;
+    }
+    
+    .rates-container {
+        grid-template-columns: 1fr !important;
+    }
+    
+    .stat-value {
+        font-size: 2rem !important;
+    }
+    body.v3 .stat-item:not(:last-child)::after {
+        display: none !important;
     }
 }
 
