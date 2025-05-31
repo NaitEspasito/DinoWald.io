@@ -368,6 +368,10 @@ body.v3 .hero-title span {
     position: relative;
     line-height: 1.2;
 }
+body.v3 p.hero-subtitle {
+    font-size: 1.3rem;
+    color: #ddd !important;
+}
 @media (max-width: 768px) {
     body.v3.pagebuilder .wysiwyg-content h1.hero-title {
         font-size: 2.5rem;
