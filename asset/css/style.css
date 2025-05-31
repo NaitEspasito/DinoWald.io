@@ -886,6 +886,39 @@ body.v3 .alert-danger {
   padding-right: 1.5rem
 }
 
+/* Server Rats */
+.server-rates h2.section-title {
+    font-family: 'Orbitron', sans-serif !important;
+    font-size: 2.5rem !important;
+    font-weight: 800 !important;
+    margin-bottom: 20px !important;
+    color: var(--light) !important;
+    text-align: center !important;
+    position: relative !important;
+    text-transform: uppercase !important;
+}
+.server-rates h2.section-title::after {
+    content: '';
+    position: absolute !important;
+    bottom: -10px !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    width: 80px !important;
+    height: 4px !important;
+    background: var(--accent) !important;
+    border-radius: 2px !important;
+}
+body.v3.pagebuilder .textcolor-dark .wysiwyg-content p,
+.server-rates p.section-subtitle {
+    text-align: center;
+    color: #aaa !important;
+    font-size: 1.1rem !important;
+    margin-bottom: 50px !important;
+    max-width: 800px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    position: relative !important;
+}
 
 
 
