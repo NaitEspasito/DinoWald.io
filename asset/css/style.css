@@ -355,6 +355,7 @@ body.v3.pagebuilder .wysiwyg-content h1.hero-title {
     text-transform: uppercase;
     position: relative;
     text-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    line-height: 1.2;
 }
 body.v3 .hero-title span {
     color: var(--accent);
