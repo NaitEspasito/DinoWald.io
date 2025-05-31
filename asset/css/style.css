@@ -372,13 +372,6 @@ body.v3 p.hero-subtitle {
     font-size: 1.3rem;
     color: #ddd !important;
 }
-@media (max-width: 768px) {
-    body.v3.pagebuilder .wysiwyg-content h1.hero-title {
-        font-size: 2.5rem;
-    }
-    body.v3 .hero-title span {
-    font-size: 2.5rem;
-}
 }
 body.v3 .hero-buttons .btn {
     display: flex;
@@ -750,19 +743,6 @@ body.v3 .alert-danger {
     color: #f8d7da;
     border-color: #f5c6cb;
 }
-@media (min-width: 992px) {
-    .container {
-        width: 95%;
-        max-width: 1500px;
-    }
-}
-
-@media (min-width: 1200px) {
-    .container {
-        width: 95%;
-        max-width: 1500px;
-    }
-}
 
 
 
@@ -802,16 +782,26 @@ body.v3 .alert-danger {
         width: 95%;
         max-width: 1500px;
     }
-}
-
-@media (min-width: 992px) {
-    .container {
-        width: 95%;
-        max-width: 1500px;
+    body.v3.pagebuilder .wysiwyg-content h1.hero-title {
+        font-size: 2.5rem;
+    }
+    body.v3 .hero-title span {
+    font-size: 2.5rem;
     }
 }
-
-@media (min-width: 1200px) {
+@media (max-width: 576px) {
+    .stats-grid {
+    grid-template-columns: 1fr 1fr !important;
+    }
+    .stat-value {
+        font-size: 2rem;
+    }
+    body.v3 .stat-item:not(:last-child)::after {
+        display: none;
+    }
+  
+}
+@media (min-width: 992px) {
     .container {
         width: 95%;
         max-width: 1500px;
