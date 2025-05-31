@@ -1,9 +1,14 @@
+.page-reward-shop .center-block .row{
+    padding-top: 60px !important;
+}
 .page-reward-shop .section {
     padding: 80px 0 !important;
     position: relative !important;
 }
 
 .page-reward-shop .page-title {
+    padding-top: 50px;
+    margin-top: 20px;
     font-family: 'Orbitron', sans-serif !important;
     font-size: 2.5rem !important;
     font-weight: 800 !important;
