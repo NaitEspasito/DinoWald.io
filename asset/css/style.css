@@ -368,11 +368,11 @@ body.v3 .hero-title span {
     position: relative;
     line-height: 1.2;
 }
-body.v3 p.hero-subtitle {
-    font-size: 1.3rem;
+body.v3.pagebuilder .wysiwyg-content:not(.contentwrap):not(.form) p.hero-subtitle {
+    font-size: 1.3rem !important;
     color: #ddd !important;
 }
-}
+
 body.v3 .hero-buttons .btn {
     display: flex;
     gap: 20px;
@@ -807,3 +807,4 @@ body.v3 .alert-danger {
         max-width: 1500px;
     }
 }
+
