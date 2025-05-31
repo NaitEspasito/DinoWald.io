@@ -927,7 +927,119 @@ body.v3.pagebuilder .textcolor-dark .wysiwyg-content p,
     margin-right: auto !important;
     position: relative !important;
 }
+.rate-title {
+    font-family: 'Orbitron', sans-serif!important;
+    font-size: 1.8rem!important;
+    color: var(--accent-bright)!important;
+    margin-bottom: 20px!important;
+    position: relative!important;
+    padding-bottom: 10px!important;
+}
+/* CTA Section */
+.cta {
+  position: relative !important;
+  padding-top: 60px !important;
+  padding-bottom: 60px !important;
+  background: linear-gradient(rgba(28, 28, 28, 0.9), rgba(28, 28, 28, 0.9)), url('https://images.unsplash.com/photo-1518965539400-77d851472b35?q=80&w=2071&auto=format&fit=crop') center center/cover no-repeat !important;
+  text-align: center !important;
+  margin-top: 0px!important;
+}
 
+.cta-content {
+  max-width: 800px !important;
+  margin: 0 auto !important;
+}
+
+.cta-title {
+    font-family: 'Orbitron', sans-serif !important;
+    font-size: 2.5rem !important;
+    font-weight: 800 !important;
+    margin-bottom: 20px !important;
+    color: var(--light) !important;
+    text-align: center !important;
+    position: relative !important;
+    text-transform: uppercase !important;
+}
+.cta-title::after {
+    content: '';
+    position: absolute !important;
+    bottom: -10px !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    width: 80px !important;
+    height: 4px !important;
+    background: var(--accent) !important;
+    border-radius: 2px !important;
+}
+.cta-text {
+  text-align: center;
+  color: #aaa !important;
+  font-size: 1.1rem !important;
+  margin-bottom: 50px !important;
+  max-width: 800px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  position: relative !important;
+}
+.cta-buttons {
+    
+}
+
+.cta-buttons .btn {
+    display: inline-block !important;
+    padding: 14px 30px !important;
+    background: var(--primary-light) !important;
+    color: white!important;
+    border: 2px solid var(--accent) !important;
+    border-radius: 8px !important;
+    font-family: 'Orbitron', sans-serif !important;
+    font-weight: 600 !important;
+    font-size: 1.1rem !important;
+    text-decoration: none !important;
+    text-transform: uppercase !important;
+    transition: all 0.3s ease !important;
+    letter-spacing: 1px !important;
+    position: relative !important;
+    overflow: hidden !important;
+}
+
+.cta-buttons .btn::before {
+    content: "";
+    position: absolute !important;
+    top: 0 !important;
+    left: -100% !important;
+    width: 100% !important;
+    height: 100% !important;
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(255, 255, 255, 0.2),
+        transparent
+    );
+    transition: 0.5s;
+}
+
+.cta-buttons .btn:hover {
+    background: var(--accent) !important;
+    color: var(--primary-dark ) !important;
+    transform: translateY(-5px) !important;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2) !important;
+}
+
+.cta-buttons .btn:hover::before {
+    left: 100% !important;
+}
+
+.cta-buttons .btn {
+    background: transparent;
+    border: 2px solid var(--accent) !important;
+    color: var(--accent) !important;
+}
+
+.cta-buttons .btn:hover {
+    background: var(--accent) !important;
+    color: var(--primary-dark) !important;
+}
 
 
 
