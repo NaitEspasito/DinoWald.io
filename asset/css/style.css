@@ -348,7 +348,7 @@ body.v3.page-home .banner .center-block .col-md-12.table-cell{
 } 
 body.v3.pagebuilder .wysiwyg-content h1.hero-title {
     font-family: 'Orbitron', sans-serif !important;
-    font-size: 4.5rem;
+    font-size: 2.5rem !important;
     font-weight: 900;
     margin-bottom: 20px;
     color: var(--light);
@@ -360,7 +360,7 @@ body.v3.pagebuilder .wysiwyg-content h1.hero-title {
 body.v3 .hero-title span {
     color: var(--accent);
     font-family: 'Orbitron', sans-serif !important;
-    font-size: 4.5rem;
+    font-size: 2.5rem !important;
     font-weight: 900;
     margin-bottom: 20px;
     text-transform: uppercase;
@@ -783,10 +783,10 @@ body.v3 .alert-danger {
         max-width: 1500px;
     }
     body.v3.pagebuilder .wysiwyg-content h1.hero-title {
-        font-size: 2.5rem;
+        font-size: 4.5rem !important;
     }
     body.v3 .hero-title span {
-    font-size: 2.5rem;
+        font-size: 4.5rem !important;
     }
 }
 @media (max-width: 576px) {
@@ -794,10 +794,10 @@ body.v3 .alert-danger {
     grid-template-columns: 1fr 1fr !important;
     }
     .stat-value {
-        font-size: 2rem;
+        font-size: 2rem !important;
     }
     body.v3 .stat-item:not(:last-child)::after {
-        display: none;
+        display: none !important;
     }
   
 }
@@ -807,3 +807,4 @@ body.v3 .alert-danger {
         max-width: 1500px;
     }
 }
+
