@@ -30,7 +30,12 @@ body.v3.pagebuilder.page-reward-shop .wysiwyg-content .page-title::after {
     background: var(--accent) !important;
     border-radius: 2px !important;
 }
-
+/* Shop Page Specific Styles */
+body.v3.pagebuilder.page-reward-shop .wysiwyg-content .shop-container {
+    display: flex !important;
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+}
  /* Shop Header */
 body.v3.pagebuilder.page-reward-shop .wysiwyg-content .shop-header {
     background: rgba(22, 22, 22, 0.8) !important;
