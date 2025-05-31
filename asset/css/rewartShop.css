@@ -44,15 +44,16 @@ body.v3.pagebuilder.page-reward-shop .wysiwyg-content h2.shop-header-title {
     font-family: 'Orbitron', sans-serif !important;
     font-size: 2rem !important;
     margin-bottom: 15px !important;
+    margin-top: 0 !important;
     color: var(--accent) !important;
 }
 body.v3.pagebuilder.page-reward-shop .wysiwyg-content p.shop-header-description{
     text-align: center;
     color: #aaa !important;
     font-size: 0.9rem !important;
-    margin-bottom: 50px !important;
     max-width: 800px !important;
     margin-left: auto !important;
+    margin-bottom: 0 !important;
     margin-right: auto !important;
     position: relative !important;
 }
