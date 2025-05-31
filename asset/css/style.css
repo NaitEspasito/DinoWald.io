@@ -795,11 +795,6 @@ body.v3 .alert-danger {
 
 /* Responsive Anpassungen */
 @media (min-width: 768px) {
-    body.v3.page-home .banner .container-fluid .center-block {
-        margin: 0;
-        width: 100%;
-        padding: 0;
-    }
     body.v3 .navbar-header {
         display: flex;
         align-items: center;
