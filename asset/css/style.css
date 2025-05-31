@@ -178,17 +178,6 @@ body.v3 .main-nav .navbar-nav>li>a.login:hover {
     border-color: var(--accent);
 }
 
-/* Hero Section */
-body.v3 .hero.section {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    overflow: hidden;
-    padding: 0;
-}
-
 body.v3 .main-nav.passed-banner:before {
     position: absolute;
     width: 100%;
