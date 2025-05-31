@@ -981,10 +981,6 @@ body.v3.pagebuilder .textcolor-dark .wysiwyg-content p,
   margin-right: auto !important;
   position: relative !important;
 }
-.cta-buttons {
-    
-}
-
 .cta-buttons .btn {
     display: inline-block !important;
     padding: 14px 30px !important;
@@ -1001,6 +997,7 @@ body.v3.pagebuilder .textcolor-dark .wysiwyg-content p,
     letter-spacing: 1px !important;
     position: relative !important;
     overflow: hidden !important;
+    margin-bottom: 0.5rem;
 }
 
 .cta-buttons .btn::before {
@@ -1034,11 +1031,6 @@ body.v3.pagebuilder .textcolor-dark .wysiwyg-content p,
     background: transparent;
     border: 2px solid var(--accent) !important;
     color: var(--accent) !important;
-}
-
-.cta-buttons .btn:hover {
-    background: var(--accent) !important;
-    color: var(--primary-dark) !important;
 }
 
 
