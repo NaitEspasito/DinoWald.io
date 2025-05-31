@@ -885,6 +885,14 @@ body.v3 .alert-danger {
 .server-container .top-nav .version strong{
   padding-right: 1.5rem
 }
+.server-block .server-block-content .info {
+    position: relative;
+    left: 0;
+    bottom: 1rem;
+    width: 100%;
+    font-size: .8rem;
+    padding-top: 1rem;
+}
 
 /* Server Rats */
 .server-rates h2.section-title {
