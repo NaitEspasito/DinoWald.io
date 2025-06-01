@@ -1121,7 +1121,15 @@ body.v3.pagebuilder .textcolor-dark .wysiwyg-content p,
     border: 2px solid var(--accent) !important;
     color: var(--accent) !important;
 }
-  
+
+/* Footer Alt */
+footer.footer {
+    display: none;
+}
+/* Footer NEU */
+footer.contact {
+    display: block;
+}
 /* Responsive Anpassungen */
 @media (min-width: 768px) {
     body.v3 .navbar-header {
