@@ -115,14 +115,16 @@ body.v3.pagebuilder.page-server-informationen .info-section:target {
     100% { border-color: rgba(163, 194, 87, 0.2); box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); }
 }
 
-body.v3.pagebuilder.page-server-informationen .info-section p {
+body.v3.pagebuilder.page-server-informationen .info-section p.info-section-p {
     color: #ddd !important;
     line-height: 1.8 !important;
     margin-bottom: 20px !important;
-    font-size: 1.05rem !important;
+    font-size: 0.8rem !important;
+    text-align: left!important;
+    margin-left: 0px !important;
 }
 
-.page-server-informationen .info-section ul,
+body.v3.pagebuilder.page-server-informationen .info-section ul,
 body.v3.pagebuilder.page-server-informationen .info-section ol {
     color: #ddd !important;
     line-height: 1.7 !important;
