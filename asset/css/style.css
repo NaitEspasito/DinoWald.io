@@ -1123,8 +1123,8 @@ body.v3.pagebuilder .textcolor-dark .wysiwyg-content p,
 }
 
 /* Footer Alt */
-.page-home footer.footer,
-.page-reward-shop footer.footer{
+body.v3.pagebuilder.page-home footer.footer,
+body.v3.pagebuilder.page-reward-shop footer.footer{
     display: none;
 }
 /* Footer NEU */
