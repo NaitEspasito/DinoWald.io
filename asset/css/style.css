@@ -432,6 +432,7 @@ body.v3 .hero-content {
         transform: translateY(0);
     }
 }
+body.v3.page-reward-shop .banner .center-block .col-md-12.table-cell,
 body.v3.page-home .banner .center-block .col-md-12.table-cell{
     padding: 0;
 } 
