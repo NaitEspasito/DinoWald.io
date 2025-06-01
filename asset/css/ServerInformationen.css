@@ -1,36 +1,36 @@
 /* Server Info Page Specific Styles */
-.info-container {
-    display: flex;
-    margin-top: 50px;
+body.v3.pagebuilder.page-server-informationen .info-container {
+    display: flex !important;
+    margin-top: 50px !important;
 }
 
 /* Side Navigation */
-.info-sidebar {
-    width: 300px;
-    min-width: 300px;
-    position: sticky;
-    top: 100px;
-    height: fit-content;
-    background: rgba(28, 28, 28, 0.8);
-    border-radius: 15px;
-    padding: 25px;
-    margin-right: 30px;
-    border: 1px solid rgba(163, 194, 87, 0.2);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+body.v3.pagebuilder.page-server-informationen .info-sidebar {
+    width: 300px !important;
+    min-width: 300px !important;
+    position: sticky !important;
+    top: 100px !important;
+    height: fit-conten !important;
+    background: rgba(28, 28, 28, 0.8) !important;
+    border-radius: 15px !important;
+    padding: 25px !important;
+    margin-right: 30px !important;
+    border: 1px solid rgba(163, 194, 87, 0.2) !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2 !important;
 }
 
-.sidebar-title {
-    font-family: 'Orbitron', sans-serif;
-    font-size: 1.2rem;
-    color: var(--light);
-    margin-bottom: 20px;
-    position: relative;
-    padding-bottom: 10px;
-    text-transform: uppercase;
-    text-align: center;
+body.v3.pagebuilder.page-server-informationen .sidebar-title {
+    font-family: 'Orbitron', sans-serif !important;
+    font-size: 1.2rem !important;
+    color: var(--light) !important;
+    margin-bottom: 20px !important;
+    position: relative !important;
+    padding-bottom: 10px!important;
+    text-transform: uppercase!important;
+    text-align: center!important;
 }
 
-.sidebar-title::after {
+body.v3.pagebuilder.page-server-informationen .sidebar-title::after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -41,17 +41,17 @@
     background: var(--accent);
 }
 
-.info-nav {
+body.v3.pagebuilder.page-server-informationen .info-nav {
     list-style: none;
     margin-top: 15px;
 }
 
-.info-nav-item {
+body.v3.pagebuilder.page-server-informationen .info-nav-item {
     margin-bottom: 10px;
     padding: 5px 0;
 }
 
-.info-nav-link {
+body.v3.pagebuilder.page-server-informationen .info-nav-link {
     display: flex;
     align-items: center;
     padding: 10px 15px;
@@ -62,29 +62,29 @@
     font-weight: 500;
 }
 
-.info-nav-link:hover {
+body.v3.pagebuilder.page-server-informationen .info-nav-link:hover {
     background: rgba(163, 194, 87, 0.2);
     color: var(--accent);
     transform: translateX(5px);
 }
 
-.info-nav-link.active {
+body.v3.pagebuilder.page-server-informationen .info-nav-link.active {
     background: var(--accent);
     color: var(--primary-dark);
 }
 
-.info-nav-icon {
+body.v3.pagebuilder.page-server-informationen .info-nav-icon {
     margin-right: 12px;
     min-width: 20px;
     text-align: center;
 }
 
 /* Content Area */
-.info-content {
+body.v3.pagebuilder.page-server-informationen .info-content {
     flex-grow: 1;
 }
 
-.info-section {
+body.v3.pagebuilder.page-server-informationen .info-section {
     background: rgba(28, 28, 28, 0.8);
     border-radius: 15px;
     padding: 30px;
@@ -93,7 +93,7 @@
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
-.info-section:target {
+body.v3.pagebuilder.page-server-informationen .info-section:target {
     animation: highlight 1.5s ease-out;
 }
 
@@ -102,32 +102,32 @@
     100% { border-color: rgba(163, 194, 87, 0.2); box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); }
 }
 
-.info-section p {
+body.v3.pagebuilder.page-server-informationen .info-section p {
     color: #ddd;
     line-height: 1.8;
     margin-bottom: 20px;
     font-size: 1.05rem;
 }
 
-.info-section ul, .info-section ol {
+body.v3.pagebuilder.page-server-informationen .info-section ul, .info-section ol {
     color: #ddd;
     line-height: 1.7;
     margin-bottom: 20px;
     margin-left: 20px;
 }
 
-.info-section li {
+body.v3.pagebuilder.page-server-informationen .info-section li {
     margin-bottom: 10px;
 }
 
 /* Table styles */
-.info-table {
+body.v3.pagebuilder.page-server-informationen .info-table {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 30px;
 }
 
-.info-table th {
+body.v3.pagebuilder.page-server-informationen .info-table th {
     text-align: left;
     padding: 15px;
     background: rgba(22, 22, 22, 0.8);
@@ -136,21 +136,21 @@
     border-bottom: 2px solid var(--accent);
 }
 
-.info-table td {
+body.v3.pagebuilder.page-server-informationen .info-table td {
     padding: 12px 15px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.info-table tr:nth-child(even) {
+body.v3.pagebuilder.page-server-informationen .info-table tr:nth-child(even) {
     background: rgba(0, 0, 0, 0.1);
 }
 
-.info-table tr:hover {
+body.v3.pagebuilder.page-server-informationen .info-table tr:hover {
     background: rgba(163, 194, 87, 0.1);
 }
 
 /* Connection Info Box */
-.connection-box {
+body.v3.pagebuilder.page-server-informationen .connection-box {
     background: rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     padding: 20px;
@@ -158,14 +158,14 @@
     border-left: 4px solid var(--accent);
 }
 
-.connection-title {
+body.v3.pagebuilder.page-server-informationen .connection-title {
     font-family: 'Orbitron', sans-serif;
     font-size: 1.1rem;
     color: var(--accent);
     margin-bottom: 15px;
 }
 
-.server-address {
+body.v3.pagebuilder.page-server-informationen .server-address {
     font-family: 'Courier New', monospace;
     background: rgba(0, 0, 0, 0.3);
     padding: 10px 15px;
@@ -176,7 +176,7 @@
     align-items: center;
 }
 
-.copy-btn {
+body.v3.pagebuilder.page-server-informationen .copy-btn {
     background: var(--accent-secondary);
     color: var(--light);
     border: none;
@@ -186,20 +186,20 @@
     transition: all 0.3s ease;
 }
 
-.copy-btn:hover {
+body.v3.pagebuilder.page-server-informationen .copy-btn:hover {
     background: var(--accent);
     color: var(--primary-dark);
 }
 
 /* Accordion for FAQ */
-.faq-item {
+body.v3.pagebuilder.page-server-informationen .faq-item {
     margin-bottom: 15px;
     border-radius: 8px;
     border: 1px solid rgba(163, 194, 87, 0.1);
     overflow: hidden;
 }
 
-.faq-question {
+body.v3.pagebuilder.page-server-informationen .faq-question {
     padding: 15px 20px;
     background: rgba(22, 22, 22, 0.7);
     color: var(--light);
@@ -211,86 +211,86 @@
     transition: all 0.3s ease;
 }
 
-.faq-question:hover {
+body.v3.pagebuilder.page-server-informationen .faq-question:hover {
     background: rgba(22, 22, 22, 0.9);
 }
 
-.faq-answer {
+body.v3.pagebuilder.page-server-informationen .faq-answer {
     padding: 0 20px;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.4s ease, padding 0.4s ease;
 }
 
-.faq-item.active .faq-answer {
+body.v3.pagebuilder.page-server-informationen .faq-item.active .faq-answer {
     max-height: 500px;
     padding: 20px;
 }
 
-.faq-toggle {
+body.v3.pagebuilder.page-server-informationen .faq-toggle {
     font-family: monospace;
     min-width: 20px;
     text-align: center;
 }
 
 /* Mod list */
-.mod-grid {
+body.v3.pagebuilder.page-server-informationen .mod-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 20px;
     margin: 20px 0;
 }
 
-.mod-card {
+body.v3.pagebuilder.page-server-informationen .mod-card {
     background: rgba(22, 22, 22, 0.5);
     border-radius: 8px;
     overflow: hidden;
     transition: all 0.3s ease;
 }
 
-.mod-card:hover {
+body.v3.pagebuilder.page-server-informationen .mod-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
-.mod-image {
+body.v3.pagebuilder.page-server-informationen .mod-image {
     height: 140px;
     overflow: hidden;
 }
 
-.mod-image img {
+body.v3.pagebuilder.page-server-informationen .mod-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: transform 0.6s ease;
 }
 
-.mod-card:hover .mod-image img {
+body.v3.pagebuilder.page-server-informationen .mod-card:hover .mod-image img {
     transform: scale(1.1);
 }
-.mod-card-link {
+body.v3.pagebuilder.page-server-informationen .mod-card-link {
     text-decoration: none;
     color: inherit;
     display: block;
     cursor: pointer;
 }
 
-.mod-card-link:hover {
+body.v3.pagebuilder.page-server-informationen .mod-card-link:hover {
     text-decoration: none;
     color: inherit;
 }
 
-.mod-card-link:hover .mod-card {
+body.v3.pagebuilder.page-server-informationen .mod-card-link:hover .mod-card {
     transform: translateY(-10px);
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
     border-color: var(--accent);
 }
 
-.mod-card-link:hover .mod-title {
+body.v3.pagebuilder.page-server-informationen .mod-card-link:hover .mod-title {
     color: var(--accent-bright);
 }
 
-.mod-card-link .mod-card::after {
+body.v3.pagebuilder.page-server-informationen .mod-card-link .mod-card::after {
     content: "Mod Info öffnen";
     position: absolute;
     bottom: 15px;
@@ -305,21 +305,21 @@
     transition: all 0.3s ease;
 }
 
-.mod-card-link:hover .mod-card::after {
+body.v3.pagebuilder.page-server-informationen .mod-card-link:hover .mod-card::after {
     opacity: 1;
     transform: translateY(0);
 }
-.mod-info {
+body.v3.pagebuilder.page-server-informationen .mod-info {
     padding: 15px;
 }
 
-.mod-title {
+body.v3.pagebuilder.page-server-informationen .mod-title {
     color: var(--accent);
     font-weight: 600;
     margin-bottom: 5px;
 }
 
-.mod-desc {
+body.v3.pagebuilder.page-server-informationen .mod-desc {
     color: #aaa;
     font-size: 0.9rem;
     height: 60px;
@@ -328,14 +328,14 @@
 }
 
 /* Badges */
-.badges {
+body.v3.pagebuilder.page-server-informationen .badges {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
     margin-bottom: 20px;
 }
 
-.badge {
+body.v3.pagebuilder.page-server-informationen .badge {
     background: rgba(163, 194, 87, 0.2);
     color: var(--accent);
     border-radius: 30px;
@@ -351,7 +351,7 @@
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.rule-title {
+body.v3.pagebuilder.page-server-informationen .rule-title {
     font-weight: 700;
     color: var(--accent);
     margin-bottom: 8px;
@@ -360,13 +360,13 @@
     gap: 10px;
 }
 
-.rule-desc {
+body.v3.pagebuilder.page-server-informationen .rule-desc {
     color: #ddd;
     padding-left: 25px;
 }
 
 /* Back to Top Button */
-.back-to-top {
+body.v3.pagebuilder.page-server-informationen .back-to-top {
     position: fixed;
     right: 30px;
     bottom: 30px;
@@ -387,21 +387,21 @@
     z-index: 99;
 }
 
-.back-to-top.visible {
+body.v3.pagebuilder.page-server-informationen .back-to-top.visible {
     opacity: 1;
     visibility: visible;
 }
 
-.back-to-top:hover {
+body.v3.pagebuilder.page-server-informationen .back-to-top:hover {
     background: var(--accent-bright);
     transform: translateY(-5px);
 }
 /* CSS for FAQ Toggle */
-.faq-toggle-checkbox {
+body.v3.pagebuilder.page-server-informationen .faq-toggle-checkbox {
     display: none; /* Hide the checkbox */
 }
 
-.faq-question {
+body.v3.pagebuilder.page-server-informationen .faq-question {
     padding: 15px 20px;
     background: rgba(22, 22, 22, 0.7);
     color: var(--light);
@@ -414,7 +414,7 @@
     border-radius: 8px;
 }
 
-.faq-toggle-icon::after {
+body.v3.pagebuilder.page-server-informationen .faq-toggle-icon::after {
     content: '+';
     font-size: 18px;
     font-family: monospace;
@@ -423,11 +423,11 @@
     transition: all 0.3s ease;
 }
 
-.faq-question:hover {
+body.v3.pagebuilder.page-server-informationen .faq-question:hover {
     background: rgba(22, 22, 22, 0.9);
 }
 
-.faq-answer {
+body.v3.pagebuilder.page-server-informationen .faq-answer {
     max-height: 0;
     overflow: hidden;
     padding: 0 20px;
@@ -437,45 +437,20 @@
 }
 
 /* Toggle functionality */
-.faq-toggle-checkbox:checked + .faq-question {
+body.v3.pagebuilder.page-server-informationen .faq-toggle-checkbox:checked + .faq-question {
     border-radius: 8px 8px 0 0;
     background: rgba(28, 28, 28, 0.9);
     border-bottom: 1px solid rgba(163, 194, 87, 0.3);
 }
 
-.faq-toggle-checkbox:checked + .faq-question .faq-toggle-icon::after {
+body.v3.pagebuilder.page-server-informationen .faq-toggle-checkbox:checked + .faq-question .faq-toggle-icon::after {
     content: '-';
     color: var(--accent);
 }
 
-.faq-toggle-checkbox:checked ~ .faq-answer {
+body.v3.pagebuilder.page-server-informationen .faq-toggle-checkbox:checked ~ .faq-answer {
     max-height: 1000px; /* Arbitrary large value */
     padding: 20px;
     opacity: 1;
     background: rgba(20, 20, 20, 0.5);
-}
-/* Responsive */
-@media (max-width: 1100px) {
-    .info-container {
-        flex-direction: column;
-    }
-    
-    .info-sidebar {
-        width: 100%;
-        margin-right: 0;
-        margin-bottom: 30px;
-        position: static;
-        height: auto;
-    }
-    
-    .info-nav {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-    }
-    
-    .info-nav-item {
-        margin-bottom: 0;
-        padding: 0;
-    }
 }
