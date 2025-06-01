@@ -265,7 +265,99 @@ body.v3.pagebuilder.page-server-informationen .info-table tr:hover {
 }
 
 
+/* Mod list */
+body.v3.pagebuilder.page-server-informationen .mod-grid {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)) !important;
+    gap: 20px !important;
+    margin: 20px 0 !important;
+}
 
+body.v3.pagebuilder.page-server-informationen .mod-card {
+    background: rgba(22, 22, 22, 0.5) !important;
+    border-radius: 8px !important;
+    overflow: hidden !important;
+    transition: all 0.3s ease !important;
+}
+
+body.v3.pagebuilder.page-server-informationen .mod-card:hover {
+    transform: translateY(-5px) !important;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3) !important;
+}
+
+body.v3.pagebuilder.page-server-informationen .mod-image {
+    height: 140px !important;
+    overflow: hidden !important;
+}
+
+body.v3.pagebuilder.page-server-informationen .mod-image img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    transition: transform 0.6s ease !important;
+}
+
+body.v3.pagebuilder.page-server-informationen .mod-card:hover .mod-image img {
+    transform: scale(1.1) !important;
+}
+body.v3.pagebuilder.page-server-informationen .mod-card-link {
+    text-decoration: none !important;
+    color: inherit !important;
+    display: block !important;
+    cursor: pointer !important;
+}
+
+body.v3.pagebuilder.page-server-informationen .mod-card-link:hover {
+    text-decoration: none !important;
+    color: inherit !important;
+}
+
+body.v3.pagebuilder.page-server-informationen .mod-card-link:hover .mod-card {
+    transform: translateY(-10px) !important;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4) !important;
+    border-color: var(--accent) !important;
+}
+
+body.v3.pagebuilder.page-server-informationen .mod-card-link:hover .mod-title {
+    color: var(--accent-bright) !important;
+}
+
+body.v3.pagebuilder.page-server-informationen .mod-card-link .mod-card::after {
+    content: "Mod Info öffnen" !important;
+    position: absolute !important;
+    bottom: 15px !important;
+    right: 15px !important;
+    background: rgba(163, 194, 87, 0.2) !important;
+    color: var(--accent) !important;
+    padding: 5px 10px !important;
+    border-radius: 4px !important;
+    font-size: 0.8rem !important;
+    opacity: 0 !important;
+    transform: translateY(10px) !important;
+    transition: all 0.3s ease !important;
+}
+
+body.v3.pagebuilder.page-server-informationen .mod-card-link:hover .mod-card::after {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+}
+body.v3.pagebuilder.page-server-informationen .mod-info {
+    padding: 15px !important;
+}
+
+body.v3.pagebuilder.page-server-informationen .mod-title {
+    color: var(--accent) !important;
+    font-weight: 600 !important;
+    margin-bottom: 5px !important;
+}
+
+body.v3.pagebuilder.page-server-informationen .mod-desc {
+    color: #aaa !important;
+    font-size: 0.9rem !important;
+    height: 60px !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+}
 
 
 
