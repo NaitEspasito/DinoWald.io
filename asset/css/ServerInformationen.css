@@ -95,3 +95,41 @@
     background: var(--accent) !important;
     color: var(--primary-dark) !important;
 }
+.page-server-informationen .info-content {
+    flex-grow: 1 !important;
+}
+.page-server-informationen .info-section {
+    background: rgba(28, 28, 28, 0.8) !important;
+    border-radius: 15px !important;
+    padding: 30px !important;
+    margin-bottom: 30px !important;
+    border: 1px solid rgba(163, 194, 87, 0.2) !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2) !important;
+}
+.page-server-informationen .info-section:target {
+    animation: highlight 1.5s ease-out !important;
+}
+
+@keyframes highlight {
+    0% { border-color: var(--accent); box-shadow: 0 0 30px rgba(163, 194, 87, 0.6); }
+    100% { border-color: rgba(163, 194, 87, 0.2); box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); }
+}
+
+.page-server-informationen .info-section p {
+    color: #ddd !important;
+    line-height: 1.8 !important;
+    margin-bottom: 20px !important;
+    font-size: 1.05rem !important;
+}
+
+.page-server-informationen .info-section ul,
+.page-server-informationen .info-section ol {
+    color: #ddd !important;
+    line-height: 1.7 !important;
+    margin-bottom: 20px !important;
+    margin-left: 20px !important;
+}
+
+.page-server-informationen .info-section li {
+    margin-bottom: 10px !important;
+}
