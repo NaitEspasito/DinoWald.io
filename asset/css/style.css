@@ -1132,7 +1132,7 @@ body.v3.pagebuilder.page-reward-shop footer.footer{
 footer#contact {
     display: block !important;
     background: rgba(18, 18, 18, 0.97) !important;
-    padding: 60px 0 30px !important;
+    padding: 60px 0 0px !important;
 }
 
 footer#contact .footer-grid {
