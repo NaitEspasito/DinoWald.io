@@ -90,11 +90,16 @@ body.v3.pagebuilder.page-server-informationen .info-nav-link:hover {
     color: var(--accent) !important;
     transform: translateX(5px) !important;
 }
-
+body.v3.pagebuilder.page-server-informationen  .info-nav-icon {
+    margin-right: 12px !important;
+    min-width: 20px !important;
+    text-align: center !important;
+}
 body.v3.pagebuilder.page-server-informationen .info-nav-link.active {
     background: var(--accent) !important;
     color: var(--primary-dark) !important;
 }
+
 body.v3.pagebuilder.page-server-informationen .info-content {
     flex-grow: 1 !important;
 }
