@@ -155,6 +155,7 @@ body.v3.pagebuilder.page-server-informationen .info-section h3 {
     color: #ddd !important;
     font-size: 1.6rem !important;
     font-weight: 500 !important;
+    margin-bottom: 0.1rem !important;
 }
 body.v3.pagebuilder.page-server-informationen .connection-box {
     background: rgba(0, 0, 0, 0.2) !important;
