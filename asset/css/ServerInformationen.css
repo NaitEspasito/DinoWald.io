@@ -143,3 +143,57 @@ body.v3.pagebuilder.page-server-informationen h2.section-title {
     color: var(--accent) !important;
     position: relative !important;
 }
+body.v3.pagebuilder.page-server-informationen .badge {
+    background: rgba(163, 194, 87, 0.2) !important;
+    color: var(--accent) !important;
+    border-radius: 30px !important;
+    padding: 5px 15px !important;
+    font-size: 0.65rem !important;
+    font-weight: 500 !important;
+}
+body.v3.pagebuilder.page-server-informationen .info-section h3 {
+    color: #ddd !important;
+    font-size: 1.8rem !important;
+}
+body.v3.pagebuilder.page-server-informationen .connection-box {
+    background: rgba(0, 0, 0, 0.2) !important;
+    border-radius: 10px !important;
+    padding: 20px !important;
+    margin: 20px 0 !important;
+    border-left: 4px solid var(--accent) !important;
+}
+body.v3.pagebuilder.page-server-informationen .connection-box .connection-title {
+    font-family: 'Orbitron', sans-serif !important;
+    color: #fff !important;
+    margin-bottom: 15px !important;
+    font-size: 0.8rem !important;
+    text-align: left;
+    margin-left: 0 !important;
+}
+body.v3.pagebuilder.page-server-informationen .server-address{
+    font-family: 'Courier New', monospace !important; 
+    background: rgba(0, 0, 0, 0.3) !important; 
+    padding: 10px 15px !important; 
+    border-radius: 8px !important; 
+    margin-bottom: 10px !important; 
+    display: flex !important; 
+    justify-content: space-between !important; 
+    align-items: center !important; 
+}
+body.v3.pagebuilder.page-server-informationen .server-address span{
+    font-family: 'Courier New', monospace !important;
+}
+body.v3.pagebuilder.page-server-informationen .copy-btn {
+    background: var(--accent-secondary);
+    color: var(--light);
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+body.v3.pagebuilder.page-server-informationen .copy-btn:hover {
+    background: var(--accent);
+    color: var(--primary-dark);
+}
