@@ -69,3 +69,29 @@
     list-style: none !important;
     margin-top: 15px !important;
 }
+.page-server-informationen .info-nav-item {
+    margin-bottom: 10px !important;
+    padding: 5px 0 !important;
+}
+.page-server-informationen .info-nav-link {
+    display: flex !important;
+    align-items: center !important;
+    padding: 10px 15px !important;
+    color: var(--light) !important;
+    text-decoration: none !important;
+    border-radius: 8px !important;
+    transition: all 0.3s ease !important;
+    font-weight: 500 !important;
+    font-size: 0.75rem!important;
+}
+
+.page-server-informationen .info-nav-link:hover {
+    background: rgba(163, 194, 87, 0.2) !important;
+    color: var(--accent) !important;
+    transform: translateX(5px) !important;
+}
+
+.page-server-informationen .info-nav-link.active {
+    background: var(--accent) !important;
+    color: var(--primary-dark) !important;
+}
