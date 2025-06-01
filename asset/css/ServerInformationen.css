@@ -1,3 +1,4 @@
+
 body.v3.pagebuilder.page-server-informationen .page-title {
     font-family: 'Orbitron', sans-serif !important;
     font-size: 2rem !important;
@@ -84,7 +85,11 @@ body.v3.pagebuilder.page-server-informationen .info-nav-link {
     font-weight: 500 !important;
     font-size: 0.75rem!important;
 }
-
+body.v3.pagebuilder.page-server-informationen .info-nav-icon {
+    margin-right: 12px;
+    min-width: 20px;
+    text-align: center;
+}
 body.v3.pagebuilder.page-server-informationen .info-nav-link:hover {
     background: rgba(163, 194, 87, 0.2) !important;
     color: var(--accent) !important;
@@ -123,15 +128,13 @@ body.v3.pagebuilder.page-server-informationen .info-section p.sup-titel {
     text-align: left!important;
     margin-left: 0px !important;
 }
-body.v3.pagebuilder.page-server-informationen .info-section .rule-desc,
+
 body.v3.pagebuilder.page-server-informationen .info-section ul,
 body.v3.pagebuilder.page-server-informationen .info-section ol .steps{
     color: #ddd !important;
-    line-height: 1.8 !important;
+    line-height: 1.7 !important;
     margin-bottom: 20px !important;
-    font-size: 0.8rem !important;
-    text-align: left !important;
-    margin-left: 0px !important;
+    margin-left: 20px !important;
 }
 body.v3.pagebuilder.page-server-informationen .info-section .rule-desc strong,
 body.v3.pagebuilder.page-server-informationen .info-section ol .steps strong{
