@@ -1,4 +1,4 @@
-.page-server-informationen .page-title {
+body.v3.pagebuilder.page-server-informationen .page-title {
     font-family: 'Orbitron', sans-serif !important;
     font-size: 3rem !important;
     font-weight: 800 !important;
@@ -10,7 +10,7 @@
     padding-top: 50px !important;
 }
 
-.page-server-informationen .page-title::after {
+body.v3.pagebuilder.page-server-informationen .page-title::after {
     content: '' !important;
     position: absolute !important;
     bottom: -10px !important;
@@ -21,18 +21,18 @@
     background: var(--accent) !important;
     border-radius: 2px !important;
 }
-.page-server-informationen .container {
+body.v3.pagebuilder.page-server-informationen .container {
     width: 95%!important;
     max-width: 1500px!important;
     margin: 0 auto!important;
     position: relative!important;
     z-index: 2!important;
 }
-.page-server-informationen .info-container {
+body.v3.pagebuilder.page-server-informationen .info-container {
     display: flex !important;
     margin-top: 50px !important;
 }
-.page-server-informationen .info-sidebar {
+body.v3.pagebuilder.page-server-informationen .info-sidebar {
     width: 300px !important;
     min-width: 300px !important;
     position: sticky !important;
@@ -45,7 +45,7 @@
     border: 1px solid rgba(163, 194, 87, 0.2) !important;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2) !important;
 }
-.page-server-informationen .sidebar-title {
+body.v3.pagebuilder.page-server-informationen .sidebar-title {
     font-family: 'Orbitron', sans-serif !important;
     font-size: 1.2rem !important;
     color: var(--light) !important;
@@ -55,7 +55,7 @@
     text-transform: uppercase !important;
     text-align: center !important;
 }
-.page-server-informationen .sidebar-title::after {
+body.v3.pagebuilder.page-server-informationen .sidebar-title::after {
     content: '' !important;
     position: absolute !important;
     bottom: 0 !important;
@@ -65,15 +65,15 @@
     height: 3px !important;
     background: var(--accent) !important;
 }
-.page-server-informationen .info-nav {
+body.v3.pagebuilder.page-server-informationen .info-nav {
     list-style: none !important;
     margin-top: 15px !important;
 }
-.page-server-informationen .info-nav-item {
+body.v3.pagebuilder.page-server-informationen .info-nav-item {
     margin-bottom: 5px !important;
     padding: 0px 0 !important;
 }
-.page-server-informationen .info-nav-link {
+body.v3.pagebuilder.page-server-informationen .info-nav-link {
     display: flex !important;
     align-items: center !important;
     padding: 10px 15px !important;
@@ -85,20 +85,20 @@
     font-size: 0.75rem!important;
 }
 
-.page-server-informationen .info-nav-link:hover {
+body.v3.pagebuilder.page-server-informationen .info-nav-link:hover {
     background: rgba(163, 194, 87, 0.2) !important;
     color: var(--accent) !important;
     transform: translateX(5px) !important;
 }
 
-.page-server-informationen .info-nav-link.active {
+body.v3.pagebuilder.page-server-informationen .info-nav-link.active {
     background: var(--accent) !important;
     color: var(--primary-dark) !important;
 }
-.page-server-informationen .info-content {
+body.v3.pagebuilder.page-server-informationen .info-content {
     flex-grow: 1 !important;
 }
-.page-server-informationen .info-section {
+body.v3.pagebuilder.page-server-informationen .info-section {
     background: rgba(28, 28, 28, 0.8) !important;
     border-radius: 15px !important;
     padding: 30px !important;
@@ -106,7 +106,7 @@
     border: 1px solid rgba(163, 194, 87, 0.2) !important;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2) !important;
 }
-.page-server-informationen .info-section:target {
+body.v3.pagebuilder.page-server-informationen .info-section:target {
     animation: highlight 1.5s ease-out !important;
 }
 
@@ -115,7 +115,7 @@
     100% { border-color: rgba(163, 194, 87, 0.2); box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); }
 }
 
-.page-server-informationen .info-section p {
+body.v3.pagebuilder.page-server-informationen .info-section p {
     color: #ddd !important;
     line-height: 1.8 !important;
     margin-bottom: 20px !important;
@@ -123,19 +123,19 @@
 }
 
 .page-server-informationen .info-section ul,
-.page-server-informationen .info-section ol {
+body.v3.pagebuilder.page-server-informationen .info-section ol {
     color: #ddd !important;
     line-height: 1.7 !important;
     margin-bottom: 20px !important;
     margin-left: 20px !important;
 }
 
-.page-server-informationen .info-section li {
+body.v3.pagebuilder.page-server-informationen .info-section li {
     margin-bottom: 10px !important;
 }
-.page-server-informationen .section-title {
+body.v3.pagebuilder.page-server-informationen h2.section-title {
     font-family: 'Orbitron', sans-serif !important;
-    font-size: 1.5rem !important;
+    font-size: 1.3rem !important;
     font-weight: 700 !important;
     margin-bottom: 25px !important;
     color: var(--accent) !important;
