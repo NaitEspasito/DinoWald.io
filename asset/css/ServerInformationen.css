@@ -2,31 +2,6 @@ body.v3.pagebuilder.page-server-informationen .section {
     padding: 80px 0 !important;
     position: relative !important;
 }
-
-body.v3.pagebuilder.page-server-informationen .page-title {
-    font-family: 'Orbitron', sans-serif !important;
-    font-size: 3rem !important;
-    font-weight: 800 !important;
-    margin-bottom: 30px !important;
-    color: var(--light) !important;
-    text-align: center !important;
-    position: relative !important;
-    text-transform: uppercase !important;
-    padding-top: 50px !important;
-}
-
-body.v3.pagebuilder.page-server-informationen .page-title::after {
-    content: '' !important;
-    position: absolute !important;
-    bottom: -15px !important;
-    left: 50% !important;
-    transform: translateX(-50%) !important;
-    width: 100px !important;
-    height: 4px !important;
-    background: var(--accent) !important;
-    border-radius: 2px !important;
-}
-
 body.v3.pagebuilder.page-server-informationen .section-title {
     font-family: 'Orbitron', sans-serif !important;
     font-size: 2.2rem !important;
