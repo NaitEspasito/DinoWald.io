@@ -1,3 +1,19 @@
+body.v3.pagebuilder.page-reward-shop .banner .container-fluid .center-block {
+    margin: 0;
+    width: 100%;
+}
+body.v3.pagebuilder.page-reward-shop .banner .container-fluid .center-block .row {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+/* Footer Alt */
+body.v3.pagebuilder.page-reward-shop footer.footer{
+    display: none !important;
+}
+body.v3.pagebuilder.page-reward-shop .banner .center-block .col-md-12.table-cell {
+    padding: 0 !important;
+    padding-top: 30px !important;
+} 
 body.v3.pagebuilder.page-reward-shop .wysiwyg-content .center-block .row{
     padding-top: 60px !important;
 }
