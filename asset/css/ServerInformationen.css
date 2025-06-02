@@ -1,7 +1,11 @@
+body.v3.pagebuilder.page-server-informationen .section {
+    padding: 80px 0 !important;
+    position: relative !important;
+}
 
 body.v3.pagebuilder.page-server-informationen .page-title {
     font-family: 'Orbitron', sans-serif !important;
-    font-size: 2rem !important;
+    font-size: 3rem !important;
     font-weight: 800 !important;
     margin-bottom: 30px !important;
     color: var(--light) !important;
@@ -14,25 +18,31 @@ body.v3.pagebuilder.page-server-informationen .page-title {
 body.v3.pagebuilder.page-server-informationen .page-title::after {
     content: '' !important;
     position: absolute !important;
-    bottom: -10px !important;
+    bottom: -15px !important;
     left: 50% !important;
     transform: translateX(-50%) !important;
-    width: 80px !important;
+    width: 100px !important;
     height: 4px !important;
     background: var(--accent) !important;
     border-radius: 2px !important;
 }
-body.v3.pagebuilder.page-server-informationen .container {
-    width: 95%!important;
-    max-width: 1500px!important;
-    margin: 0 auto!important;
-    position: relative!important;
-    z-index: 2!important;
+
+body.v3.pagebuilder.page-server-informationen .section-title {
+    font-family: 'Orbitron', sans-serif !important;
+    font-size: 2.2rem !important;
+    font-weight: 700 !important;
+    margin-bottom: 25px !important;
+    color: var(--accent) !important;
+    position: relative !important;
 }
+
+/* Server Info Page Specific Styles */
 body.v3.pagebuilder.page-server-informationen .info-container {
     display: flex !important;
     margin-top: 50px !important;
 }
+
+/* Side Navigation */
 body.v3.pagebuilder.page-server-informationen .info-sidebar {
     width: 300px !important;
     min-width: 300px !important;
@@ -46,6 +56,7 @@ body.v3.pagebuilder.page-server-informationen .info-sidebar {
     border: 1px solid rgba(163, 194, 87, 0.2) !important;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2) !important;
 }
+
 body.v3.pagebuilder.page-server-informationen .sidebar-title {
     font-family: 'Orbitron', sans-serif !important;
     font-size: 1.2rem !important;
@@ -56,6 +67,7 @@ body.v3.pagebuilder.page-server-informationen .sidebar-title {
     text-transform: uppercase !important;
     text-align: center !important;
 }
+
 body.v3.pagebuilder.page-server-informationen .sidebar-title::after {
     content: '' !important;
     position: absolute !important;
@@ -66,14 +78,17 @@ body.v3.pagebuilder.page-server-informationen .sidebar-title::after {
     height: 3px !important;
     background: var(--accent) !important;
 }
+
 body.v3.pagebuilder.page-server-informationen .info-nav {
     list-style: none !important;
     margin-top: 15px !important;
 }
+
 body.v3.pagebuilder.page-server-informationen .info-nav-item {
-    margin-bottom: 5px !important;
-    padding: 0px 0 !important;
+    margin-bottom: 10px !important;
+    padding: 5px 0 !important;
 }
+
 body.v3.pagebuilder.page-server-informationen .info-nav-link {
     display: flex !important;
     align-items: center !important;
@@ -83,13 +98,8 @@ body.v3.pagebuilder.page-server-informationen .info-nav-link {
     border-radius: 8px !important;
     transition: all 0.3s ease !important;
     font-weight: 500 !important;
-    font-size: 0.75rem!important;
 }
-body.v3.pagebuilder.page-server-informationen .info-nav-icon {
-    margin-right: 12px;
-    min-width: 20px;
-    text-align: center;
-}
+
 body.v3.pagebuilder.page-server-informationen .info-nav-link:hover {
     background: rgba(163, 194, 87, 0.2) !important;
     color: var(--accent) !important;
@@ -100,9 +110,18 @@ body.v3.pagebuilder.page-server-informationen .info-nav-link.active {
     background: var(--accent) !important;
     color: var(--primary-dark) !important;
 }
+
+body.v3.pagebuilder.page-server-informationen .info-nav-icon {
+    margin-right: 12px !important;
+    min-width: 20px !important;
+    text-align: center !important;
+}
+
+/* Content Area */
 body.v3.pagebuilder.page-server-informationen .info-content {
     flex-grow: 1 !important;
 }
+
 body.v3.pagebuilder.page-server-informationen .info-section {
     background: rgba(28, 28, 28, 0.8) !important;
     border-radius: 15px !important;
@@ -111,129 +130,34 @@ body.v3.pagebuilder.page-server-informationen .info-section {
     border: 1px solid rgba(163, 194, 87, 0.2) !important;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2) !important;
 }
+
 body.v3.pagebuilder.page-server-informationen .info-section:target {
     animation: highlight 1.5s ease-out !important;
 }
 
 @keyframes highlight {
-    0% { border-color: var(--accent); box-shadow: 0 0 30px rgba(163, 194, 87, 0.6); }
-    100% { border-color: rgba(163, 194, 87, 0.2); box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); }
+    0% { border-color: var(--accent) !important; box-shadow: 0 0 30px rgba(163, 194, 87, 0.6) !important; }
+    100% { border-color: rgba(163, 194, 87, 0.2) !important; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2) !important; }
 }
 
-body.v3.pagebuilder.page-server-informationen .info-section p.sup-titel {
+body.v3.pagebuilder.page-server-informationen .info-section p {
     color: #ddd !important;
     line-height: 1.8 !important;
     margin-bottom: 20px !important;
-    font-size: 0.8rem !important;
-    text-align: left!important;
-    margin-left: 0px !important;
+    font-size: 1.05rem !important;
 }
 
-body.v3.pagebuilder.page-server-informationen .info-section ul,
-body.v3.pagebuilder.page-server-informationen .info-section ol .steps{
+body.v3.pagebuilder.page-server-informationen .info-section ul, 
+body.v3.pagebuilder.page-server-informationen .info-section ol {
     color: #ddd !important;
     line-height: 1.7 !important;
-    margin-bottom: 5px !important;
+    margin-bottom: 20px !important;
     margin-left: 20px !important;
 }
-body.v3.pagebuilder.page-server-informationen .info-section .rule-title{
-    font-weight: 700 !important;
-    color: var(--accent) !important;
-    margin-bottom: 8px !important;
-    display: flex !important;
-    align-items: center !important;
-    gap: 10px !important;
-    font-size: 1.5rem !important;
-}
-body.v3.pagebuilder.page-server-informationen .info-section .rule-desc{
-    text-align: left !important;
-    margin-bottom: 15px !important;
-    font-size: 0.9rem !important;
-    color: #ddd !important;
-    padding-left: 0px !important;
-}
-body.v3.pagebuilder.page-server-informationen .info-section .rule-desc strong,
-body.v3.pagebuilder.page-server-informationen .info-section ol .steps strong{
-    color: #ddd !important;
-}
+
 body.v3.pagebuilder.page-server-informationen .info-section li {
     margin-bottom: 10px !important;
 }
-
-body.v3.pagebuilder.page-server-informationen h2.section-title {
-    font-family: 'Orbitron', sans-serif !important;
-    font-size: 1.3rem !important;
-    font-weight: 700 !important;
-    margin-bottom: 25px !important;
-    color: var(--accent) !important;
-    position: relative !important;
-}
-body.v3.pagebuilder.page-server-informationen .badge {
-    background: rgba(163, 194, 87, 0.2) !important;
-    color: var(--accent) !important;
-    border-radius: 30px !important;
-    padding: 5px 15px !important;
-    font-size: 0.65rem !important;
-    font-weight: 500 !important;
-}
-body.v3.pagebuilder.page-server-informationen .info-section h3 {
-    color: #ddd !important;
-    font-size: 1.6rem !important;
-    font-weight: 500 !important;
-    margin-bottom: 0.1rem !important;
-}
-body.v3.pagebuilder.page-server-informationen .connection-box {
-    background: rgba(0, 0, 0, 0.2) !important;
-    border-radius: 10px !important;
-    padding: 20px !important;
-    margin: 20px 0 !important;
-    border-left: 4px solid var(--accent) !important;
-}
-body.v3.pagebuilder.page-server-informationen .connection-box .connection-title {
-    font-family: 'Orbitron', sans-serif !important;
-    color: #fff !important;
-    margin-bottom: 15px !important;
-    font-size: 0.8rem !important;
-    text-align: left;
-    margin-left: 0 !important;
-}
-body.v3.pagebuilder.page-server-informationen .server-address{
-    font-family: 'Courier New', monospace !important; 
-    background: rgba(0, 0, 0, 0.3) !important; 
-    padding: 10px 15px !important; 
-    border-radius: 8px !important; 
-    margin-bottom: 10px !important; 
-    display: flex !important; 
-    justify-content: space-between !important; 
-    align-items: center !important; 
-}
-body.v3.pagebuilder.page-server-informationen .server-address span{
-    font-family: 'Courier New', monospace !important;
-}
-body.v3.pagebuilder.page-server-informationen .copy-btn {
-    background: var(--accent-secondary) !important;
-    color: var(--light) !important;
-    border: none !important;
-    border-radius: 4px !important;
-    padding: 5px 10px !important;
-    cursor: pointer !important;
-    transition: all 0.3s ease !important;
-}
-
-body.v3.pagebuilder.page-server-informationen .copy-btn:hover {
-    background: var(--accent) !important;
-    color: var(--primary-dark) !important;
-}
-
-body.v3.pagebuilder.page-server-informationen .info-section .rule-item ul li{
-    list-style-type: none !important;
-    padding-left: 20px !important;
-    color: #fff !important;
-    font-size: 0.8rem !important;
-}
-
-
-
 
 /* Table styles */
 body.v3.pagebuilder.page-server-informationen .info-table {
@@ -264,6 +188,91 @@ body.v3.pagebuilder.page-server-informationen .info-table tr:hover {
     background: rgba(163, 194, 87, 0.1) !important;
 }
 
+/* Connection Info Box */
+body.v3.pagebuilder.page-server-informationen .connection-box {
+    background: rgba(0, 0, 0, 0.2) !important;
+    border-radius: 10px !important;
+    padding: 20px !important;
+    margin: 20px 0 !important;
+    border-left: 4px solid var(--accent) !important;
+}
+
+body.v3.pagebuilder.page-server-informationen .connection-title {
+    font-family: 'Orbitron', sans-serif !important;
+    font-size: 1.1rem !important;
+    color: var(--accent) !important;
+    margin-bottom: 15px !important;
+}
+
+body.v3.pagebuilder.page-server-informationen .server-address {
+    font-family: 'Courier New', monospace !important;
+    background: rgba(0, 0, 0, 0.3) !important;
+    padding: 10px 15px !important;
+    border-radius: 8px !important;
+    margin-bottom: 10px !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
+
+body.v3.pagebuilder.page-server-informationen .copy-btn {
+    background: var(--accent-secondary) !important;
+    color: var(--light) !important;
+    border: none !important;
+    border-radius: 4px !important;
+    padding: 5px 10px !important;
+    cursor: pointer !important;
+    transition: all 0.3s ease !important;
+}
+
+body.v3.pagebuilder.page-server-informationen .copy-btn:hover {
+    background: var(--accent) !important;
+    color: var(--primary-dark) !important;
+}
+
+/* Accordion for FAQ */
+body.v3.pagebuilder.page-server-informationen .faq-item {
+    margin-bottom: 15px !important;
+    border-radius: 8px !important;
+    border: 1px solid rgba(163, 194, 87, 0.1) !important;
+    overflow: hidden !important;
+}
+
+body.v3.pagebuilder.page-server-informationen .faq-question {
+    padding: 15px 20px !important;
+    background: rgba(22, 22, 22, 0.7) !important;
+    color: var(--light) !important;
+    font-weight: 600 !important;
+    cursor: pointer !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    transition: all 0.3s ease !important;
+    border-radius: 8px !important;
+}
+
+body.v3.pagebuilder.page-server-informationen .faq-question:hover {
+    background: rgba(22, 22, 22, 0.9) !important;
+}
+
+body.v3.pagebuilder.page-server-informationen .faq-answer {
+    padding: 0 20px !important;
+    max-height: 0 !important;
+    overflow: hidden !important;
+    transition: max-height 0.4s ease, padding 0.4s ease !important;
+
+}
+
+body.v3.pagebuilder.page-server-informationen .faq-item.active .faq-answer {
+    max-height: 500px !important;
+    padding: 20px !important;
+}
+
+body.v3.pagebuilder.page-server-informationen .faq-toggle {
+    font-family: monospace !important;
+    min-width: 20px !important;
+    text-align: center !important;
+}
 
 /* Mod list */
 body.v3.pagebuilder.page-server-informationen .mod-grid {
@@ -300,6 +309,7 @@ body.v3.pagebuilder.page-server-informationen .mod-image img {
 body.v3.pagebuilder.page-server-informationen .mod-card:hover .mod-image img {
     transform: scale(1.1) !important;
 }
+
 body.v3.pagebuilder.page-server-informationen .mod-card-link {
     text-decoration: none !important;
     color: inherit !important;
@@ -341,6 +351,7 @@ body.v3.pagebuilder.page-server-informationen .mod-card-link:hover .mod-card::af
     opacity: 1 !important;
     transform: translateY(0) !important;
 }
+
 body.v3.pagebuilder.page-server-informationen .mod-info {
     padding: 15px !important;
 }
@@ -359,10 +370,117 @@ body.v3.pagebuilder.page-server-informationen .mod-desc {
     text-overflow: ellipsis !important;
 }
 
+/* Badges */
+body.v3.pagebuilder.page-server-informationen .badges {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 10px !important;
+    margin-bottom: 20px !important;
+}
 
+body.v3.pagebuilder.page-server-informationen .badge {
+    background: rgba(163, 194, 87, 0.2) !important;
+    color: var(--accent) !important;
+    border-radius: 30px !important;
+    padding: 5px 15px !important;
+    font-size: 0.85rem !important;
+    font-weight: 500 !important;
+}
 
+/* Rules Section */
+body.v3.pagebuilder.page-server-informationen .rule-item {
+    margin-bottom: 15px !important;
+    padding-bottom: 15px !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
 
+body.v3.pagebuilder.page-server-informationen .rule-title {
+    font-weight: 700 !important;
+    color: var(--accent) !important;
+    margin-bottom: 8px !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 10px !important;
+}
 
+body.v3.pagebuilder.page-server-informationen .rule-desc {
+    color: #ddd !important;
+    padding-left: 25px !important;
+}
+
+/* Back to Top Button */
+body.v3.pagebuilder.page-server-informationen .back-to-top {
+    position: fixed !important;
+    right: 30px !important;
+    bottom: 30px !important;
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 50% !important;
+    background: var(--accent) !important;
+    color: var(--primary-dark) !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-size: 24px !important;
+    text-decoration: none !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3) !important;
+    z-index: 99 !important;
+}
+
+body.v3.pagebuilder.page-server-informationen .back-to-top.visible {
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+body.v3.pagebuilder.page-server-informationen .back-to-top:hover {
+    background: var(--accent-bright) !important;
+    transform: translateY(-5px) !important;
+}
+
+/* CSS for FAQ Toggle */
+body.v3.pagebuilder.page-server-informationen .faq-toggle-checkbox {
+    display: none !important; /* Hide the checkbox */
+}
+
+body.v3.pagebuilder.page-server-informationen .faq-toggle-icon::after {
+    content: '+' !important;
+    font-size: 18px !important;
+    font-family: monospace !important;
+    min-width: 20px !important;
+    text-align: center !important;
+    transition: all 0.3s ease !important;
+}
+
+body.v3.pagebuilder.page-server-informationen .faq-answer {
+    max-height: 0 !important;
+    overflow: hidden !important;
+    padding: 0 20px !important;
+    transition: all 0.5s ease !important;
+    opacity: 0 !important;
+    border-radius: 0 0 8px 8px !important;
+}
+
+/* Toggle functionality */
+body.v3.pagebuilder.page-server-informationen .faq-toggle-checkbox:checked + .faq-question {
+    border-radius: 8px 8px 0 0 !important;
+    background: rgba(28, 28, 28, 0.9) !important;
+    border-bottom: 1px solid rgba(163, 194, 87, 0.3) !important;
+}
+
+body.v3.pagebuilder.page-server-informationen .faq-toggle-checkbox:checked + .faq-question .faq-toggle-icon::after {
+    content: '-' !important;
+    color: var(--accent) !important;
+}
+
+body.v3.pagebuilder.page-server-informationen .faq-toggle-checkbox:checked ~ .faq-answer {
+    max-height: 1000px !important; /* Arbitrary large value */
+    padding: 20px !important;
+    opacity: 1 !important;
+    background: rgba(20, 20, 20, 0.5) !important;
+}
 /* Responsive */
 @media (max-width: 1100px) {
     body.v3.pagebuilder.page-server-informationen .info-container {
