@@ -55,7 +55,7 @@ body.v3.pagebuilder.page-home .slide-overlay {
 
 body.v3.pagebuilder.page-home .hero-content {
     text-align: center;
-    max-width: 900px;
+    max-width: 900px !important;
     z-index: 2;
     padding: 0 20px;
     opacity: 0;
@@ -783,12 +783,9 @@ body.v3.pagebuilder.page-reward-shop footer.footer{
 
 /* Responsive Anpassungen */
 @media (min-width: 768px) {
-
+    body.v3.pagebuilder.page-home  .hero-title span,
     body.v3.pagebuilder.page-home  .wysiwyg-content h1.hero-title {
-        font-size: 4.5rem !important;
-    }
-    body.v3.pagebuilder.page-home  .hero-title span {
-        font-size: 4.5rem !important;
+        font-size: 7.5rem !important;
     }
 }
 @media (max-width: 576px) {
@@ -848,8 +845,9 @@ body.v3.pagebuilder.page-reward-shop footer.footer{
         font-size: 2rem !important;
     }
     
-    body.v3.pagebuilder.page-home .hero-title {
-        font-size: 2.2rem !important;
+    body.v3.pagebuilder.page-home  .hero-title span,
+    body.v3.pagebuilder.page-home  .wysiwyg-content h1.hero-title {
+        font-size: 3.5rem;
     }
     
     body.v3.pagebuilder.page-home .hero-subtitle {
