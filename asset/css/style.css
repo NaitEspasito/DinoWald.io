@@ -3,11 +3,6 @@
 @import url('ServerInformationen.css');
 @import url('home.css');
 
-html {
-    font-size: 10px;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    scroll-behavior: smooth;
-}
 /* Grundlegende Variablen */
 :root {
     --primary: #1c1c1c;
@@ -23,6 +18,11 @@ html {
 }
 
 /* Reset und Basisstile */
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    scroll-behavior: smooth;
+}
 * {
     margin: 0;
     padding: 0;
