@@ -29,7 +29,7 @@ body.v3.pagebuilder.page-server-informationen .page-title::after {
 
 body.v3.pagebuilder.page-server-informationen .section-title {
     font-family: 'Orbitron', sans-serif !important;
-    font-size: 2.2rem;
+    font-size: 3rem;
     font-weight: 700;
     margin-bottom: 25px;
     color: var(--accent);
@@ -129,7 +129,15 @@ body.v3.pagebuilder.page-server-informationen .info-section {
     border: 1px solid rgba(163, 194, 87, 0.2) !important;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2) !important;
 }
-
+body.v3.pagebuilder.page-server-informationen .info-section p {
+    color: #fff !important;
+    font-size: 1.2rem;
+}
+body.v3.pagebuilder.page-server-informationen .info-section p strong{
+    color: #fff !important;
+    font-size: 1.3rem;
+    color: var(--accent) !important;
+}
 body.v3.pagebuilder.page-server-informationen .info-section:target {
     animation: highlight 1.5s ease-out !important;
 }
@@ -138,14 +146,16 @@ body.v3.pagebuilder.page-server-informationen .info-section:target {
     0% { border-color: var(--accent) !important; box-shadow: 0 0 30px rgba(163, 194, 87, 0.6) !important; }
     100% { border-color: rgba(163, 194, 87, 0.2) !important; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2) !important; }
 }
+body.v3.pagebuilder.page-server-informationen p.rule-desc,
 body.v3.pagebuilder.page-server-informationen .info-section li,
 body.v3.pagebuilder.page-server-informationen .info-section ul,
 body.v3.pagebuilder.page-server-informationen .info-section ol{
     color: #ffffff !important;
     font-size: 1.4rem;
-    margin-left: 1rem;
-    margin-bottom: 15px;
+    margin-left: 10px;
+    line-height: 1.8;
 }
+body.v3.pagebuilder.page-server-informationen p.rule-desc strong,
 body.v3.pagebuilder.page-server-informationen .info-section li strong {
     color: #ffffff !important;
     font-size: 1.5rem;
@@ -187,7 +197,11 @@ body.v3.pagebuilder.page-server-informationen .connection-box {
     margin: 20px 0 !important;
     border-left: 4px solid var(--accent) !important;
 }
-
+body.v3.pagebuilder.page-server-informationen .connection-box p {
+    color: #fff !important;
+    font-size: 1.4rem;
+}
+body.v3.pagebuilder.page-server-informationen .connection-box p strong {font-size: 1.5rem;color: #fff!important;}
 body.v3.pagebuilder.page-server-informationen p.connection-title {
     font-family: 'Orbitron', sans-serif !important;
     font-size: 1.1rem !important;
@@ -393,12 +407,6 @@ body.v3.pagebuilder.page-server-informationen .rule-title {
     align-items: center !important;
     gap: 10px !important;
 }
-
-body.v3.pagebuilder.page-server-informationen .rule-desc {
-    color: #ddd !important;
-    padding-left: 25px !important;
-}
-
 /* Back to Top Button */
 body.v3.pagebuilder.page-server-informationen .back-to-top {
     position: fixed !important;
