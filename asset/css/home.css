@@ -236,6 +236,7 @@ body.v3.pagebuilder.page-home .feature-icon {
     font-size: 30px;
     color: var(--accent);
 }
+body.v3.pagebuilder.page-server-informationen .page-title,
 body.v3.pagebuilder.page-reward-shop .page-title,
 body.v3.pagebuilder.page-home .cta-title,
 body.v3.pagebuilder.page-home .main_content h1,
@@ -251,6 +252,7 @@ body.v3.pagebuilder.page-home .features .section-title{
     position: relative;
     text-transform: uppercase;
 }
+body.v3.pagebuilder.page-server-informationen .page-title::after,
 body.v3.pagebuilder.page-reward-shop .page-title::after,
 body.v3.pagebuilder.page-home .cta-title::after,
 body.v3.pagebuilder.page-home .server-slider .text-center::after,
