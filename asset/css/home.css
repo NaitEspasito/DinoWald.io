@@ -243,8 +243,7 @@ body.v3.pagebuilder.page-home .features .section-title{
     font-family: 'Orbitron', sans-serif !important;
     font-size: 4rem;
     font-weight: 800;
-    margin: 25px;
-    margin-bottom: 20px;
+    margin: 50px 20px 25px 20px;
     color: var(--light);
     text-align: center;
     position: relative;
