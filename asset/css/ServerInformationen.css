@@ -29,19 +29,27 @@ body.v3.pagebuilder.page-server-informationen .page-title::after {
 
 body.v3.pagebuilder.page-server-informationen .section-title {
     font-family: 'Orbitron', sans-serif !important;
-    font-size: 2.2rem !important;
-    font-weight: 700 !important;
-    margin-bottom: 25px !important;
-    color: var(--accent) !important;
-    position: relative !important;
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: var(--accent);
+    position: relative;
 }
-
+body.v3.pagebuilder.page-server-informationen h3 {
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
 /* Server Info Page Specific Styles */
 body.v3.pagebuilder.page-server-informationen .info-container {
     display: flex !important;
     margin-top: 50px !important;
 }
-
+body.v3.pagebuilder.page-server-informationen  .info-section .sup-titel{
+    color: #aaa !important;
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+}
 /* Side Navigation */
 body.v3.pagebuilder.page-server-informationen .info-sidebar {
     width: 300px !important;
@@ -130,26 +138,18 @@ body.v3.pagebuilder.page-server-informationen .info-section:target {
     0% { border-color: var(--accent) !important; box-shadow: 0 0 30px rgba(163, 194, 87, 0.6) !important; }
     100% { border-color: rgba(163, 194, 87, 0.2) !important; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2) !important; }
 }
-
-body.v3.pagebuilder.page-server-informationen .info-section p {
-    color: #ddd !important;
-    line-height: 1.8 !important;
-    margin-bottom: 20px !important;
-    font-size: 1.05rem !important;
+body.v3.pagebuilder.page-server-informationen .info-section li,
+body.v3.pagebuilder.page-server-informationen .info-section ul,
+body.v3.pagebuilder.page-server-informationen .info-section ol{
+    color: #ffffff !important;
+    font-size: 1.4rem;
+    margin-left: 1rem;
+    margin-bottom: 15px;
 }
-
-body.v3.pagebuilder.page-server-informationen .info-section ul, 
-body.v3.pagebuilder.page-server-informationen .info-section ol {
-    color: #ddd !important;
-    line-height: 1.7 !important;
-    margin-bottom: 20px !important;
-    margin-left: 20px !important;
+body.v3.pagebuilder.page-server-informationen .info-section li strong {
+    color: #ffffff !important;
+    font-size: 1.5rem;
 }
-
-body.v3.pagebuilder.page-server-informationen .info-section li {
-    margin-bottom: 10px !important;
-}
-
 /* Table styles */
 body.v3.pagebuilder.page-server-informationen .info-table {
     width: 100% !important;
@@ -188,7 +188,7 @@ body.v3.pagebuilder.page-server-informationen .connection-box {
     border-left: 4px solid var(--accent) !important;
 }
 
-body.v3.pagebuilder.page-server-informationen .connection-title {
+body.v3.pagebuilder.page-server-informationen p.connection-title {
     font-family: 'Orbitron', sans-serif !important;
     font-size: 1.1rem !important;
     color: var(--accent) !important;
@@ -196,14 +196,14 @@ body.v3.pagebuilder.page-server-informationen .connection-title {
 }
 
 body.v3.pagebuilder.page-server-informationen .server-address {
-    font-family: 'Courier New', monospace !important;
-    background: rgba(0, 0, 0, 0.3) !important;
-    padding: 10px 15px !important;
-    border-radius: 8px !important;
-    margin-bottom: 10px !important;
-    display: flex !important;
-    justify-content: space-between !important;
-    align-items: center !important;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.4rem;
 }
 
 body.v3.pagebuilder.page-server-informationen .copy-btn {
@@ -363,19 +363,19 @@ body.v3.pagebuilder.page-server-informationen .mod-desc {
 
 /* Badges */
 body.v3.pagebuilder.page-server-informationen .badges {
-    display: flex !important;
-    flex-wrap: wrap !important;
-    gap: 10px !important;
-    margin-bottom: 20px !important;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
 }
 
 body.v3.pagebuilder.page-server-informationen .badge {
-    background: rgba(163, 194, 87, 0.2) !important;
-    color: var(--accent) !important;
-    border-radius: 30px !important;
-    padding: 5px 15px !important;
-    font-size: 0.85rem !important;
-    font-weight: 500 !important;
+    background: rgba(163, 194, 87, 0.2);
+    color: var(--accent);
+    border-radius: 30px;
+    padding: 5px 15px;
+    font-size: 1.3rem;
+    font-weight: 500;
 }
 
 /* Rules Section */
