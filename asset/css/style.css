@@ -3,7 +3,8 @@
 @import url('ServerInformationen.css');
 @import url('home.css');
 @import url('MapExplorer.css');
-
+@import url('ShopItemList.css');
+@import url('ShopItem.css');
 /* Grundlegende Variablen */
 :root {
     --primary: #1c1c1c;
