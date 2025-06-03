@@ -626,6 +626,148 @@ body.v3.pagebuilder.page-server-informationen .faq-toggle-checkbox:checked ~ .fa
 body.v3.pagebuilder.page-server-informationen footer.footer {
     display: none;
 }
+ /* Stil für Regeländerungen-Badge */
+.rule-update-badge {
+    display: inline-flex;
+    align-items: center;
+    background-color: #f44336;
+    color: white;
+    font-size: 0.75rem;
+    font-weight: bold;
+    padding: 3px 8px;
+    border-radius: 12px;
+    margin-left: 10px;
+    vertical-align: middle;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% { box-shadow: 0 0 0 0 rgba(244, 67, 54, 0.7); }
+    70% { box-shadow: 0 0 0 6px rgba(244, 67, 54, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(244, 67, 54, 0); }
+}
+
+/* CSS-Only schließbare Benachrichtigungen mit Checkbox-Hack */
+body.v3.pagebuilder.page-server-informationen .rule-notification-container {
+    position: relative;
+}
+
+body.v3.pagebuilder.page-server-informationen .rule-notification-checkbox {
+    display: none;
+}
+
+body.v3.pagebuilder.page-server-informationen .rule-notification {
+    background: rgba(244, 67, 54, 0.1);
+    border-left: 4px solid #f44336;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 4px;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    transition: all 0.3s ease;
+}
+
+body.v3.pagebuilder.page-server-informationen .rule-notification-icon {
+    font-size: 24px;
+    color: #f44336;
+    margin-right: 15px;
+    flex-shrink: 0;
+}
+
+body.v3.pagebuilder.page-server-informationen .rule-notification-content {
+    flex-grow: 1;
+}
+
+body.v3.pagebuilder.page-server-informationen .rule-notification-title {
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #f44336;
+    display: flex;
+    align-items: center;
+}
+
+body.v3.pagebuilder.page-server-informationen .rule-notification-date {
+    font-size: 0.8rem;
+    color: #777;
+    margin-left: 10px;
+}
+
+body.v3.pagebuilder.page-server-informationen .rule-notification-text {
+    color: #333;
+    margin: 0;
+}
+
+/* Stilisierung der Close-Button Label */
+body.v3.pagebuilder.page-server-informationen .rule-notification-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 24px;
+    height: 24px;
+    font-size: 18px;
+    color: #999;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+body.v3.pagebuilder.page-server-informationen .rule-notification-close:hover {
+    color: #555;
+}
+
+body.v3.pagebuilder.page-server-informationen .rule-notification-close::before {
+    content: "×";
+}
+
+/* Der Checkbox-Hack: Wenn die Checkbox angehakt ist, verstecke die Benachrichtigung */
+body.v3.pagebuilder.page-server-informationen .rule-notification-checkbox:checked + .rule-notification {
+    display: none;
+}
+
+/* Stil für durchgestrichene alte Regeln */
+body.v3.pagebuilder.page-server-informationen .rule-old {
+    text-decoration: line-through;
+    color: #999;
+}
+
+/* Stil für hervorgehobene neue Regeln */
+body.v3.pagebuilder.page-server-informationen .rule-new {
+    background-color: rgba(76, 175, 80, 0.1);
+    padding: 2px 5px;
+    border-radius: 3px;
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+/* Neue Farbvarianten für Badges */
+body.v3.pagebuilder.page-server-informationen .badge-new {
+    background-color: #4CAF50;
+}
+
+body.v3.pagebuilder.page-server-informationen .badge-changed {
+    background-color: #FF9800;
+}
+
+body.v3.pagebuilder.page-server-informationen .badge-important {
+    background-color: #f44336;
+}
+
+/* Responsive Anpassungen */
+@media (max-width: 576px) {
+    body.v3.pagebuilder.page-server-informationen .rule-notification {
+        padding: 12px;
+        flex-direction: column;
+    }
+    
+    body.v3.pagebuilder.page-server-informationen .rule-notification-icon {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
 /* Responsive */
 @media (max-width: 1100px) {
     body.v3.pagebuilder.page-server-informationen .info-container {
