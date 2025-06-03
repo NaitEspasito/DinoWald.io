@@ -553,7 +553,10 @@ body.v3.pagebuilder.page-home .cta-content {
     margin: 0 auto;
     position: relative;
 }
-
+/* Footer Orginal */
+body.v3.pagebuilder.page-home footer.footer {
+    display: none;
+}
 
 
 
