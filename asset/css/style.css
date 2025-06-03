@@ -294,27 +294,26 @@ body.v3 .main-nav .navbar-nav>li>a.login:hover {
     transform: translateY(0);
 }
 
-.submenu.dropdown-menu {
+.dropdown-menu {
     background: rgba(28, 28, 28, 0.95) !important;
     border: 1px solid rgba(163, 194, 87, 0.2) !important;
     border-radius: 8px !important;
     padding: 10px 0 !important;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3) !important;
     margin-top: 0 !important;
-    opacity: 0 !important;
-    visibility: hidden !important;
+    opacity: 1 !important;
     transform: translateY(10px) !important;
     transition: all 0.3s ease !important;
     display: block !important;
 }
 
-.submenu.dropdown-menu li a {
+.dropdown-menu li a {
     color: #ddd !important;
     padding: 12px 20px !important;
     transition: all 0.3s ease !important;
 }
 
-.submenu.dropdown-menu li a:hover {
+.dropdown-menu li a:hover {
     background: rgba(163, 194, 87, 0.1) !important;
     color: var(--accent) !important;
     padding-left: 25px !important;
@@ -520,22 +519,6 @@ footer#contact .footer-bottom {
     color: #aaa !important;
     font-size: 0.9rem !important;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Responsive Anpassungen */
 @media (min-width: 768px) {
