@@ -1,1 +1,4 @@
-asdad
+/* Footer Orginal */
+body.v3.pagebuilder.page-server-informationen footer.footer {
+    display: none;
+}
