@@ -90,7 +90,7 @@ body.v3.package-single .btn.btn-theme::before {
     transition: 0.5s;
 }
 body.v3.package-single .btn.btn-theme:hover {
-    background: var(--accent);
+    background: var(--accent) !important;
     color: var(--primary-dark) !important;
     transform: translateY(-5px);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
