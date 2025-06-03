@@ -106,10 +106,10 @@ body.v3.shop .label.label-theme.top-left {
     top: 16px;
     left: 17px;
     background: #a3c257;
-    color: #1c1c1c;
+    color: #1c1c1c !important;
     padding: 6px 18px;
     border-radius: 20px;
-    font-size: 0.91em;
+    font-size: 1.2rem;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1.2px;
@@ -119,9 +119,8 @@ body.v3.shop .label.label-theme.top-left {
 /* --- Package Image --- */
 body.v3.shop .image-container {
     width: 100%;
-    max-width: 160px;
     aspect-ratio: 1/1;
-    margin: 0 auto 15px auto;
+    margin: 20px auto 15px auto;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 6px 22px rgba(163,194,87,0.08);
@@ -129,6 +128,7 @@ body.v3.shop .image-container {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100%;
 }
 body.v3.shop .image-container img {
     width: 100%;
@@ -142,8 +142,8 @@ body.v3.shop .purchase-package.package-small:hover .image-container img {
 
 /* --- Package Title --- */
 body.v3.shop h4.title {
-    font-family: 'Orbitron', sans-serif;
-    font-size: 1.25em;
+    font-family: 'Orbitron', sans-serif !important;
+    font-size: 1.5rem;
     font-weight: 700;
     color: #a3c257;
     margin: 12px 0 8px 0;
@@ -151,20 +151,17 @@ body.v3.shop h4.title {
     text-transform: uppercase;
 }
 
-body.v3.shop h4.title span {
-    color: #fff;
-    letter-spacing: 0.3px;
-    font-weight: 600;
-}
+body.v3.shop h4.title span {font-family: 'Orbitron', sans-serif !important;font-size: 1.8rem;font-weight: 700;color: #fff;margin: 12px 0 8px 0;letter-spacing: 0.8px;text-transform: uppercase;}
 
 /* --- Progress Bar --- */
 body.v3.shop .progress {
     background: rgba(163, 194, 87, 0.05);
     border-radius: 12px;
-    margin: 12px 0 4px 0;
+    margin: 20px auto 20px auto;
     height: 28px;
     position: relative;
     box-shadow: 0 2px 6px rgba(163,194,87,0.05);
+    max-width: 100%;
 }
 body.v3.shop .progress-bar-info {
     background: linear-gradient(90deg, #a3c257 10%, #dff0bd 100%);
@@ -175,9 +172,9 @@ body.v3.shop .progress-bar-info {
 }
 body.v3.shop .progress .detail {
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
+    /* top: 0; */
+    /* left: 0; */
+    /* right: 0; */
     height: 100%;
     font-size: 1.4em;
     color: #a3c257;
@@ -191,41 +188,59 @@ body.v3.shop .progress .detail {
 
 /* --- Costs --- */
 body.v3.shop .costs {
-    margin: 18px 0 8px 0;
-    font-size: 1.07em;
+    margin: 18px 0 8px 0 !important;
+    font-size: 1.4em;
     font-weight: 700;
-    color: #a3c257;
+    color: #a3c257 !important;
     letter-spacing: 1px;
     background: rgba(163,194,87,0.09);
     border-radius: 10px;
-    padding: 9px 0;
+    padding: 8px 0;
 }
 
 /* --- Details Button --- */
 body.v3.shop .btn.btn-theme {
-    background: rgba(163, 194, 87, 0.18);
-    color: #a3c257;
-    border: 1px solid rgba(163, 194, 87, 0.3);
-    padding: 10px 27px;
-    border-radius: 8px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 1em;
     margin-top: auto;
-    transition: all 0.3s;
-    margin-bottom: 0;
-    box-shadow: 0 2px 10px rgba(163,194,87,0.05);
-    outline: none;
-}
-body.v3.shop .btn.btn-theme:hover, .btn.btn-theme:focus {
-    background: #a3c257;
-    color: #1c1c1c;
-    border-color: #a3c257;
-    box-shadow: 0 8px 24px rgba(163,194,87,0.20);
+    display: inline-block;
+    padding: 14px 30px;
+    background: var(--primary-light);
+    color: white !important;
+    border: 2px solid var(--accent);
+    border-radius: 8px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
     text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    letter-spacing: 1px;
+    position: relative;
+    overflow: hidden;
 }
-
+body.v3.shop .btn.btn-theme::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(255, 255, 255, 0.2),
+        transparent
+    );
+    transition: 0.5s;
+}
+body.v3.shop .btn.btn-theme:hover {
+    background: var(--accent);
+    color: var(--primary-dark) !important;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+body.v3.shop .btn.btn-theme:hover::before {
+    left: 100%;
+}
 /* --- Pagination --- */
 body.v3.shop .paginate {
     text-align: center;
