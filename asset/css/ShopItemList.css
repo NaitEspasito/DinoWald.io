@@ -94,6 +94,7 @@ body.v3.shop .purchase-package.package-small {
     align-items: center;
     transition: box-shadow 0.3s, border-color 0.3s, transform 0.25s;
     position: relative;
+    width: 100%;
 }
 body.v3.shop .purchase-package.package-small:hover {
     border-color: #a3c257;
@@ -178,7 +179,7 @@ body.v3.shop .progress .detail {
     left: 0;
     right: 0;
     height: 100%;
-    font-size: 0.98em;
+    font-size: 1.4em;
     color: #a3c257;
     display: flex;
     align-items: center;
