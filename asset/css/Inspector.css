@@ -175,3 +175,33 @@ body.v3.inspector .btn.btn-theme.center:hover::before,
 body.v3.inspector .btn.btn-theme.tiny:hover::before {
     left: 100%;
 }
+/* --- Pagination --- */
+body.v3.inspector .paginate {
+    text-align: center;
+    margin-top: 18px;
+}
+body.v3.inspector .paginate ul.pagination {
+    display: inline-flex;
+    background: none;
+    padding: 0;
+    border-radius: 8px;
+    box-shadow: none;
+}
+body.v3.inspector .paginate ul.pagination li {
+    margin: 0 3px;
+}
+body.v3.inspector .paginate ul.pagination li .page-link {
+    background: rgba(28,28,28,0.93);
+    color: #a3c257;
+    border: 1px solid #a3c257;
+    border-radius: 6px;
+    padding: 7px 16px;
+    font-weight: 600;
+}
+body.v3.inspector .paginate ul.pagination li.active .page-link, 
+body.v3.inspector .paginate ul.pagination li .page-link:focus, 
+body.v3.inspector .paginate ul.pagination li .page-link:hover {
+    background: #a3c257;
+    color: #1c1c1c;
+    border-color: #a3c257;
+}
