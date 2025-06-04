@@ -172,12 +172,9 @@ body.v3.shop .progress-bar-info {
 }
 body.v3.shop .progress .detail {
     position: absolute;
-    /* top: 0; */
-    /* left: 0; */
-    /* right: 0; */
     height: 100%;
     font-size: 1.4em;
-    color: #a3c257;
+    color: #757575;
     display: flex;
     align-items: center;
     justify-content: center;
