@@ -5,6 +5,8 @@
 @import url('MapExplorer.css');
 @import url('ShopItemList.css');
 @import url('ShopItem.css');
+@import url('Inspector.css');
+
 /* Grundlegende Variablen */
 :root {
     --primary: #1c1c1c;
