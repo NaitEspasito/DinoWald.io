@@ -1,3 +1,84 @@
+/* --- General Layout & Typography --- */
+body.v3.inspector .main_content {
+    font-family: 'Montserrat', sans-serif !important;
+    color: #f5f5f5;
+    background: #1c1c1c;
+    border-radius: 18px;
+    padding: 1px 20px 40px 20px;
+    max-width: 1500px;
+    margin: 90px auto 40px auto;
+}
+
+body.v3.inspector ol.breadcrumb {
+    background: rgba(28,28,28,0.8);
+    border-radius: 8px;
+    padding: 15px 25px;
+    margin-bottom: 30px;
+    border: 1px solid rgba(163,194,87,0.2);
+    font-size: 1.04rem;
+}
+body.v3.inspector .breadcrumb > li > a {
+    color: #a3c257;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+body.v3.inspector .breadcrumb > li + li:before {
+    color: #aaa;
+    content: ">\00a0";
+    font-size: 1.4rem;
+}
+body.v3.inspector .breadcrumb > li + li {
+    color: #aaa;
+    font-size: 1.4rem;
+}
+
+/* --- Title --- */
+body.v3.inspector .main_content h5 {
+    color: #aaa !important;
+    font-size: 2rem;
+    line-height: 2.2rem;
+    margin-bottom: 2rem;
+    }
+
+/* --- Search Bar & Filter Select --- */
+body.v3.inspector input[type="text"] {
+    width: 100%;
+    background: rgba(28,28,28,0.92);
+    color: #f5f5f5;
+    border: 1.5px solid #a3c257;
+    border-radius: 8px;
+    padding: 12px 20px;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    outline: none;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.09);
+}
+body.v3.inspector input[type="text"]:focus {
+    border-color: #dff0bd;
+    box-shadow: 0 0 12px #a3c25733;
+}
+body.v3.inspector select {
+    width: 100%;
+    background: rgba(28,28,28,0.95);
+    color: #a3c257;
+    border: 1.5px solid #a3c257;
+    border-radius: 8px;
+    padding: 12px 16px;
+    font-size: 1.4rem;
+    outline: none;
+    margin-bottom: 10px;
+    transition: border-color 0.3s;
+}
+body.v3.inspector select:focus {
+    border-color: #dff0bd;
+    background: rgba(28,28,28,0.95);
+    color: #a3c257;
+    border: 1.5px solid #a3c257;
+    border-radius: 8px;
+    padding: 12px 16px;
+    font-size: 1.4rem;
+}
 body.v3.inspector .frame.basic {
     background: rgba(34,34,34,0.98);
     border-radius: 18px;
@@ -5,15 +86,14 @@ body.v3.inspector .frame.basic {
     box-shadow: 0 8px 32px rgba(0,0,0,0.16);
     padding: 25px 18px 28px 18px;
     margin-bottom: 10px;
-    min-height: 480px;
+    min-height: 400px;
     display: flex;
-    flex-direction: column;
     align-items: center;
     transition: box-shadow 0.3s, border-color 0.3s, transform 0.25s;
     position: relative;
     width: 100%;
 }
-body.v3.inspector .frame basic :hover {
+body.v3.inspector .frame.basic:hover {
     border-color: #a3c257;
     box-shadow: 0 14px 40px rgba(163,194,87,0.12), 0 2px 8px rgba(0,0,0,0.16);
     transform: translateY(-8px) scale(1.03);
