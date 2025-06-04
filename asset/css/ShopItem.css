@@ -161,7 +161,10 @@ body.v3.package-single .main-image {
     padding: 20px;
     transition: transform 0.3s, box-shadow 0.3s;
 }
-
+body.v3.package-single .label.label-theme.top-left {
+    padding: .4rem .8rem;
+    font-size: 1.2rem;
+}
 body.v3.package-single .main-image:hover {
     transform: translateY(-6px);
     box-shadow: 0 18px 40px rgba(163,194,87,0.12), 0 10px 20px rgba(0,0,0,0.2);
@@ -530,6 +533,7 @@ body.v3.package-single .modal-footer .btn-default:hover {
 body.v3.package-single .modal-footer .btn-default:hover::before {
     left: 100%;
 }
+body.v3.package-single .discounted_price,
 body.v3.package-single .text-center .progress + p {
     line-height: 2.4rem;
 }
