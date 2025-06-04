@@ -530,3 +530,6 @@ body.v3.package-single .modal-footer .btn-default:hover {
 body.v3.package-single .modal-footer .btn-default:hover::before {
     left: 100%;
 }
+body.v3.package-single .text-center .progress + p {
+    line-height: 2.4rem;
+}
