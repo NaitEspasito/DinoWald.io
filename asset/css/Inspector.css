@@ -8,6 +8,7 @@ body.v3.inspector .main_content {
     max-width: 1500px;
     margin: 90px auto 40px auto;
 }
+
 body.v3.inspector ol.breadcrumb {
     background: rgba(28,28,28,0.8);
     border-radius: 8px;
@@ -30,6 +31,7 @@ body.v3.inspector .breadcrumb > li + li {
     color: #aaa;
     font-size: 1.4rem;
 }
+
 /* --- Title --- */
 body.v3.inspector .main_content h5 {
     color: #aaa !important;
@@ -37,6 +39,7 @@ body.v3.inspector .main_content h5 {
     line-height: 2.2rem;
     margin-bottom: 2rem;
     }
+
 /* --- Search Bar & Filter Select --- */
 body.v3.inspector input[type="text"] {
     width: 100%;
@@ -90,8 +93,68 @@ body.v3.inspector .frame.basic {
     position: relative;
     width: 100%;
 }
-body.v3.inspector .frame.basic:hover {
-    border-color: #a3c257;
-    box-shadow: 0 14px 40px rgba(163,194,87,0.12), 0 2px 8px rgba(0,0,0,0.16);
-    transform: translateY(-8px) scale(1.03);
+body.v3.inspector .characterlink span {
+    font-family: 'Orbitron', sans-serif !important;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #fff;
+    margin: 12px 0 8px 0;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+}
+body.v3.inspector .summary {
+    font-size: 1.5rem;
+    letter-spacing: 0.8px;
+    line-height: 1.5;
+}
+body.v3.inspector .summary .owner span,
+body.v3.inspector .summary .tribe span{
+    color: var(--accent);
+    padding-right: 5px;
+}
+body.v3.inspector .btn.btn-theme.tiny {
+    display: inline-block;
+    padding: 14px 30px;
+    background: var(--primary-light);
+    border: 2px solid var(--accent);
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    letter-spacing: 1px;
+    position: relative;
+    overflow: hidden;
+}
+body.v3.inspector .btn.btn-theme.tiny span {
+    font-size: 1.1rem !important;
+    ont-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ddd;
+    font-family: 'Orbitron', sans-serif !important;
+}
+body.v3.inspector .btn.btn-theme.tiny:hover span{
+    color: var(--primary-dark) !important;
+}
+body.v3.inspector .btn.btn-theme.tiny::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(255, 255, 255, 0.2),
+        transparent
+    );
+    transition: 0.5s;
+}
+body.v3.inspector .btn.btn-theme.tiny:hover {
+    background: var(--accent);
+    color: var(--primary-dark) !important;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+body.v3.inspector .btn.btn-theme.tiny:hover::before {
+    left: 100%;
 }
