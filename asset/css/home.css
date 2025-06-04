@@ -253,7 +253,7 @@ body.v3.pagebuilder.page-home .features .section-title{
     position: relative;
     text-transform: uppercase;
 }
-body.v3.pagebuilder.page-skin-shop .page-title::after
+body.v3.pagebuilder.page-skin-shop .page-title::after,
 body.v3.pagebuilder.page-server-informationen .page-title::after,
 body.v3.pagebuilder.page-reward-shop .page-title::after,
 body.v3.pagebuilder.page-home .cta-title::after,
