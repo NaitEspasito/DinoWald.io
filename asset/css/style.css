@@ -200,7 +200,7 @@ body.v3 .main-nav .navbar-nav>li>a {
     padding: 30px 15px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-size: 14px;
+    font-size: 13px;
     position: relative;
     transition: all 0.3s ease;
 }
@@ -317,8 +317,9 @@ body.v3 .main-nav .navbar-nav>li>a.login:hover {
 }
 .dropdown-menu li a {
     color: #ddd !important;
-    padding: 12px 20px !important;
+    padding: 5px 20px !important;
     transition: all 0.3s ease !important;
+    font-size: 1.1rem;
 }
 
 .dropdown-menu li a:hover {
