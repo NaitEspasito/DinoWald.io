@@ -1,0 +1,11 @@
+body.v3.pagebuilder.page-server-ubersicht .page-title {
+    font-family: 'Orbitron', sans-serif !important;
+    font-size: 3rem !important;
+    font-weight: 800 !important;
+    margin-bottom: 30px !important;
+    color: var(--light) !important;
+    text-align: center !important;
+    position: relative !important;
+    text-transform: uppercase !important;
+    padding-top: 50px !important;
+}
