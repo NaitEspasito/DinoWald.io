@@ -1,3 +1,5 @@
+body.v3.pagebuilder.page-server-ubersicht .container-fluid .center-block,
+body.v3.pagebuilder.page-server-informationen .container-fluid .center-block,
 body.v3.pagebuilder.page-home .banner .container-fluid .center-block {
     margin: 0;
     width: 100%;
@@ -561,7 +563,6 @@ body.v3.pagebuilder.page-home .cta-content {
 body.v3.pagebuilder.page-home footer.footer {
     display: none;
 }
-
 
 
 
