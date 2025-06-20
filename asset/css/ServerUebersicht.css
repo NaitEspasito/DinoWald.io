@@ -311,3 +311,7 @@ body.v3.pagebuilder.page-server-ubersicht .info-table tr:hover {
 body.v3.pagebuilder.page-server-ubersicht footer.footer {
     display: none;
 }
+body.v3.pagebuilder.page-server-informationen .banner .container-fluid .center-block .row {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
