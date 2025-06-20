@@ -380,8 +380,8 @@ body.v3.pagebuilder.page-turtorials .banner .container-fluid .center-block,
 body.v3.pagebuilder.page-map-explorer .banner .container-fluid .center-block,
 body.v3.pagebuilder.page-skin-shop .banner .container-fluid .center-block,
 body.v3.pagebuilder.page-reward-shop .banner .container-fluid .center-block
-body.v3.pagebuilder.page-server-ubersicht .container-fluid .center-block,
-body.v3.pagebuilder.page-server-informationen .container-fluid .center-block,
+body.v3.pagebuilder.page-server-ubersicht .banner .container-fluid .center-block,
+body.v3.pagebuilder.page-server-informationen .banner .container-fluid .center-block,
 body.v3.pagebuilder.page-home .banner .container-fluid .center-block {
     margin: 0 !important;
     width: 100% !important;
@@ -390,8 +390,8 @@ body.v3.pagebuilder.page-turtorials .banner .container-fluid .center-block.row,
 body.v3.pagebuilder.page-map-explorer .banner .container-fluid .center-block.row,
 body.v3.pagebuilder.page-skin-shop .banner .container-fluid .center-block.row,
 body.v3.pagebuilder.page-reward-shop .banner .container-fluid .center-block.row,
-body.v3.pagebuilder.page-server-ubersicht .container-fluid .center-block .row,
-body.v3.pagebuilder.page-server-informationen .container-fluid .center-block .row,
+body.v3.pagebuilder.page-server-ubersicht .banner .container-fluid .center-block .row,
+body.v3.pagebuilder.page-server-informationen .banner .container-fluid .center-block .row,
 body.v3.pagebuilder.page-home .banner .container-fluid .center-block .row {
     padding-top: 0px !important;
     padding-bottom: 0px !important;
