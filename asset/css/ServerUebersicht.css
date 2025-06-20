@@ -335,3 +335,10 @@ body.v3.pagebuilder.page-server-ubersicht .info-table tr:nth-child(even) {
 body.v3.pagebuilder.page-server-ubersicht .info-table tr:hover {
     background: rgba(163, 194, 87, 0.1) !important;
 }
+
+
+
+/* Footer Orginal */
+body.v3.pagebuilder.page-server-ubersicht footer.footer {
+    display: none;
+}

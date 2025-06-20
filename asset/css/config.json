@@ -1,0 +1,318 @@
+{
+  "AccountKey": "9A3204617AC2847B427729C954144166FA0B0825DB6E1197B285923D94039C90",
+  "AutoRenewLicense": false,
+  "HostLicense": true,
+  "Commands": {
+    "Limits": "/limits",
+    "Linked": "/linked",
+    "ToggleNoticiations": "/notify",
+    "ConfigReload": "LethalLimits.Reload",
+    "DumpBlueprints": "LethalLimits.DumpBlueprints"
+  },
+  "Permissions": {
+    "IgnoreAfterXDaysOfInactivity": 30,
+    "Ranking": [
+	  "Admins",
+      "Default"
+    ]
+  },
+  "General": {
+    "MaxDinos": {
+      "Default": 150,
+	    "Admins": 150
+    },
+    "MaxStructures": {
+      "Default": 7500,
+	  "Admins": 7500
+    },
+    "MaxConnectedStructures": {
+      "Default": 7500,
+	  "Admins": 7500
+    },
+    "ShowRealtimeCounts": true,
+    "RealtimeNotificationPermissionGroup": "LimitsNotify",
+    "OverLimitRestrictions": {
+      "WarnOnly": false,
+      "AllowConsumables": true,
+      "AllowAdminByPass": false
+    }
+  },
+  "IgnoresLimits": [
+    "Blueprint'/LethalProtection/_structure/PrimalItemStructure_LethalProtection_Shield.PrimalItemStructure_LethalProtection_Shield'",
+    "Blueprint'/Game/PrimalEarth/Structures/DeathItemCache_PlayerDeath.DeathItemCache_PlayerDeath'",
+    "Blueprint'/Game/PrimalEarth/Structures/DeathItemCache.DeathItemCache'",
+    "Blueprint'/Game/PrimalEarth/Test/PrimalItemC4Ammo.PrimalItemC4Ammo'",
+    "Blueprint'/ASA_AlfaOceanicPlataform/AlfaFloatingOcean/ASAItemStructure_OceanPlatform_Ladder.ASAItemStructure_OceanPlatform_Ladder'",
+    "Blueprint'/ASA_AlfaOceanicPlataform/AlfaFloatingOcean/ASAItemStructure_OceanPlatform_FakeGate.ASAItemStructure_OceanPlatform_FakeGate'",
+    "Blueprint'/ASA_AlfaOceanicPlataform/AlfaFloatingOcean/ASAItemStructure_OceanPlatform_WoodClosed.ASAItemStructure_OceanPlatform_WoodClosed'",
+    "Blueprint'/ASA_AlfaOceanicPlataform/AlfaFloatingOcean/ASAItemStructure_OceanPlatform_Wood.ASAItemStructure_OceanPlatform_Wood'",
+    "Blueprint'/ASA_AlfaOceanicPlataform/AlfaFloatingOcean/ASAItemStructure_OceanPlatform.ASAItemStructure_OceanPlatform'",
+    "Blueprint'/ASA_AlfaOceanicPlataform/AlfaFloatingOcean/ASAItemStructure_OceanPlatform_Closed.ASAItemStructure_OceanPlatform_Closed'",
+    "Blueprint'/ASA_AlfaOceanicPlataform/AlfaFloatingOcean/ASAItemStructure_OceanPlatform_Cage.ASAItemStructure_OceanPlatform_Cage'",
+    "Blueprint'/ASA_AlfaOceanicPlataform/AlfaFloatingOcean/ASAItemStructure_OceanPlatform_Grass.ASAItemStructure_OceanPlatform_Grass'",
+    "Blueprint'/CybersStructures/Items/OmniTool/TeleportBeacon/TeleportBeacon_CS.TeleportBeacon_CS'",
+    "Blueprint'/SuperStructures/Content/Items/PersonalTeleporter/TeleporterBeacon/BP_TeleporterBeacon'",
+    "Nothosaurus"
+  ],
+  "StructureLimits": {
+    "Blueprint'/CybersStructures/Misc/Vivarium/PrimalItemStructure_Vivarium_CS.PrimalItemStructure_Vivarium_CS'": {
+      "DisplayName": "CS Vivarium",
+      "Limit": {
+		"Admins": 2,
+        "Default": 2
+      }
+    },
+    "Blueprint'/CybersStructures/Misc/Hatchery/PrimalItemStructure_Hatchery_CS.PrimalItemStructure_Hatchery_CS'": {
+      "DisplayName": "CS Hatchery",
+      "Limit": {
+		"Admins": 4,
+        "Default": 4
+      }
+    },
+    "Blueprint'/CybersStructures/Misc/Propagator/PrimalItemStructure_Propagator_CS.PrimalItemStructure_Propagator_CS'": {
+      "DisplayName": "CS Propagator",
+      "Limit": {
+		"Admins": 1,
+        "Default": 1
+      }
+    },
+    "Blueprint'/CybersStructures/Misc/ElementCatalyzer/PrimalItemStructure_ElementCatalyzer_CS.PrimalItemStructure_ElementCatalyzer_CS'": {
+	    "DisplayName": "CS Element-Katalysator",
+	    "Limit": {
+		    "Admins": 1,
+		    "Default": 1
+	    }
+    },
+    "Blueprint'/CybersStructures/Misc/ChargeStation/PrimalItemStructure_ChargeStation_CS.PrimalItemStructure_ChargeStation_CS'": {
+	    "DisplayName": "CS Ladestation",
+	    "Limit": {
+		    "Admins": 2,
+		    "Default": 2
+	    }
+    },
+	
+    "Blueprint'/DinoWald/Structures/Sap_Stump/PrimalItemStructure_Sap_Stump.PrimalItemStructure_Sap_Stump'": {
+	    "DisplayName": "Harz Baum",
+	    "Limit": {
+		    "Admins": 2,
+		    "Default": 2
+	    }
+    },
+    "Harz-sammler": {
+      "DisplayName": "Alle Harz-Sammler",
+      "Limit": {
+		    "Admins": 4,
+        "Default": 4
+      },
+      "Blueprints": [
+        "Blueprint'/CybersStructures/Misc/TreeSapTap/PrimalItemStructure_TreeTap_CS.PrimalItemStructure_TreeTap_CS'",
+        "Blueprint'/CybersStructures/Misc/TreeSapTapTek/PrimalItemStructure_TreeSapTapTek_CS.PrimalItemStructure_TreeSapTapTek_CS'",
+        "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_TreeTap.PrimalItemStructure_TreeTap'"
+      ]
+    },
+    "Hitching Post": {
+      "DisplayName": "Alle Hitching Post",
+      "Limit": {
+		    "Admins": 4,
+        "Default": 4
+      },
+      "Blueprints": [
+        "Blueprint'/CybersStructures/Misc/HitchingPost/PrimalItemStructure_HitchingPost_CS.PrimalItemStructure_HitchingPost_CS'",
+        "Blueprint'/CybersStructures/Misc/HitchingPostTek/PrimalItemStructure_HitchingPostTek_CS.PrimalItemStructure_HitchingPostTek_CS'"
+      ]
+    },
+    "GasCollector": {
+      "DisplayName": "Alle GasCollector",
+      "Limit": {
+		    "Admins": 1,
+        "Default": 1
+      },
+      "Blueprints": [
+        "Blueprint'/CybersStructures/Misc/GasCollector/PrimalItemStructure_GasCollector_CS.PrimalItemStructure_GasCollector_CS'",
+        "Blueprint'/Game/Aberration/Structures/GasCollector/PrimalItemStructure_GasCollector.PrimalItemStructure_GasCollector'"
+      ]
+    },
+	"Blueprint'/CybersStructures/Misc/GachaGavager/PrimalItemStructure_GachaGavager_CS.PrimalItemStructure_GachaGavager_CS'": {
+      "DisplayName": "Gacha Gavager",
+      "Limit": {
+		"Admins": 2,
+        "Default": 2
+		}
+    },
+    "BioGrinder": {
+      "DisplayName": "Bio Grinder",
+      "Limit": {
+		    "Admins": 1,
+        "Default": 1
+      },
+      "Blueprints": [
+        "Blueprint'/Game/Packs/Wasteland/Structures/BioGrinder/PrimalItemStructure_BioGrinder.PrimalItemStructure_BioGrinder'"
+      ]
+    },
+    "Blueprint'/CybersStructures/Misc/ItemAggregator/PrimalItemStructure_ItemAggregator_CS.PrimalItemStructure_ItemAggregator_CS'": {
+      "DisplayName": "CS Item Aggregator",
+      "Limit": {
+		    "Admins": 5,
+        "Default": 5
+      }
+    }
+  },
+  "DinoLimits": {
+    "Rafts": {
+      "DisplayName": "Alle Boote",
+      "Limit": {
+        "Default": 2,
+		"Admins": 2
+      },
+      "Blueprints": [
+        "Blueprint'/Game/PrimalEarth/Items/Raft/PrimalItemRaft.PrimalItemRaft'",
+        "Blueprint'/Game/PrimalEarth/Items/Raft/PrimalItemMotorboat.PrimalItemMotorboat'",
+        "Blueprint'/Astraeos_ShipMod/Content/Items/Raft/PrimalItem_Trireme.PrimalItem_Trireme'"
+      ]
+    },
+    "Blueprint'/Game/Packs/Wasteland/Vehicles/Car/Car_Vehicle_BP.Car_Vehicle_BP'": {
+      "DisplayName": "Bob Tales Vehicle",
+      "Limit": {
+        "Admins": 2,
+        "Default": 2
+      }
+    },
+    "Blueprint'/Game/Extinction/Dinos/Gacha/Gacha_Character_BP.Gacha_Character_BP'": {
+      "DisplayName": "Gacha",
+      "Limit": {
+        "Admins": 3,
+        "Default": 3
+      }
+    },
+    "Blueprint'/Game/PrimalEarth/Dinos/Pegomastax/Pegomastax_Character_BP.Pegomastax_Character_BP'": {
+      "DisplayName": "Pegomastax",
+      "Limit": {
+        "Admins": 3,
+        "Default": 3
+      }
+    }
+  },
+  "Messages": {
+    "Sender": {
+      "Message": "Lethal Limits"
+    },
+    "DinoLimits": {
+      "Message": "--===== Dino Limits ({}/{}) =====--"
+    },
+    "StructureLimits": {
+      "Message": "--===== Strukturen Limits ({}/{}) =====--"
+    },
+    "DinosOverLimit": {
+      "Message": "Dinos ueber dem Limit:"
+    },
+    "StructuresOverLimit": {
+      "Message": "Strukturen ueber dem Limit:"
+    },
+    "ShowLimits": {
+      "Message": "{}",
+      "Scale": 2.0,
+      "DisplayTime": 10.0,
+      "Color": "Yellow",
+      "Justification": "Center",
+      "ScreenPosition": "Center",
+      "ForceChat": false
+    },
+    "ShowLinked": {
+      "Message": "--===== Aktuell verbundene Strukturen ({}/{}) =====--",
+      "Scale": 2.0,
+      "DisplayTime": 5.0,
+      "Color": "Yellow"
+    },
+    "BuildActionPrevented": {
+      "Message": "Bauen nicht moeglich '{}'",
+      "Scale": 2.0,
+      "DisplayTime": 10.0,
+      "Color": "Red"
+    },
+    "DinoLimitReached": {
+      "Message": "Du kannst keine weiteren '{}' auswerfen ({}/{})",
+      "Scale": 2.0,
+      "DisplayTime": 10.0,
+      "Color": "Red"
+    },
+    "TotalDinoLimitReached": {
+      "Message": "Du hast das maximale Dino-Limit erreicht! ({}/{})",
+      "Scale": 2.0,
+      "DisplayTime": 10.0,
+      "Color": "Red"
+    },
+    "StructureLimitReached": {
+      "Message": "Du kannst keine weiteren platzieren '{}' ({}/{})",
+      "Scale": 2.0,
+      "DisplayTime": 10.0,
+      "Color": "Red"
+    },
+    "TotalStructureLimitReached": {
+      "Message": "Du hast das maximale Struktur-Limit erreicht! ({}/{})",
+      "Scale": 2.0,
+      "DisplayTime": 10.0,
+      "Color": "Red"
+    },
+    "TotalLinkedStructureLimitReached": {
+      "Message": "Du hast das maximale verknuepfte Struktur-Limit von {} erreicht!",
+      "Scale": 2.0,
+      "DisplayTime": 10.0,
+      "Color": "Red"
+    },
+    "OverLimitRestriction": {
+      "Message": "Ueber Limit-Beschraenkungen! reduziere deine Strukturen/Dinos um die einschraenkung aufzuheben.",
+      "Scale": 2.0,
+      "DisplayTime": 10.0,
+      "Color": "Red"
+    },
+    "OverLimitMergeRestriction": {
+      "Message": "Das Zusammenfuehren von Staemmen wurde blockiert! Es wuerde die Struktur-/Dino-Limits verletzen! Reduziere deine Strukturen/Dinos, um das Zusammenfuehren zu ermoeglichen! ",
+      "Scale": 2.0,
+      "DisplayTime": 15.0,
+      "Color": "Red"
+    },
+    "DinoUpdate": {
+      "Message": "Gesamntanzahl der Dinos: {}/{}",
+      "Scale": 2.0,
+      "DisplayTime": 2.0,
+      "Color": "Green"
+    },
+    "DinoUpdateLimited": {
+      "Message": "Gesamtanzahl der Strukturen: {}/{}",
+      "Scale": 2.0,
+      "DisplayTime": 2.0,
+      "Color": "Green"
+    },
+    "StructureUpdate": {
+      "Message": "Gesamtanzahl der Strukturen: {}/{}",
+      "Scale": 2.0,
+      "DisplayTime": 2.0,
+      "Color": "Green"
+    },
+    "StructureUpdateLimited": {
+      "Message": "Gesamtanzahl der Strukturen: {}/{}, {} Count: {}/{}",
+      "Scale": 2.0,
+      "DisplayTime": 2.0,
+      "Color": "Green"
+    },
+    "RealtimeON": {
+      "Message": "Echtzeit-Benachrichtigung ueber Limits aktiviert",
+      "Scale": 2.0,
+      "DisplayTime": 5.0,
+      "Color": "Green"
+    },
+    "RealtimeOFF": {
+      "Message": "Echtzeit-Benachrichtigung ueber Limits deaktiviert",
+      "Scale": 2.0,
+      "DisplayTime": 5.0,
+      "Color": "Orange"
+    }
+  },
+  "Mysql": {
+    "MysqlHost": "188.40.142.57",
+    "MysqlUser": "zixtbdcoq",
+    "MysqlPass": "hGVJxg7ZvHtyC0ljzohG8JD8gWFITpZgk1DlUuS3",
+    "MysqlDB": "lethallimits",
+    "MysqlPort": 3366
+  }
+}
