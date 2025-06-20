@@ -376,6 +376,39 @@ body.v3 .main-nav .navbar-nav>li>a.login:hover {
     float: right;
     margin-top: 2px;
 }
+body.v3.pagebuilder.page-skin-shop .banner .container-fluid .center-block,
+body.v3.pagebuilder.page-reward-shop .banner .container-fluid .center-block
+body.v3.pagebuilder.page-server-ubersicht .container-fluid .center-block,
+body.v3.pagebuilder.page-server-informationen .container-fluid .center-block,
+body.v3.pagebuilder.page-home .banner .container-fluid .center-block {
+    margin: 0 !important;
+    width: 100% !important;
+}
+body.v3.pagebuilder.page-skin-shop .banner .container-fluid .center-block.row,
+body.v3.pagebuilder.page-reward-shop .banner .container-fluid .center-block.row,
+body.v3.pagebuilder.page-server-ubersicht .container-fluid .center-block .row,
+body.v3.pagebuilder.page-server-informationen .container-fluid .center-block .row,
+body.v3.pagebuilder.page-home .banner .container-fluid .center-block .row {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+body.v3.pagebuilder.page-skin-shop .banner .center-block .col-md-12.table-cell,
+body.v3.pagebuilder.page-reward-shop .banner .center-block .col-md-12.table-cell,
+body.v3.pagebuilder.page-server-ubersicht .banner .center-block .col-md-12.table-cell,
+body.v3.pagebuilder.page-server-informationen .banner .center-block .col-md-12.table-cell,
+body.v3.pagebuilder.page-home .banner .center-block .col-md-12.table-cell {
+    padding: 0;
+}
+/* Footer Orginal */
+body.v3.pagebuilder.page-skin-shop .footer.footer,
+body.v3.pagebuilder.page-reward-shop .footer.footer,
+body.v3.pagebuilder.page-server-ubersicht .footer.footer,
+body.v3.pagebuilder.page-server-informationen .footer.footer,
+body.v3.pagebuilder.page-home .banner .footer.footer,
+body.v3.pagebuilder.page-skin-shop footer.footer,
+body.v3.pagebuilder.page-reward-shop footer.footer{
+    display: none !important;
+}
 /* Footer NEU */
 footer#contact {
     display: block !important;
