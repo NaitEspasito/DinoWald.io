@@ -230,6 +230,7 @@ body:not(:has([id]:target)) #island-content {
 #aberration:target ~ .container .info-content #aberration-content,
 #extinction:target ~ .container .info-content #extinction-content,
 #svartalfheim:target ~ .container .info-content #svartalfheim-content,
-#astraeos:target ~ .container .info-content #astraeos-content {
+#astraeos:target ~ .container .info-content #astraeos-content,
+#ragnarok:target ~ .container .info-content #ragnarok-content {
     display: block;
 }
