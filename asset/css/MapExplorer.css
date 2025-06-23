@@ -208,6 +208,11 @@ body:not(:has([id]:target)) .info-nav-link[href="#island"] {
     border-color: rgba(163, 194, 87, 0.3);
     color: var(--accent);
 }
+#ragnarok:target ~ .container .info-nav-link[href="#ragnarok"] {
+    background: rgba(163, 194, 87, 0.15);
+    border-color: rgba(163, 194, 87, 0.3);
+    color: var(--accent);
+}
 /* Hide all sections by default */
 body.v3.pagebuilder.page-map-explorer .info-section {
     display: none;
