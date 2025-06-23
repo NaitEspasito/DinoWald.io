@@ -73,3 +73,85 @@ body.v3.pagebuilder.page-map-explorer  .info-section .sup-titel{
     font-size: 1.4rem !important;
     line-height: 2.2rem !important;
 }
+/* Content Area */
+body.v3.pagebuilder.page-map-explorer .info-content {
+    flex-grow: 1 !important;
+}
+body.v3.pagebuilder.page-map-explorer .info-section {
+    background: rgba(28, 28, 28, 0.8) !important;
+    border-radius: 15px !important;
+    padding: 30px !important;
+    margin-bottom: 30px !important;
+    border: 1px solid rgba(163, 194, 87, 0.2) !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2) !important;
+}
+body.v3.pagebuilder.page-map-explorer .info-section p {
+    color: #fff !important;
+    font-size: 1.4rem !important;
+}
+body.v3.pagebuilder.page-map-explorer .info-section p strong{
+    color: #fff !important;
+    font-size: 1.3rem !important;
+    color: var(--accent) !important;
+}
+body.v3.pagebuilder.page-map-explorer .info-section:target {
+    animation: highlight 1.5s ease-out !important;
+}
+@keyframes highlight {
+    0% { border-color: var(--accent) !important; box-shadow: 0 0 30px rgba(163, 194, 87, 0.6) !important; }
+    100% { border-color: rgba(163, 194, 87, 0.2) !important; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2) !important; }
+}
+
+body.v3.pagebuilder.page-map-explorer p.rule-desc,
+body.v3.pagebuilder.page-map-explorer .info-section li,
+body.v3.pagebuilder.page-map-explorer .info-section ul,
+body.v3.pagebuilder.page-map-explorer .info-section ol{
+    color: #ffffff !important;
+    font-size: 1.4rem !important;
+    margin-left: 10px !important;
+    line-height: 1.8 !important;
+}
+body.v3.pagebuilder.page-map-explorer p.rule-desc strong,
+body.v3.pagebuilder.page-map-explorer .info-section li strong {
+    color: #ffffff !important;
+    font-size: 1.5rem  !important;
+}
+body.v3.pagebuilder.page-map-explorer .section-title {
+    font-family: 'Orbitron', sans-serif !important;
+    font-size: 3rem  !important;
+    font-weight: 700  !important;
+    margin-bottom: 25px  !important;
+    color: var(--accent)  !important;
+    position: relative  !important;
+}
+body.v3.pagebuilder.page-map-explorer h3 {
+    font-weight: 500  !important;
+    line-height: 1.1  !important;
+    color: inherit  !important;
+}
+body.v3.pagebuilder.page-map-explorer .info-section .sup-titel{
+    color: #aaa !important;
+    font-size: 1.4rem  !important;
+    line-height: 2.2rem  !important;
+}
+body.v3.pagebuilder.page-map-explorer .map-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+body.v3.pagebuilder.page-map-explorer .map-badge {
+    background: rgba(40, 40, 40, 0.9);
+    color: var(--accent);
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    border: 1px solid rgba(120, 120, 120, 0.3);
+    display: flex;
+    align-items: center;
+}
+
+body.v3.pagebuilder.page-map-explorer .map-badge i {
+    margin-right: 5px;
+}
