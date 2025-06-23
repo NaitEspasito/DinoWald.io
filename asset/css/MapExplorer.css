@@ -165,3 +165,66 @@ body.v3.pagebuilder.page-map-explorer .map-iframe {
     display: block;
     max-width: 100%;
 }
+ /* CSS-only Tab Navigation with :target */
+#island:target ~ .container .info-nav-link[href="#island"],
+body:not(:has([id]:target)) .info-nav-link[href="#island"] {
+    background: rgba(163, 194, 87, 0.15);
+    border-color: rgba(163, 194, 87, 0.3);
+    color: var(--accent);
+}
+
+#scorched:target ~ .container .info-nav-link[href="#scorched"] {
+    background: rgba(163, 194, 87, 0.15);
+    border-color: rgba(163, 194, 87, 0.3);
+    color: var(--accent);
+}
+
+#center:target ~ .container .info-nav-link[href="#center"] {
+    background: rgba(163, 194, 87, 0.15);
+    border-color: rgba(163, 194, 87, 0.3);
+    color: var(--accent);
+}
+
+#aberration:target ~ .container .info-nav-link[href="#aberration"] {
+    background: rgba(163, 194, 87, 0.15);
+    border-color: rgba(163, 194, 87, 0.3);
+    color: var(--accent);
+}
+
+#extinction:target ~ .container .info-nav-link[href="#extinction"] {
+    background: rgba(163, 194, 87, 0.15);
+    border-color: rgba(163, 194, 87, 0.3);
+    color: var(--accent);
+}
+
+#svartalfheim:target ~ .container .info-nav-link[href="#svartalfheim"] {
+    background: rgba(163, 194, 87, 0.15);
+    border-color: rgba(163, 194, 87, 0.3);
+    color: var(--accent);
+}
+
+#astraeos:target ~ .container .info-nav-link[href="#astraeos"] {
+    background: rgba(163, 194, 87, 0.15);
+    border-color: rgba(163, 194, 87, 0.3);
+    color: var(--accent);
+}
+/* Hide all sections by default */
+body.v3.pagebuilder.page-map-explorer .info-section {
+    display: none;
+}
+
+/* Show Island section by default if no hash */
+body:not(:has([id]:target)) #island-content {
+    display: block;
+}
+
+/* Show sections based on target */
+#island:target ~ .container .info-content #island-content,
+#scorched:target ~ .container .info-content #scorched-content,
+#center:target ~ .container .info-content #center-content,
+#aberration:target ~ .container .info-content #aberration-content,
+#extinction:target ~ .container .info-content #extinction-content,
+#svartalfheim:target ~ .container .info-content #svartalfheim-content,
+#astraeos:target ~ .container .info-content #astraeos-content {
+    display: block;
+}
