@@ -286,7 +286,7 @@ body.v3.pagebuilder.page-map-explorer .cave-difficulty-badge {
     border-radius: 20px;
     font-size: 0.85rem;
     font-weight: 600;
-    color: #fff;
+    color: #fff !important;
     background: rgba(0, 0, 0, 0.6);
 }
 /* Neuer Badge-Style Button für "Weitere Infos" */
@@ -298,7 +298,7 @@ body.v3.pagebuilder.page-map-explorer .cave-info-badge {
     border-radius: 20px;
     font-size: 0.85rem;
     font-weight: 600;
-    color: #fff;
+    color: #fff  !important;
     background: rgba(163, 194, 87, 0.85);
     text-decoration: none;
     transition: all 0.3s ease;
@@ -319,17 +319,17 @@ body.v3.pagebuilder.page-map-explorer .cave-info-badge i {
 
 body.v3.pagebuilder.page-map-explorer .difficulty-easy {
     background: rgba(76, 175, 80, 0.85);
-    color: #fff;
+    color: #fff  !important;
 }
 
 body.v3.pagebuilder.page-map-explorer .difficulty-medium {
     background: rgba(255, 152, 0, 0.85);
-    color: #fff;
+    color: #fff  !important;
 }
 
 body.v3.pagebuilder.page-map-explorer body.v3.pagebuilder.page-map-explorer .difficulty-hard {
     background: rgba(244, 67, 54, 0.85);
-    color: #fff;
+    color: #fff  !important;
 }
 
 body.v3.pagebuilder.page-map-explorer .cave-info-overlay {
@@ -342,7 +342,7 @@ body.v3.pagebuilder.page-map-explorer .cave-info-overlay {
 }
 
 body.v3.pagebuilder.page-map-explorer .cave-info-overlay h4 {
-    color: #fff;
+    color: #fff  !important;
     margin: 0;
     font-size: 1.25rem;
     margin-bottom: 5px;
@@ -365,7 +365,7 @@ body.v3.pagebuilder.page-map-explorer .cave-icon {
     align-items: center;
     justify-content: center;
     margin-right: 15px;
-    color: var(--accent);
+    color: var(--accent) !important;
     font-size: 1.2rem;
 }
 
@@ -373,7 +373,7 @@ body.v3.pagebuilder.page-map-explorer .cave-title {
     font-size: 1.2rem;
     font-weight: 600;
     margin: 0;
-    color: var(--accent);
+    color: var(--accent) !important;
 }
 
 body.v3.pagebuilder.page-map-explorer .cave-content {
@@ -399,11 +399,11 @@ body.v3.pagebuilder.page-map-explorer .cave-info-label {
     font-weight: 600;
     margin-right: 10px;
     min-width: 100px;
-    color: #aaa;
+    color: #aaa !important;
 }
 
 body.v3.pagebuilder.page-map-explorer .cave-info-value {
-    color: #ddd;
+    color: #ddd !important;
 }
 
 body.v3.pagebuilder.page-map-explorer .cave-gallery {
@@ -424,7 +424,7 @@ body.v3.pagebuilder.page-map-explorer .cave-gallery a {
 
 body.v3.pagebuilder.page-map-explorer .cave-gallery a:hover {
     transform: scale(1.03);
-    border-color: var(--accent);
+    border-color: var(--accent) !important;
 }
 
 body.v3.pagebuilder.page-map-explorer .cave-gallery img {
@@ -442,7 +442,7 @@ body.v3.pagebuilder.page-map-explorer .cave-gallery .img-caption {
     background: rgba(0, 0, 0, 0.7);
     padding: 5px;
     font-size: 0.8rem;
-    color: #ddd;
+    color: #ddd !important;
     text-align: center;
 }
 
@@ -458,11 +458,269 @@ body.v3.pagebuilder.page-map-explorer .cave-artifact {
 
 body.v3.pagebuilder.page-map-explorer .artifact-icon {
     margin-right: 10px;
-    color: var(--accent);
+    color: var(--accent) !important;
     font-size: 1.2rem;
 }
 
 body.v3.pagebuilder.page-map-explorer .artifact-name {
-    color: #fff;
+    color: #fff !important;
     font-weight: 500;
+}
+/* Verbesserte CSS-only Modals mit Blur-Effekt */
+body.v3.pagebuilder.page-map-explorer .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(15, 15, 15, 0.7);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.4s ease;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+body.v3.pagebuilder.page-map-explorer .modal:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+body.v3.pagebuilder.page-map-explorer .modal-content {
+    position: relative;
+    max-width: 90%;
+    max-height: 90vh;
+    transform: translateY(30px);
+    opacity: 0;
+    transition: all 0.4s ease 0.1s;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    overflow: hidden;
+    background: rgba(25, 25, 25, 0.95);
+    padding: 8px;
+}
+
+body.v3.pagebuilder.page-map-explorer .modal:target .modal-content {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+body.v3.pagebuilder.page-map-explorer .modal-content img {
+    display: block;
+    max-width: 100%;
+    max-height: 80vh;
+    border-radius: 4px;
+    border: 1px solid rgba(163, 194, 87, 0.2);
+}
+/* ANGEPASSTER CLOSE BUTTON - JETZT FIX POSITIONIERT */
+body.v3.pagebuilder.page-map-explorer .cave-detail-modal {
+    position: relative;
+    width: 800px;
+    max-width: 95%;
+    max-height: 85vh;
+    overflow-y: auto;
+    background: rgba(30, 30, 30, 0.95);
+    border-radius: 12px;
+    border: 1px solid rgba(163, 194, 87, 0.3);
+}
+
+body.v3.pagebuilder.page-map-explorer .modal-close {
+    position: sticky;
+    top: 15px;
+    float: right;
+    margin-right: 15px;
+    margin-top: 15px;
+    width: 40px;
+    height: 40px;
+    background: rgba(244, 67, 54, 0.9);
+    border: 2px solid white;
+    border-radius: 50%;
+    color: white !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 22px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.6);
+    transition: all 0.3s ease;
+    z-index: 1000;
+}
+
+body.v3.pagebuilder.page-map-explorer .modal-close:hover {
+    background: #f44336;
+    transform: scale(1.1);
+}
+
+/* Regulärer Close-Button für andere Modals */
+body.v3.pagebuilder.page-map-explorer .modal-content:not(.cave-detail-modal) .modal-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 40px;
+    height: 40px;
+    background: rgba(244, 67, 54, 0.9);
+    border: 2px solid white;
+    border-radius: 50%;
+    color: white !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 22px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.6);
+    transition: all 0.3s ease;
+    z-index: 1000;
+}
+
+body.v3.pagebuilder.page-map-explorer .modal-content:not(.cave-detail-modal) .modal-close:hover {
+    background: #f44336;
+    transform: scale(1.1);
+}
+
+body.v3.pagebuilder.page-map-explorer .modal-caption {
+    color: #fff !important;
+    text-align: center;
+    padding: 10px 0 5px;
+    font-size: 1rem;
+}
+
+body.v3.pagebuilder.page-map-explorer .cave-detail-header {
+    position: relative;
+    padding: 0;
+    height: 200px;
+    overflow: hidden;
+    margin-top: 10px; /* Platz für den sticky Close-Button */
+}
+
+body.v3.pagebuilder.page-map-explorer .cave-detail-header img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: none;
+}
+
+body.v3.pagebuilder.page-map-explorer .cave-detail-header-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0));
+    color: white !important;
+}
+
+body.v3.pagebuilder.page-map-explorer .cave-detail-title {
+    font-size: 1.8rem;
+    margin: 0 0 5px;
+    color: var(--accent) !important;
+}
+
+body.v3.pagebuilder.page-map-explorer .cave-detail-subtitle {
+    font-size: 1rem;
+    color: #ddd !important;
+    margin: 0;
+}
+
+body.v3.pagebuilder.page-map-explorer .cave-detail-content {
+    padding: 25px;
+}
+
+body.v3.pagebuilder.page-map-explorer .cave-detail-section {
+    margin-bottom: 25px;
+}
+
+body.v3.pagebuilder.page-map-explorer .cave-detail-section-title {
+    color: var(--accent) !important;
+    font-size: 1.3rem;
+    margin: 0 0 15px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(163, 194, 87, 0.3);
+    display: flex;
+    align-items: center;
+}
+
+body.v3.pagebuilder.page-map-explorer .cave-detail-section-title i {
+    margin-right: 10px;
+    width: 24px;
+    text-align: center;
+}
+
+body.v3.pagebuilder.page-map-explorer .cave-detail-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+body.v3.pagebuilder.page-map-explorer .cave-detail-list li {
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    color: #ddd !important;
+}
+
+body.v3.pagebuilder.page-map-explorer .cave-detail-list li::before {
+    content: '•';
+    position: absolute;
+    left: 8px;
+    color: var(--accent) !important;
+    font-weight: bold;
+}
+
+body.v3.pagebuilder.page-map-explorer .creature-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 15px;
+}
+
+body.v3.pagebuilder.page-map-explorer .creature-item {
+    background: rgba(40, 40, 40, 0.6);
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid rgba(80, 80, 80, 0.5);
+    display: flex;
+    align-items: center;
+}
+
+body.v3.pagebuilder.page-map-explorer .creature-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    background: rgba(163, 194, 87, 0.15);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body.v3.pagebuilder.page-map-explorer .creature-icon i {
+    color: var(--accent) !important;
+    font-size: 0.9rem;
+}
+
+body.v3.pagebuilder.page-map-explorer .creature-name {
+    color: #eee !important;
+    font-size: 0.9rem;
+}
+
+body.v3.pagebuilder.page-map-explorer .cave-detail-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25px 25px;
+}
+
+body.v3.pagebuilder.page-map-explorer .cave-detail-coords {
+    display: flex;
+    align-items: center;
+    color: #aaa !important;
+    font-size: 0.9rem;
+}
+
+body.v3.pagebuilder.page-map-explorer .cave-detail-coords i {
+    margin-right: 5px;
+    color: var(--accent) !important;
 }
