@@ -469,7 +469,7 @@ body.v3.pagebuilder.page-map-explorer .artifact-name {
 /* Verbesserte CSS-only Modals mit Blur-Effekt */
 body.v3.pagebuilder.page-map-explorer .modal {
     position: fixed;
-    top: 0;
+    top: 60px;
     left: 0;
     right: 0;
     bottom: 0;
