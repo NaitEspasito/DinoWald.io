@@ -5,7 +5,7 @@ body.v3.pagebuilder.page-reward-shop .wysiwyg-content .section {
     position: relative !important;
 }
 /* Shop Page Specific Styles */
-body.v3.pagebuilderpage-farb-evens .wysiwyg-content .shop-container,
+body.v3.pagebuilder.page-farb-evens .wysiwyg-content .shop-container,
 body.v3.pagebuilder.page-skin-shop .wysiwyg-content .shop-container,
 body.v3.pagebuilder.page-reward-shop .wysiwyg-content .shop-container {
     display: flex !important;
