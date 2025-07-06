@@ -149,6 +149,7 @@ body.v3.shop h4.title {
     margin: 12px 0 8px 0;
     letter-spacing: 0.8px;
     text-transform: uppercase;
+    max-height: none
 }
 
 body.v3.shop h4.title span {font-family: 'Orbitron', sans-serif !important;font-size: 1.8rem;font-weight: 700;color: #fff;margin: 12px 0 8px 0;letter-spacing: 0.8px;text-transform: uppercase;}
