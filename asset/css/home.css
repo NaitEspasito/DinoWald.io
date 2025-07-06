@@ -225,6 +225,7 @@ body.v3.pagebuilder.page-home .feature-icon {
     font-size: 30px;
     color: var(--accent);
 }
+body.v3.pagebuilder.page-farb-evens .page-title,
 body.v3.pagebuilder.page-map-explorer .page-title,
 body.v3.pagebuilder.page-server-ubersicht .page-title,
 body.v3.pagebuilder.page-skin-shop .page-title,
@@ -244,6 +245,7 @@ body.v3.pagebuilder.page-home .features .section-title{
     position: relative;
     text-transform: uppercase;
 }
+body.v3.pagebuilder.page-farb-evens .page-title::after,
 body.v3.pagebuilder.page-map-explorer .page-title::after,
 body.v3.pagebuilder.page-server-ubersicht .page-title::after,
 body.v3.pagebuilder.page-skin-shop .page-title::after,
