@@ -141,7 +141,7 @@ body.v3.package-single  .decoration-middle .contentwrap h6{
 }
 body.v3 .frame.big .contentwrap strong{
     color: var(--accent) !important;
-    font-size: 2rem;
+    font-size: 1.7rem;
     line-height: 1.5rem;
 }
 body.v3 .frame.basic {
