@@ -139,6 +139,11 @@ body.v3.package-single  .decoration-middle .contentwrap h6{
     font-size: 2rem;
     line-height: 1.5;
 }
+body.v3 .frame.big .contentwrap strong{
+    color: var(--accent) !important;
+    font-size: 2rem;
+    line-height: 1.5rem;
+}
 body.v3 .frame.basic {
     position: relative;
     padding: 1rem;
