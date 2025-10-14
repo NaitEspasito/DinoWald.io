@@ -554,7 +554,9 @@ body.v3.pagebuilder.page-home .cta-content {
 body.v3.pagebuilder.page-home footer.footer {
     display: none;
 }
-
+body.v3 .frame.simple .contentwrap input[type=text]{
+    color: #ffffff;
+}
 
 
 
